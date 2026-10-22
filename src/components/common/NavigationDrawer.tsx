@@ -1,16 +1,28 @@
 import React from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
 import {
-  X,
-  BookOpen,
   Sparkles,
+  BookOpen,
+  RotateCcw,
   CheckCircle2,
   Moon,
   Sun,
-  RotateCcw,
+  GraduationCap,
+  ShieldCheck,
+  LogIn,
 } from 'lucide-react';
-import { lessons, allWords } from '../../data/vocabulary';
-import type { ThemeMode } from '../../types';
+import type { ThemeMode, Word, LessonItem } from '../../types';
+import type { Course, User } from '../../services/api';
+import { Sheet, SheetContent, SheetHeader, SheetTitle } from '../ui/sheet';
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from '../ui/select';
+import { Button } from '../ui/button';
+import { Badge } from '../ui/badge';
+import { Progress } from '../ui/progress';
 
 interface NavigationDrawerProps {
   isOpen: boolean;
@@ -22,6 +34,14 @@ interface NavigationDrawerProps {
   onToggleTheme: () => void;
   onOpenResetModal: () => void;
   onOpenLearnedModal: () => void;
+  lessonsList: LessonItem[];
+  allWordsList: Word[];
+  courses: Course[];
+  selectedCourseId: number;
+  onSelectCourse: (id: number) => void;
+  user: User | null;
+  onOpenAuthModal: () => void;
+  onOpenAdmin: () => void;
 }
 
 export const NavigationDrawer: React.FC<NavigationDrawerProps> = ({
@@ -34,201 +54,252 @@ export const NavigationDrawer: React.FC<NavigationDrawerProps> = ({
   onToggleTheme,
   onOpenResetModal,
   onOpenLearnedModal,
+  lessonsList,
+  allWordsList,
+  courses,
+  selectedCourseId,
+  onSelectCourse,
+  user,
+  onOpenAuthModal,
+  onOpenAdmin,
 }) => {
   const totalLearnedAll = getLearnedCount(0);
+  const totalPercentage = Math.round(
+    (totalLearnedAll / (allWordsList.length || 1)) * 100,
+  );
 
   return (
-    <AnimatePresence>
-      {isOpen && (
-        <div className="fixed inset-0 z-50 flex lg:hidden">
-          {/* Backdrop */}
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-            transition={{ duration: 0.2 }}
-            onClick={onClose}
-            className="fixed inset-0 bg-black/60 backdrop-blur-sm"
-          />
+    <Sheet open={isOpen} onOpenChange={(open) => !open && onClose()}>
+      <SheetContent side="left" className="flex w-[82vw] max-w-sm flex-col p-0">
+        {/* Drawer Header */}
+        <SheetHeader className="border-b border-slate-100 px-5 py-4 dark:border-slate-800">
+          <div className="flex items-center gap-2.5">
+            <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-emerald-600 text-white shadow-md shadow-emerald-600/30">
+              <BookOpen className="h-4 w-4" />
+            </div>
+            <div>
+              <SheetTitle className="text-left text-sm font-extrabold text-slate-900 dark:text-white">
+                TOEIC Vocab
+              </SheetTitle>
+              <p className="text-[10px] text-slate-400 dark:text-slate-500">
+                Danh mục bài học
+              </p>
+            </div>
+          </div>
+        </SheetHeader>
 
-          {/* Drawer Panel */}
-          <motion.aside
-            initial={{ x: '-100%' }}
-            animate={{ x: 0 }}
-            exit={{ x: '-100%' }}
-            transition={{ type: 'spring', damping: 25, stiffness: 260 }}
-            className="relative flex h-full w-[82vw] max-w-sm flex-col border-r border-gray-100 bg-white shadow-2xl dark:border-gray-800 dark:bg-gray-900"
-          >
-            {/* Drawer Header */}
-            <div className="flex items-center justify-between border-b border-gray-100 px-5 py-4 dark:border-gray-800">
-              <div className="flex items-center gap-2.5">
-                <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-emerald-500 text-white shadow-md shadow-emerald-500/30">
-                  <BookOpen className="h-5 w-5" />
+        {/* User Profile / Login status on mobile drawer */}
+        <div className="border-b border-slate-100 px-5 py-3 dark:border-slate-800">
+          {user ? (
+            <div className="flex items-center justify-between">
+              <div>
+                <div className="text-xs font-bold text-slate-900 dark:text-white">
+                  {user.email}
                 </div>
-                <div>
-                  <h2 className="text-base font-extrabold text-gray-900 dark:text-white">
-                    TOEIC Vocab
-                  </h2>
-                  <p className="text-[11px] text-gray-400 dark:text-gray-500">
-                    Flashcard & Quiz Master
-                  </p>
-                </div>
+                <Badge
+                  variant={user.role === 'ADMIN' ? 'purple' : 'success'}
+                  className="mt-0.5 px-2 py-0 text-[9px]"
+                >
+                  {user.role}
+                </Badge>
               </div>
-              <button
-                type="button"
-                onClick={onClose}
-                className="flex h-8 w-8 items-center justify-center rounded-full bg-gray-100 text-gray-500 transition hover:bg-gray-200 dark:bg-gray-800 dark:text-gray-400 dark:hover:bg-gray-700"
-              >
-                <X className="h-4 w-4" />
-              </button>
-            </div>
-
-            {/* Overall Progress Card */}
-            <div className="m-4 rounded-2xl border border-emerald-100 bg-gradient-to-br from-emerald-50 to-teal-50/50 p-4 dark:border-emerald-900/40 dark:from-emerald-950/40 dark:to-teal-950/30">
-              <div className="flex items-center justify-between text-xs">
-                <span className="font-bold text-emerald-900 dark:text-emerald-200">
-                  Tổng từ đã thuộc
-                </span>
-                <span className="font-mono font-bold text-emerald-600 dark:text-emerald-400">
-                  {totalLearnedAll} / {allWords.length}
-                </span>
-              </div>
-              <div className="mt-2 h-2 w-full overflow-hidden rounded-full bg-emerald-200/50 dark:bg-emerald-950">
-                <div
-                  className="h-full rounded-full bg-emerald-500 transition-all duration-300"
-                  style={{
-                    width: `${Math.round((totalLearnedAll / (allWords.length || 1)) * 100)}%`,
-                  }}
-                />
-              </div>
-              <button
-                type="button"
-                onClick={() => {
-                  onClose();
-                  onOpenLearnedModal();
-                }}
-                className="mt-3 flex w-full items-center justify-center gap-1.5 rounded-xl bg-white py-1.5 text-xs font-semibold text-emerald-700 shadow-sm transition hover:bg-emerald-50 dark:bg-gray-800 dark:text-emerald-300 dark:hover:bg-gray-700"
-              >
-                <CheckCircle2 className="h-3.5 w-3.5 text-emerald-500" />
-                Quản lý từ đã thuộc
-              </button>
-            </div>
-
-            {/* Lessons List Section */}
-            <div className="flex-1 space-y-1 overflow-y-auto px-4 py-1">
-              <div className="px-2 py-1.5 text-[11px] font-bold uppercase tracking-wider text-gray-400 dark:text-gray-500">
-                Chọn bài học
-              </div>
-
-              {/* All Lessons Option */}
-              <button
-                type="button"
-                onClick={() => {
-                  onSelectLesson(0);
-                  onClose();
-                }}
-                className={`flex w-full items-center justify-between rounded-xl px-3 py-2.5 text-left text-xs font-semibold transition ${
-                  selectedLessonId === 0
-                    ? 'bg-emerald-500 text-white shadow-md shadow-emerald-500/20'
-                    : 'text-gray-700 hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-gray-800'
-                }`}
-              >
-                <span className="flex items-center gap-2">
-                  <Sparkles className="h-4 w-4" />
-                  Tất cả bài học
-                </span>
-                <span className="text-[11px] opacity-80">
-                  {allWords.length} từ
-                </span>
-              </button>
-
-              {/* 7 Lessons */}
-              {lessons.map((lesson) => {
-                const isSelected = selectedLessonId === lesson.lessonId;
-                const learnedCount = getLearnedCount(lesson.lessonId);
-                const totalWords = lesson.words.length;
-                const pct = Math.round((learnedCount / totalWords) * 100);
-
-                return (
-                  <button
-                    key={lesson.lessonId}
-                    type="button"
-                    onClick={() => {
-                      onSelectLesson(lesson.lessonId);
-                      onClose();
-                    }}
-                    className={`flex w-full flex-col rounded-xl px-3 py-2.5 text-left text-xs transition ${
-                      isSelected
-                        ? 'bg-emerald-500 text-white shadow-md shadow-emerald-500/20'
-                        : 'text-gray-700 hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-gray-800'
-                    }`}
-                  >
-                    <div className="flex items-center justify-between font-medium">
-                      <span className="truncate pr-2">
-                        <strong className="font-bold">
-                          Bài {lesson.lessonId}:
-                        </strong>{' '}
-                        {lesson.lessonTitle}
-                      </span>
-                      <span className="shrink-0 font-mono text-[11px] opacity-85">
-                        {learnedCount}/{totalWords}
-                      </span>
-                    </div>
-
-                    {/* Progress Bar under lesson item */}
-                    <div className="mt-1.5 h-1 w-full overflow-hidden rounded-full bg-black/10 dark:bg-white/10">
-                      <div
-                        className={`h-full rounded-full transition-all ${
-                          isSelected ? 'bg-white' : 'bg-emerald-500'
-                        }`}
-                        style={{ width: `${pct}%` }}
-                      />
-                    </div>
-                  </button>
-                );
-              })}
-            </div>
-
-            {/* Drawer Footer Actions */}
-            <div className="space-y-2 border-t border-gray-100 p-4 dark:border-gray-800">
-              {selectedLessonId > 0 && (
-                <button
-                  type="button"
+              {user.role === 'ADMIN' && (
+                <Button
+                  variant="secondary"
+                  size="sm"
                   onClick={() => {
                     onClose();
-                    onOpenResetModal();
+                    onOpenAdmin();
                   }}
-                  className="flex w-full items-center justify-center gap-2 rounded-xl border border-rose-200 bg-rose-50/60 py-2 text-xs font-semibold text-rose-600 transition hover:bg-rose-100 dark:border-rose-900/60 dark:bg-rose-950/30 dark:text-rose-400 dark:hover:bg-rose-900/50"
+                  className="h-7 gap-1 text-xs text-purple-700 dark:text-purple-300"
                 >
-                  <RotateCcw className="h-3.5 w-3.5" />
-                  Đặt lại tiến độ bài {selectedLessonId}
-                </button>
+                  <ShieldCheck className="h-3.5 w-3.5" />
+                  Admin
+                </Button>
               )}
-
-              <div className="flex items-center justify-between pt-1">
-                <span className="text-xs font-medium text-gray-500 dark:text-gray-400">
-                  Giao diện
-                </span>
-                <button
-                  type="button"
-                  onClick={onToggleTheme}
-                  className="flex items-center gap-1.5 rounded-xl bg-gray-100 px-3 py-1.5 text-xs font-medium text-gray-700 transition hover:bg-gray-200 dark:bg-gray-800 dark:text-gray-200 dark:hover:bg-gray-700"
-                >
-                  {theme === 'dark' ? (
-                    <>
-                      <Sun className="h-3.5 w-3.5 text-amber-400" /> Sáng
-                    </>
-                  ) : (
-                    <>
-                      <Moon className="h-3.5 w-3.5 text-slate-600" /> Tối
-                    </>
-                  )}
-                </button>
-              </div>
             </div>
-          </motion.aside>
+          ) : (
+            <Button
+              variant="outline"
+              size="sm"
+              onClick={() => {
+                onClose();
+                onOpenAuthModal();
+              }}
+              className="w-full gap-1.5 border-emerald-200 bg-emerald-50 text-emerald-700 hover:bg-emerald-100 dark:border-emerald-900/60 dark:bg-emerald-950/40 dark:text-emerald-300"
+            >
+              <LogIn className="h-4 w-4" />
+              Đăng nhập tài khoản
+            </Button>
+          )}
         </div>
-      )}
-    </AnimatePresence>
+
+        {/* Course Selector on Mobile */}
+        {courses.length > 0 && (
+          <div className="border-b border-slate-100 px-5 py-3 dark:border-slate-800">
+            <label className="mb-1.5 flex items-center gap-1 text-[10px] font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400">
+              <GraduationCap className="h-3.5 w-3.5 text-emerald-600 dark:text-emerald-400" />
+              Chọn Khoá học
+            </label>
+            <Select
+              value={String(selectedCourseId)}
+              onValueChange={(val) => onSelectCourse(Number(val))}
+            >
+              <SelectTrigger className="w-full">
+                <SelectValue placeholder="Chọn khoá học..." />
+              </SelectTrigger>
+              <SelectContent>
+                {courses.map((c) => (
+                  <SelectItem key={c.id} value={String(c.id)}>
+                    {c.title} ({c.level || c.targetScore})
+                  </SelectItem>
+                ))}
+              </SelectContent>
+            </Select>
+          </div>
+        )}
+
+        {/* Overall Progress Widget */}
+        <div className="mx-4 my-3 rounded-2xl border border-emerald-100 bg-gradient-to-br from-emerald-50/80 to-teal-50/40 p-3.5 dark:border-emerald-900/40 dark:from-emerald-950/40 dark:to-teal-950/20">
+          <div className="flex items-center justify-between text-xs">
+            <span className="font-bold text-emerald-900 dark:text-emerald-200">
+              Tiến độ khoá học
+            </span>
+            <span className="font-mono font-bold text-emerald-600 dark:text-emerald-400">
+              {totalLearnedAll}/{allWordsList.length} ({totalPercentage}%)
+            </span>
+          </div>
+          <div className="mt-2">
+            <Progress value={totalPercentage} />
+          </div>
+          <Button
+            variant="outline"
+            size="sm"
+            onClick={() => {
+              onClose();
+              onOpenLearnedModal();
+            }}
+            className="shadow-xs mt-2.5 w-full gap-1.5 bg-white text-xs font-semibold text-emerald-700 hover:bg-emerald-50 dark:bg-slate-800 dark:text-emerald-300 dark:hover:bg-slate-700"
+          >
+            <CheckCircle2 className="h-3.5 w-3.5 text-emerald-500" />
+            Danh sách từ đã thuộc
+          </Button>
+        </div>
+
+        {/* Lessons List Navigation */}
+        <div className="flex-1 space-y-1 overflow-y-auto px-4 py-2">
+          <div className="px-2 py-1 text-[11px] font-bold uppercase tracking-wider text-slate-400 dark:text-slate-500">
+            Danh mục bài học
+          </div>
+
+          {/* All Lessons Option */}
+          <button
+            type="button"
+            onClick={() => {
+              onSelectLesson(0);
+              onClose();
+            }}
+            className={`flex w-full items-center justify-between rounded-xl px-3.5 py-2.5 text-left text-xs font-semibold transition ${
+              selectedLessonId === 0
+                ? 'bg-emerald-500 text-white shadow-md shadow-emerald-500/20'
+                : 'text-slate-700 hover:bg-slate-100 dark:text-slate-300 dark:hover:bg-slate-800'
+            }`}
+          >
+            <span className="flex items-center gap-2">
+              <Sparkles className="h-4 w-4" />
+              Tất cả {allWordsList.length} từ vựng
+            </span>
+            <span className="font-mono text-[11px] opacity-80">
+              {allWordsList.length} từ
+            </span>
+          </button>
+
+          {/* Lesson Items */}
+          {lessonsList.map((lesson) => {
+            const isSelected = selectedLessonId === lesson.lessonId;
+            const learnedCount = getLearnedCount(lesson.lessonId);
+            const totalWords = lesson.words.length;
+            const pct = Math.round((learnedCount / (totalWords || 1)) * 100);
+
+            return (
+              <button
+                key={lesson.lessonId}
+                type="button"
+                onClick={() => {
+                  onSelectLesson(lesson.lessonId);
+                  onClose();
+                }}
+                className={`flex w-full flex-col rounded-xl px-3.5 py-2.5 text-left text-xs transition ${
+                  isSelected
+                    ? 'bg-emerald-500 text-white shadow-md shadow-emerald-500/20'
+                    : 'text-slate-700 hover:bg-slate-100 dark:text-slate-300 dark:hover:bg-slate-800'
+                }`}
+              >
+                <div className="flex items-center justify-between font-medium">
+                  <span className="truncate pr-2">
+                    <strong className="font-bold">
+                      Bài {lesson.lessonId}:
+                    </strong>{' '}
+                    {lesson.lessonTitle}
+                  </span>
+                  <span className="shrink-0 font-mono text-[11px] opacity-85">
+                    {learnedCount}/{totalWords}
+                  </span>
+                </div>
+
+                <div className="mt-1.5 h-1 w-full overflow-hidden rounded-full bg-black/10 dark:bg-white/10">
+                  <div
+                    className={`h-full rounded-full transition-all ${
+                      isSelected ? 'bg-white' : 'bg-emerald-500'
+                    }`}
+                    style={{ width: `${pct}%` }}
+                  />
+                </div>
+              </button>
+            );
+          })}
+        </div>
+
+        {/* Drawer Footer */}
+        <div className="space-y-2 border-t border-slate-100 p-4 dark:border-slate-800">
+          {selectedLessonId > 0 && (
+            <Button
+              variant="outline"
+              size="sm"
+              onClick={() => {
+                onClose();
+                onOpenResetModal();
+              }}
+              className="w-full gap-1.5 border-rose-200 bg-rose-50/60 text-xs font-semibold text-rose-600 hover:bg-rose-100 dark:border-rose-900/60 dark:bg-rose-950/30 dark:text-rose-400 dark:hover:bg-rose-900/50"
+            >
+              <RotateCcw className="h-3.5 w-3.5" />
+              Đặt lại tiến độ bài {selectedLessonId}
+            </Button>
+          )}
+
+          <div className="flex items-center justify-between pt-1">
+            <span className="text-xs font-medium text-slate-500 dark:text-slate-400">
+              Giao diện
+            </span>
+            <Button
+              variant="outline"
+              size="sm"
+              onClick={onToggleTheme}
+              className="gap-1.5 text-xs font-medium"
+            >
+              {theme === 'dark' ? (
+                <>
+                  <Sun className="h-3.5 w-3.5 text-amber-400" /> Sáng
+                </>
+              ) : (
+                <>
+                  <Moon className="h-3.5 w-3.5 text-slate-600" /> Tối
+                </>
+              )}
+            </Button>
+          </div>
+        </div>
+      </SheetContent>
+    </Sheet>
   );
 };

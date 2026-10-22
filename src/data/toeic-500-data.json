@@ -1,0 +1,5646 @@
+[
+  {
+    "lessonId": 1,
+    "lessonTitle": "Lesson 1",
+    "words": [
+      {
+        "en": "Wrap",
+        "pos": "v",
+        "ipa": "/ræp/",
+        "vi": "Gói, bọc",
+        "example": {
+          "en": "Please wrap the fragile items carefully before shipping.",
+          "vi": "Vui lòng gói các món đồ dễ vỡ cẩn thận trước khi vận chuyển."
+        }
+      },
+      {
+        "en": "Repair",
+        "pos": "v",
+        "ipa": "/rɪˈpeər/",
+        "vi": "Sửa chữa",
+        "example": {
+          "en": "A technician will repair the printer tomorrow morning.",
+          "vi": "Một kỹ thuật viên sẽ sửa chữa máy in vào sáng mai."
+        }
+      },
+      {
+        "en": "Lock",
+        "pos": "v",
+        "ipa": "/lɒk/",
+        "vi": "Khóa",
+        "example": {
+          "en": "Remember to lock the office doors after 7 PM.",
+          "vi": "Hãy nhớ khóa các cửa văn phòng sau 7 giờ tối."
+        }
+      },
+      {
+        "en": "Unlock",
+        "pos": "v",
+        "ipa": "/ʌnˈlɒk/",
+        "vi": "Mở khóa",
+        "example": {
+          "en": "Use your security badge to unlock the conference room.",
+          "vi": "Sử dụng thẻ an ninh của bạn để mở khóa phòng hội thảo."
+        }
+      },
+      {
+        "en": "Discard",
+        "pos": "v",
+        "ipa": "/dɪˈskɑːd/",
+        "vi": "Vứt bỏ, loại bỏ",
+        "example": {
+          "en": "Discard any outdated documents in the recycling bin.",
+          "vi": "Vứt bỏ bất kỳ tài liệu lỗi thời nào vào thùng tái chế."
+        }
+      },
+      {
+        "en": "Collect",
+        "pos": "v",
+        "ipa": "/kəˈlekt/",
+        "vi": "Thu thập, sưu tầm",
+        "example": {
+          "en": "The supervisor will collect the weekly timesheets today.",
+          "vi": "Người giám sát sẽ thu thập bảng chấm công hàng tuần hôm nay."
+        }
+      },
+      {
+        "en": "Post",
+        "pos": "v",
+        "ipa": "/pəʊst/",
+        "vi": "Gửi (thư), đăng (bài)",
+        "example": {
+          "en": "They will post the updated work schedule on the bulletin board.",
+          "vi": "Họ sẽ đăng lịch làm việc cập nhật lên bảng thông báo."
+        }
+      },
+      {
+        "en": "Replace",
+        "pos": "v",
+        "ipa": "/rɪˈpleɪs/",
+        "vi": "Thay thế",
+        "example": {
+          "en": "We need to replace the old computers with faster models.",
+          "vi": "Chúng ta cần thay thế máy tính cũ bằng các dòng máy nhanh hơn."
+        }
+      },
+      {
+        "en": "Load",
+        "pos": "v",
+        "ipa": "/ləʊd/",
+        "vi": "Chất, nạp",
+        "example": {
+          "en": "Workers are loading the delivery truck with heavy crates.",
+          "vi": "Các công nhân đang chất các thùng hàng nặng lên xe giao hàng."
+        }
+      },
+      {
+        "en": "Park",
+        "pos": "v",
+        "ipa": "/pɑːk/",
+        "vi": "Đỗ xe",
+        "example": {
+          "en": "Visitors should park their cars in the designated area.",
+          "vi": "Khách đến thăm nên đỗ xe ở khu vực được chỉ định."
+        }
+      },
+      {
+        "en": "Enter",
+        "pos": "v",
+        "ipa": "/ˈentər/",
+        "vi": "Vào, nhập",
+        "example": {
+          "en": "Enter your password to access the company network.",
+          "vi": "Nhập mật khẩu của bạn để truy cập mạng công ty."
+        }
+      },
+      {
+        "en": "Push",
+        "pos": "v",
+        "ipa": "/pʊʃ/",
+        "vi": "Đẩy",
+        "example": {
+          "en": "Push the green button to restart the machine.",
+          "vi": "Nhấn nút màu xanh lá cây để khởi động lại máy móc."
+        }
+      },
+      {
+        "en": "Pull",
+        "pos": "v",
+        "ipa": "/pʊl/",
+        "vi": "Kéo",
+        "example": {
+          "en": "Pull the handle gently to open the cabinet drawer.",
+          "vi": "Kéo nhẹ tay cầm để mở ngăn kéo tủ."
+        }
+      },
+      {
+        "en": "Clean",
+        "pos": "v",
+        "ipa": "/kliːn/",
+        "vi": "Lau chùi, làm sạch",
+        "example": {
+          "en": "The maintenance staff cleans the lobby floor every night.",
+          "vi": "Nhân viên bảo trì lau chùi sàn sảnh chính mỗi đêm."
+        }
+      },
+      {
+        "en": "Arrange",
+        "pos": "v",
+        "ipa": "/əˈreɪndʒ/",
+        "vi": "Sắp xếp",
+        "example": {
+          "en": "Please arrange the chairs in a circle for the workshop.",
+          "vi": "Vui lòng sắp xếp các ghế thành một vòng tròn cho buổi hội thảo."
+        }
+      },
+      {
+        "en": "Jacket",
+        "pos": "n",
+        "ipa": "/ˈdʒækɪt/",
+        "vi": "Áo khoác ngắn",
+        "example": {
+          "en": "He wore a warm jacket because of the cold weather.",
+          "vi": "Anh ấy đã mặc một chiếc áo khoác ngắn vì thời tiết lạnh."
+        }
+      },
+      {
+        "en": "Coat",
+        "pos": "n",
+        "ipa": "/kəʊt/",
+        "vi": "Áo khoác dài",
+        "example": {
+          "en": "Hang your coat on the rack near the front door.",
+          "vi": "Treo áo khoác dài của bạn lên giá gần cửa trước."
+        }
+      },
+      {
+        "en": "Sweater",
+        "pos": "n",
+        "ipa": "/ˈswetər/",
+        "vi": "Áo len",
+        "example": {
+          "en": "She bought a wool sweater at the department store.",
+          "vi": "Cô ấy đã mua một chiếc áo len bằng lông cừu ở cửa hàng bách hóa."
+        }
+      },
+      {
+        "en": "Fence",
+        "pos": "n",
+        "ipa": "/fens/",
+        "vi": "Hàng rào",
+        "example": {
+          "en": "A wooden fence surrounds the company parking lot.",
+          "vi": "Một hàng rào bằng gỗ bao quanh bãi đỗ xe của công ty."
+        }
+      },
+      {
+        "en": "Corner",
+        "pos": "n",
+        "ipa": "/ˈkɔːnər/",
+        "vi": "Góc",
+        "example": {
+          "en": "The water cooler is located in the corner of the office.",
+          "vi": "Cây nước uống nằm ở góc văn phòng."
+        }
+      },
+      {
+        "en": "Stool",
+        "pos": "n",
+        "ipa": "/stuːl/",
+        "vi": "Ghế đẩu",
+        "example": {
+          "en": "The laboratory technician sat on a tall stool.",
+          "vi": "Kỹ thuật viên phòng thí nghiệm ngồi trên một chiếc ghế đẩu cao."
+        }
+      },
+      {
+        "en": "Chop",
+        "pos": "v",
+        "ipa": "/tʃɒp/",
+        "vi": "Chặt, băm",
+        "example": {
+          "en": "The chef will chop the vegetables for the soup.",
+          "vi": "Đầu bếp sẽ băm rau củ cho món súp."
+        }
+      },
+      {
+        "en": "Counter",
+        "pos": "n",
+        "ipa": "/ˈkaʊntər/",
+        "vi": "Quầy (lễ tân, thanh toán...)",
+        "example": {
+          "en": "Please leave your keys on the reception counter.",
+          "vi": "Vui lòng để chìa khóa của bạn trên quầy lễ tân."
+        }
+      },
+      {
+        "en": "Stack",
+        "pos": "v",
+        "ipa": "/stæk/",
+        "vi": "Xếp chồng",
+        "example": {
+          "en": "The clerk will stack the copy paper neatly on the shelf.",
+          "vi": "Nhân viên sẽ xếp chồng giấy in ngay ngắn trên kệ."
+        }
+      },
+      {
+        "en": "Stove",
+        "pos": "n",
+        "ipa": "/stəʊv/",
+        "vi": "Bếp",
+        "example": {
+          "en": "The company cafeteria installed a new electric stove.",
+          "vi": "Căng tin công ty đã lắp đặt một chiếc bếp điện mới."
+        }
+      }
+    ]
+  },
+  {
+    "lessonId": 2,
+    "lessonTitle": "Lesson 2",
+    "words": [
+      {
+        "en": "Cookware",
+        "pos": "n",
+        "ipa": "/ˈkʊkweər/",
+        "vi": "Đồ dùng nấu ăn",
+        "example": {
+          "en": "The store sells top-quality stainless steel cookware.",
+          "vi": "Cửa hàng bán đồ dùng nấu ăn bằng thép không gỉ chất lượng hàng đầu."
+        }
+      },
+      {
+        "en": "Shade",
+        "pos": "n, v",
+        "ipa": "/ʃeɪd/",
+        "vi": "(N) bóng râm; (v) che bóng",
+        "example": {
+          "en": "Employees rested in the shade of a large oak tree.",
+          "vi": "Các nhân viên đã nghỉ ngơi dưới bóng râm của một cây sồi lớn."
+        }
+      },
+      {
+        "en": "Ceiling",
+        "pos": "n",
+        "ipa": "/ˈsiːlɪŋ/",
+        "vi": "Trần nhà",
+        "example": {
+          "en": "They are painting the ceiling of the conference hall white.",
+          "vi": "Họ đang sơn trần của hội trường hội nghị màu trắng."
+        }
+      },
+      {
+        "en": "Branch",
+        "pos": "n",
+        "ipa": "/brɑːntʃ/",
+        "vi": "Cành cây, chi nhánh",
+        "example": {
+          "en": "Our bank will open a new branch in the downtown district.",
+          "vi": "Ngân hàng chúng tôi sẽ mở một chi nhánh mới tại khu trung tâm thành phố."
+        }
+      },
+      {
+        "en": "Trim",
+        "pos": "v",
+        "ipa": "/trɪm/",
+        "vi": "Cắt tỉa",
+        "example": {
+          "en": "The gardener needs to trim the bushes along the driveway.",
+          "vi": "Người làm vườn cần cắt tỉa các bụi cây dọc theo lối vào xe."
+        }
+      },
+      {
+        "en": "Decorate",
+        "pos": "v",
+        "ipa": "/ˈdekəreɪt/",
+        "vi": "Trang trí",
+        "example": {
+          "en": "We plan to decorate the lobby for the annual anniversary celebration.",
+          "vi": "Chúng tôi dự định trang trí sảnh cho lễ kỷ niệm thường niên."
+        }
+      },
+      {
+        "en": "Brick",
+        "pos": "n",
+        "ipa": "/brɪk/",
+        "vi": "Gạch",
+        "example": {
+          "en": "The warehouse was built with durable red bricks.",
+          "vi": "Nhà kho được xây dựng bằng những viên gạch đỏ bền chắc."
+        }
+      },
+      {
+        "en": "Sweep",
+        "pos": "v",
+        "ipa": "/swiːp/",
+        "vi": "Quét",
+        "example": {
+          "en": "Please sweep the sidewalk outside the entrance.",
+          "vi": "Vui lòng quét lối đi bộ bên ngoài cổng vào."
+        }
+      },
+      {
+        "en": "Bench",
+        "pos": "n",
+        "ipa": "/bentʃ/",
+        "vi": "Ghế dài",
+        "example": {
+          "en": "Several benches were placed in the courtyard for employees.",
+          "vi": "Một vài chiếc ghế dài đã được đặt trong sân cho nhân viên."
+        }
+      },
+      {
+        "en": "Rack",
+        "pos": "n",
+        "ipa": "/ræk/",
+        "vi": "Giá, kệ",
+        "example": {
+          "en": "Place the completed files on the drying rack.",
+          "vi": "Đặt các tài liệu đã hoàn thành lên giá để tài liệu."
+        }
+      },
+      {
+        "en": "Roof",
+        "pos": "n",
+        "ipa": "/ruːf/",
+        "vi": "Mái nhà",
+        "example": {
+          "en": "Contractors are repairing the leaking roof of the facility.",
+          "vi": "Các nhà thầu đang sửa chữa mái nhà bị dột của cơ sở."
+        }
+      },
+      {
+        "en": "Lumber",
+        "pos": "n",
+        "ipa": "/ˈlʌmbər/",
+        "vi": "Gỗ xẻ, thanh gỗ",
+        "example": {
+          "en": "The truck delivered a shipment of lumber to the construction site.",
+          "vi": "Chiếc xe tải đã vận chuyển một lô hàng gỗ xẻ đến công trường xây dựng."
+        }
+      },
+      {
+        "en": "Curtain",
+        "pos": "n",
+        "ipa": "/ˈkɜːtn/",
+        "vi": "Rèm cửa",
+        "example": {
+          "en": "Draw the curtains to keep the harsh sunlight out of the meeting room.",
+          "vi": "Kéo rèm cửa lại để ngăn ánh nắng chói chang vào phòng họp."
+        }
+      },
+      {
+        "en": "Monitor",
+        "pos": "n, v",
+        "ipa": "/ˈmɒnɪtər/",
+        "vi": "(N) màn hình; (v) giám sát",
+        "example": {
+          "en": "Managers will monitor the progress of the project closely.",
+          "vi": "Các nhà quản lý sẽ giám sát tiến độ dự án một cách chặt chẽ."
+        }
+      },
+      {
+        "en": "Jewelry",
+        "pos": "n",
+        "ipa": "/ˈdʒuːəlri/",
+        "vi": "Trang sức",
+        "example": {
+          "en": "The boutique specializes in handcrafted silver jewelry.",
+          "vi": "Cửa hàng chuyên về trang sức bạc làm thủ công."
+        }
+      },
+      {
+        "en": "Negotiate",
+        "pos": "v",
+        "ipa": "/nɪˈɡəʊʃieɪt/",
+        "vi": "Thương lượng",
+        "example": {
+          "en": "Our representatives will negotiate a favorable contract with the supplier.",
+          "vi": "Các đại diện của chúng tôi sẽ thương lượng một hợp đồng có lợi với nhà cung cấp."
+        }
+      },
+      {
+        "en": "Mask",
+        "pos": "n",
+        "ipa": "/mɑːsk/",
+        "vi": "Mặt nạ",
+        "example": {
+          "en": "Factory workers must wear a protective mask in dusty areas.",
+          "vi": "Công nhân nhà máy phải đeo mặt nạ bảo hộ ở những khu vực nhiều bụi."
+        }
+      },
+      {
+        "en": "Pipe",
+        "pos": "n",
+        "ipa": "/paɪp/",
+        "vi": "Ống",
+        "example": {
+          "en": "A plumber was hired to fix a broken water pipe.",
+          "vi": "Một thợ sửa ống nước đã được thuê để sửa đường ống nước bị vỡ."
+        }
+      },
+      {
+        "en": "Explain",
+        "pos": "v",
+        "ipa": "/ɪkˈspleɪn/",
+        "vi": "Giải thích",
+        "example": {
+          "en": "The trainer will explain the new software features in detail.",
+          "vi": "Người đào tạo sẽ giải thích chi tiết các tính năng phần mềm mới."
+        }
+      },
+      {
+        "en": "Board",
+        "pos": "n, v",
+        "ipa": "/bɔːrd/",
+        "vi": "Tấm ván, bảng (n); Lên (tàu, xe bus...) (v)",
+        "example": {
+          "en": "Passengers may now board flight 204 to Tokyo.",
+          "vi": "Hành khách hiện có thể lên chuyến bay số hiệu 204 đi Tokyo."
+        }
+      },
+      {
+        "en": "Purchase",
+        "pos": "v",
+        "ipa": "/ˈpɜːtʃəs/",
+        "vi": "Mua",
+        "example": {
+          "en": "The company plans to purchase energy-efficient equipment.",
+          "vi": "Công ty dự định mua thiết bị tiết kiệm năng lượng."
+        }
+      },
+      {
+        "en": "Item",
+        "pos": "n",
+        "ipa": "/ˈaɪtəm/",
+        "vi": "Món đồ, mặt hàng",
+        "example": {
+          "en": "Each item in the catalog has a unique identification code.",
+          "vi": "Mỗi mặt hàng trong danh mục đều có một mã định danh riêng biệt."
+        }
+      },
+      {
+        "en": "Safety goggles",
+        "pos": "n",
+        "ipa": "/ˈseɪfti ˈɡɒɡlz/",
+        "vi": "Kính bảo hộ",
+        "example": {
+          "en": "Put on your safety goggles before entering the laboratory.",
+          "vi": "Hãy đeo kính bảo hộ của bạn trước khi bước vào phòng thí nghiệm."
+        }
+      },
+      {
+        "en": "Pedestrian",
+        "pos": "n",
+        "ipa": "/pəˈdestriən/",
+        "vi": "Người đi bộ",
+        "example": {
+          "en": "Drivers must yield to pedestrians at marked crosswalks.",
+          "vi": "Tài xế phải nhường đường cho người đi bộ tại các vạch kẻ đường sang đường."
+        }
+      },
+      {
+        "en": "Apron",
+        "pos": "n",
+        "ipa": "/ˈeɪprən/",
+        "vi": "Tạp dề",
+        "example": {
+          "en": "The kitchen staff wears clean white aprons while preparing food.",
+          "vi": "Nhân viên bếp đeo tạp dề trắng sạch sẽ khi chuẩn bị đồ ăn."
+        }
+      }
+    ]
+  },
+  {
+    "lessonId": 3,
+    "lessonTitle": "Lesson 3",
+    "words": [
+      {
+        "en": "Gloves",
+        "pos": "n",
+        "ipa": "/ɡlʌvz/",
+        "vi": "Găng tay",
+        "example": {
+          "en": "Wear rubber gloves when handling chemical cleaning solutions.",
+          "vi": "Đeo găng tay cao su khi xử lý các dung dịch tẩy rửa hóa chất."
+        }
+      },
+      {
+        "en": "Instrument",
+        "pos": "n",
+        "ipa": "/ˈɪnstrəmənt/",
+        "vi": "Dụng cụ, nhạc cụ",
+        "example": {
+          "en": "The technician calibrated the scientific instruments before testing.",
+          "vi": "Kỹ thuật viên đã hiệu chuẩn các dụng cụ khoa học trước khi thử nghiệm."
+        }
+      },
+      {
+        "en": "Inspect",
+        "pos": "v",
+        "ipa": "/ɪnˈspekt/",
+        "vi": "Kiểm tra",
+        "example": {
+          "en": "The safety officer will inspect the warehouse tomorrow morning.",
+          "vi": "Cán bộ an toàn sẽ kiểm tra kho hàng vào sáng mai."
+        }
+      },
+      {
+        "en": "Gather",
+        "pos": "v",
+        "ipa": "/ˈɡæðər/",
+        "vi": "Tập hợp, tụ tập",
+        "example": {
+          "en": "Employees gathered in the main hall for the briefing.",
+          "vi": "Các nhân viên đã tập hợp tại hội trường chính để nghe tóm tắt thông tin."
+        }
+      },
+      {
+        "en": "Equipment",
+        "pos": "n",
+        "ipa": "/ɪˈkwɪpmənt/",
+        "vi": "Thiết bị",
+        "example": {
+          "en": "Our modern office is equipped with up-to-date telecommunication equipment.",
+          "vi": "Văn phòng hiện đại của chúng tôi được trang bị thiết bị viễn thông cập nhật."
+        }
+      },
+      {
+        "en": "Warehouse",
+        "pos": "n",
+        "ipa": "/ˈweəhaʊs/",
+        "vi": "Kho hàng",
+        "example": {
+          "en": "All finished goods are stored safely in the company warehouse.",
+          "vi": "Tất cả hàng hóa hoàn thiện đều được lưu trữ an toàn trong kho hàng của công ty."
+        }
+      },
+      {
+        "en": "Projector",
+        "pos": "n",
+        "ipa": "/prəˈdʒektər/",
+        "vi": "Máy chiếu",
+        "example": {
+          "en": "Please check if the digital projector is connected to the laptop.",
+          "vi": "Vui lòng kiểm tra xem máy chiếu kỹ thuật số đã được kết nối với máy tính xách tay chưa."
+        }
+      },
+      {
+        "en": "Lecture hall",
+        "pos": "n",
+        "ipa": "/ˈlektʃər hɔːl/",
+        "vi": "Giảng đường, hội trường",
+        "example": {
+          "en": "The seminar will take place in lecture hall B on the third floor.",
+          "vi": "Hội thảo sẽ diễn ra tại giảng đường B ở tầng ba."
+        }
+      },
+      {
+        "en": "Pier",
+        "pos": "n",
+        "ipa": "/pɪər/",
+        "vi": "Bến tàu",
+        "example": {
+          "en": "The cargo ship is currently docked at pier number 5.",
+          "vi": "Tàu chở hàng hiện đang neo đậu tại bến tàu số 5."
+        }
+      },
+      {
+        "en": "Shore",
+        "pos": "n",
+        "ipa": "/ʃɔːr/",
+        "vi": "Bờ biển",
+        "example": {
+          "en": "The resort offers an attractive view of the ocean shore.",
+          "vi": "Khu nghỉ dưỡng đem đến một tầm nhìn hấp dẫn ra bờ biển đại dương."
+        }
+      },
+      {
+        "en": "Tow",
+        "pos": "v",
+        "ipa": "/təʊ/",
+        "vi": "Kéo (xe)",
+        "example": {
+          "en": "The broken-down delivery van was towed to the repair shop.",
+          "vi": "Chiếc xe van giao hàng bị hỏng đã được kéo đến xưởng sửa chữa."
+        }
+      },
+      {
+        "en": "Chase",
+        "pos": "v",
+        "ipa": "/tʃeɪs/",
+        "vi": "Đuổi theo",
+        "example": {
+          "en": "The security guards chased the intruder off the property.",
+          "vi": "Các nhân viên bảo vệ đã đuổi theo kẻ đột nhập ra khỏi khuôn viên."
+        }
+      },
+      {
+        "en": "Smoke",
+        "pos": "n",
+        "ipa": "/sməʊk/",
+        "vi": "Khói",
+        "example": {
+          "en": "A smoke alarm went off in the kitchen during lunchtime.",
+          "vi": "Chuông báo khói đã vang lên trong bếp vào giờ ăn trưa."
+        }
+      },
+      {
+        "en": "Hallway",
+        "pos": "n",
+        "ipa": "/ˈhɔːlweɪ/",
+        "vi": "Hành lang",
+        "example": {
+          "en": "Do not leave any boxes blocking the main hallway.",
+          "vi": "Đừng để các thùng hàng chắn lối đi tại hành lang chính."
+        }
+      },
+      {
+        "en": "Helmet",
+        "pos": "n",
+        "ipa": "/ˈhelmɪt/",
+        "vi": "Mũ bảo hiểm",
+        "example": {
+          "en": "Everyone visiting the construction site must wear a safety helmet.",
+          "vi": "Mọi người đến thăm công trường xây dựng đều phải đội mũ bảo hộ an toàn."
+        }
+      },
+      {
+        "en": "Fabric",
+        "pos": "n",
+        "ipa": "/ˈfæbrɪk/",
+        "vi": "Vải",
+        "example": {
+          "en": "The manufacturer imports premium fabric for office uniform production.",
+          "vi": "Nhà sản xuất nhập khẩu vải cao cấp để sản xuất đồng phục văn phòng."
+        }
+      },
+      {
+        "en": "Garage",
+        "pos": "n",
+        "ipa": "/ɡəˈrɑːʒ/",
+        "vi": "Nhà để xe, chỗ sửa ô tô",
+        "example": {
+          "en": "You can park your company vehicle inside the underground garage.",
+          "vi": "Bạn có thể đỗ xe công ty bên trong nhà để xe dưới tầng hầm."
+        }
+      },
+      {
+        "en": "Trunk",
+        "pos": "n",
+        "ipa": "/trʌŋk/",
+        "vi": "Cố xe, thân cây",
+        "example": {
+          "en": "Place all promotional samples in the trunk of the car.",
+          "vi": "Hãy đặt toàn bộ hàng mẫu quảng cáo vào cốp xe."
+        }
+      },
+      {
+        "en": "Stroll",
+        "pos": "v",
+        "ipa": "/strəʊl/",
+        "vi": "Đi dạo",
+        "example": {
+          "en": "During the lunch break, employees enjoy strolling through the park.",
+          "vi": "Trong giờ nghỉ trưa, các nhân viên thích đi dạo qua công viên."
+        }
+      },
+      {
+        "en": "Edge",
+        "pos": "n",
+        "ipa": "/edʒ/",
+        "vi": "Mép, rìa",
+        "example": {
+          "en": "Be cautious when standing near the edge of the platform.",
+          "vi": "Hãy cẩn thận khi đứng gần mép của sân ga."
+        }
+      },
+      {
+        "en": "Intersection",
+        "pos": "n",
+        "ipa": "/ˌɪntəˈsekʃən/",
+        "vi": "Giao lộ, ngã tư",
+        "example": {
+          "en": "Turn left at the busy intersection to reach our corporate office.",
+          "vi": "Rẽ trái tại ngã tư đông đúc để đến trụ sở văn phòng công ty chúng tôi."
+        }
+      },
+      {
+        "en": "Dig",
+        "pos": "v",
+        "ipa": "/dɪɡ/",
+        "vi": "Đào",
+        "example": {
+          "en": "Workers are digging a trench to install the optical fiber cables.",
+          "vi": "Các công nhân đang đào một rãnh để lắp đặt cáp quang."
+        }
+      },
+      {
+        "en": "Harvest",
+        "pos": "v",
+        "ipa": "/ˈhɑːvɪst/",
+        "vi": "Thu hoạch",
+        "example": {
+          "en": "Local farmers harvest their crops in early autumn.",
+          "vi": "Nông dân địa phương thu hoạch mùa màng của họ vào đầu mùa thu."
+        }
+      },
+      {
+        "en": "Performance",
+        "pos": "n",
+        "ipa": "/pəˈfɔːməns/",
+        "vi": "Buổi biểu diễn, hiệu suất",
+        "example": {
+          "en": "The quarterly review evaluated employee sales performance.",
+          "vi": "Bản đánh giá hàng quý đã đánh giá hiệu suất bán hàng của nhân viên."
+        }
+      },
+      {
+        "en": "Stage",
+        "pos": "n",
+        "ipa": "/steɪdʒ/",
+        "vi": "Sân khấu, giai đoạn",
+        "example": {
+          "en": "The project is currently in its final testing stage.",
+          "vi": "Dự án hiện đang ở giai đoạn thử nghiệm cuối cùng."
+        }
+      }
+    ]
+  },
+  {
+    "lessonId": 4,
+    "lessonTitle": "Lesson 4",
+    "words": [
+      {
+        "en": "Merchandise",
+        "pos": "n",
+        "ipa": "/ˈmɜːtʃəndaɪs/",
+        "vi": "Hàng hóa",
+        "example": {
+          "en": "New merchandise arrived at the store early this morning.",
+          "vi": "Hàng hóa mới đã đến cửa hàng vào sáng sớm nay."
+        }
+      },
+      {
+        "en": "Tunnel",
+        "pos": "n",
+        "ipa": "/ˈtʌnl/",
+        "vi": "Đường hầm",
+        "example": {
+          "en": "The highway tunnel is closed tonight for scheduled maintenance.",
+          "vi": "Đường hầm cao tốc đóng cửa tối nay để bảo trì định kỳ."
+        }
+      },
+      {
+        "en": "Record",
+        "pos": "v",
+        "ipa": "/rɪˈkɔːd/",
+        "vi": "Ghi lại",
+        "example": {
+          "en": "Please record all financial transactions in the accounting ledger.",
+          "vi": "Vui lòng ghi lại tất cả các giao dịch tài chính vào sổ cái kế toán."
+        }
+      },
+      {
+        "en": "Bulletin board",
+        "pos": "n",
+        "ipa": "/ˈbʊlətɪn bɔːd/",
+        "vi": "Bảng tin",
+        "example": {
+          "en": "The company memo was pinned onto the staff bulletin board.",
+          "vi": "Thông báo của công ty đã được ghim lên bảng tin của nhân viên."
+        }
+      },
+      {
+        "en": "Personnel",
+        "pos": "n",
+        "ipa": "/ˌpɜːsəˈnel/",
+        "vi": "Nhân viên",
+        "example": {
+          "en": "All qualified personnel are encouraged to apply for the promotion.",
+          "vi": "Tất cả nhân viên đủ tiêu chuẩn được khuyến khích nộp đơn ứng tuyển thăng chức."
+        }
+      },
+      {
+        "en": "Speech",
+        "pos": "n",
+        "ipa": "/spiːtʃ/",
+        "vi": "Bài phát biểu",
+        "example": {
+          "en": "The CEO delivered an inspiring speech at the annual gala.",
+          "vi": "Tổng giám đốc đã có một bài phát biểu đầy cảm hứng tại dạ tiệc thường niên."
+        }
+      },
+      {
+        "en": "Committee",
+        "pos": "n",
+        "ipa": "/kəˈmɪti/",
+        "vi": "Ủy ban",
+        "example": {
+          "en": "The advisory committee recommended revising the marketing strategy.",
+          "vi": "Ủy ban cố vấn đã đề xuất sửa đổi chiến lược tiếp thị."
+        }
+      },
+      {
+        "en": "Select",
+        "pos": "v",
+        "ipa": "/sɪˈlekt/",
+        "vi": "Chọn lựa",
+        "example": {
+          "en": "The hiring team will select three candidates for the final interview.",
+          "vi": "Đội ngũ tuyển dụng sẽ chọn lựa ba ứng viên cho vòng phỏng vấn cuối cùng."
+        }
+      },
+      {
+        "en": "Expect",
+        "pos": "v",
+        "ipa": "/ɪkˈspekt/",
+        "vi": "Mong đợi",
+        "example": {
+          "en": "We expect a substantial increase in profits this quarter.",
+          "vi": "Chúng tôi mong đợi một sự gia tăng đáng kể về lợi nhuận trong quý này."
+        }
+      },
+      {
+        "en": "Vice president",
+        "pos": "n",
+        "ipa": "/ˌvaɪs ˈprezɪdənt/",
+        "vi": "Phó chủ tịch",
+        "example": {
+          "en": "The vice president will lead the negotiations with our partner.",
+          "vi": "Phó chủ tịch sẽ dẫn dắt các cuộc đàm phán với đối tác của chúng tôi."
+        }
+      },
+      {
+        "en": "Department",
+        "pos": "n",
+        "ipa": "/dɪˈpɑːtmənt/",
+        "vi": "Phòng ban",
+        "example": {
+          "en": "She was recently transferred to the human resources department.",
+          "vi": "Gần đây cô ấy đã được chuyển sang phòng ban nhân sự."
+        }
+      },
+      {
+        "en": "Security system",
+        "pos": "n",
+        "ipa": "/səˈkjʊr.ə.t̬i ˈsɪstəm/",
+        "vi": "Hệ thống an ninh",
+        "example": {
+          "en": "The firm upgraded its building security system last month.",
+          "vi": "Công ty đã nâng cấp hệ thống an ninh tòa nhà vào tháng trước."
+        }
+      },
+      {
+        "en": "Passport",
+        "pos": "n",
+        "ipa": "/ˈpɑːspɔːt/",
+        "vi": "Hộ chiếu",
+        "example": {
+          "en": "You must present a valid passport when traveling internationally.",
+          "vi": "Bạn phải xuất trình hộ chiếu hợp lệ khi đi du lịch quốc tế."
+        }
+      },
+      {
+        "en": "Headquarters",
+        "pos": "n",
+        "ipa": "/ˌhedˈkwɔːtərz/",
+        "vi": "Trụ sở chính",
+        "example": {
+          "en": "The international company has its main headquarters in London.",
+          "vi": "Công ty quốc tế có trụ sở chính đặt tại Luân Đôn."
+        }
+      },
+      {
+        "en": "Storm",
+        "pos": "n",
+        "ipa": "/stɔːm/",
+        "vi": "Cơn bão",
+        "example": {
+          "en": "The severe storm delayed several international delivery flights.",
+          "vi": "Cơn bão dữ dội đã làm trì hoãn một số chuyến bay giao hàng quốc tế."
+        }
+      },
+      {
+        "en": "Discussion",
+        "pos": "n",
+        "ipa": "/dɪˈskʌʃən/",
+        "vi": "Cuộc thảo luận",
+        "example": {
+          "en": "We had an in-depth discussion about the proposed company budget.",
+          "vi": "Chúng tôi đã có một cuộc thảo luận sâu sắc về ngân sách đề xuất của công ty."
+        }
+      },
+      {
+        "en": "Retirement party",
+        "pos": "n",
+        "ipa": "/rɪˈtaɪəmənt ˈpɑːti/",
+        "vi": "Tiệc nghỉ hưu",
+        "example": {
+          "en": "Colleagues gathered to organize a farewell retirement party for Mr. Green.",
+          "vi": "Các đồng nghiệp đã tập hợp để tổ chức tiệc chia tay nghỉ hưu cho ông Green."
+        }
+      },
+      {
+        "en": "Article",
+        "pos": "n",
+        "ipa": "/ˈɑːtɪkl/",
+        "vi": "Bài báo",
+        "example": {
+          "en": "He published an insightful article on global economic trends.",
+          "vi": "Anh ấy đã xuất bản một bài báo sâu sắc về các xu hướng kinh tế toàn cầu."
+        }
+      },
+      {
+        "en": "Additional",
+        "pos": "adj",
+        "ipa": "/əˈdɪʃənl/",
+        "vi": "Bổ sung",
+        "example": {
+          "en": "Additional details about the conference will be sent by email.",
+          "vi": "Các chi tiết bổ sung về hội nghị sẽ được gửi qua email."
+        }
+      },
+      {
+        "en": "Production",
+        "pos": "n",
+        "ipa": "/prəˈdʌkʃən/",
+        "vi": "Sản xuất",
+        "example": {
+          "en": "The factory increased production to meet rising seasonal demand.",
+          "vi": "Nhà máy đã tăng cường sản xuất để đáp ứng nhu cầu tăng cao theo mùa."
+        }
+      },
+      {
+        "en": "Annual seminar",
+        "pos": "n",
+        "ipa": "/ˈænjuəl ˈsemɪnɑːr/",
+        "vi": "Hội thảo thường niên",
+        "example": {
+          "en": "Registration for the annual seminar closes this Friday.",
+          "vi": "Việc đăng ký cho hội thảo thường niên sẽ đóng lại vào thứ Sáu này."
+        }
+      },
+      {
+        "en": "Applicant",
+        "pos": "n",
+        "ipa": "/ˈæplɪkənt/",
+        "vi": "Người nộp đơn, ứng viên",
+        "example": {
+          "en": "Over fifty qualified applicants applied for the marketing position.",
+          "vi": "Hơn 50 ứng viên đủ tiêu chuẩn đã nộp đơn cho vị trí tiếp thị."
+        }
+      },
+      {
+        "en": "Former",
+        "pos": "adj",
+        "ipa": "/ˈfɔːmər/",
+        "vi": "Cũ, trước đây",
+        "example": {
+          "en": "The former director gave a welcoming speech to new trainees.",
+          "vi": "Cựu giám đốc đã có bài phát biểu chào mừng các học viên mới."
+        }
+      },
+      {
+        "en": "Awareness",
+        "pos": "n",
+        "ipa": "/əˈweərnəs/",
+        "vi": "Nhận thức",
+        "example": {
+          "en": "The public campaign aims to raise environmental awareness.",
+          "vi": "Chiến dịch cộng đồng nhằm mục đích nâng cao nhận thức về môi trường."
+        }
+      },
+      {
+        "en": "Instructor",
+        "pos": "n",
+        "ipa": "/ɪnˈstrʌktər/",
+        "vi": "Giảng viên, người hướng dẫn",
+        "example": {
+          "en": "The fitness instructor demonstrated the correct exercise posture.",
+          "vi": "Người hướng dẫn thể hình đã minh họa tư thế tập luyện chính xác."
+        }
+      }
+    ]
+  },
+  {
+    "lessonId": 5,
+    "lessonTitle": "Lesson 5",
+    "words": [
+      {
+        "en": "Appointment",
+        "pos": "n",
+        "ipa": "/əˈpɔɪntmənt/",
+        "vi": "Cuộc hẹn",
+        "example": {
+          "en": "I would like to reschedule my dental appointment to next Tuesday.",
+          "vi": "Tôi muốn dời lịch hẹn khám răng sang thứ Ba tuần sau."
+        }
+      },
+      {
+        "en": "Orientation",
+        "pos": "n",
+        "ipa": "/ˌɔːriənˈteɪʃən/",
+        "vi": "Định hướng",
+        "example": {
+          "en": "New employees must attend the orientation session this Monday.",
+          "vi": "Nhân viên mới phải tham gia buổi định hướng vào thứ Hai này."
+        }
+      },
+      {
+        "en": "Charge",
+        "pos": "v",
+        "ipa": "/tʃɑːdʒ/",
+        "vi": "Tính phí",
+        "example": {
+          "en": "The hotel will not charge extra for early check-in.",
+          "vi": "Khách sạn sẽ không tính thêm phí cho việc nhận phòng sớm."
+        }
+      },
+      {
+        "en": "Report",
+        "pos": "v, n",
+        "ipa": "/rɪˈpɔːt/",
+        "vi": "Báo cáo",
+        "example": {
+          "en": "Please submit the sales report by 5 PM today.",
+          "vi": "Vui lòng nộp báo cáo doanh số trước 5 giờ chiều hôm nay."
+        }
+      },
+      {
+        "en": "Flight",
+        "pos": "n",
+        "ipa": "/flaɪt/",
+        "vi": "Chuyến bay",
+        "example": {
+          "en": "Her flight was delayed due to heavy snowfall at the airport.",
+          "vi": "Chuyến bay của cô ấy đã bị hoãn do tuyết rơi dày tại sân bay."
+        }
+      },
+      {
+        "en": "Destination",
+        "pos": "n",
+        "ipa": "/ˌdestɪˈneɪʃən/",
+        "vi": "Điểm đến",
+        "example": {
+          "en": "Hawaii remains a popular vacation destination for tourists.",
+          "vi": "Hawaii vẫn là một điểm đến du lịch nổi tiếng đối với khách tham quan."
+        }
+      },
+      {
+        "en": "Upset",
+        "pos": "adj",
+        "ipa": "/ʌpˈset/",
+        "vi": "Buồn bực",
+        "example": {
+          "en": "The customer was upset about the late package delivery.",
+          "vi": "Khách hàng đã rất buồn bực về việc kiện hàng bị giao trễ."
+        }
+      },
+      {
+        "en": "Promotion",
+        "pos": "n",
+        "ipa": "/prəˈməʊʃən/",
+        "vi": "Thăng chức, quảng cáo",
+        "example": {
+          "en": "She earned a well-deserved promotion to senior project manager.",
+          "vi": "Cô ấy đã nhận được sự thăng chức xứng đáng lên quản lý dự án cấp cao."
+        }
+      },
+      {
+        "en": "Reception",
+        "pos": "n",
+        "ipa": "/rɪˈsepʃən/",
+        "vi": "Lễ tân, tiếp đón, bữa tiệc",
+        "example": {
+          "en": "A welcome reception will be held at 6 PM for conference guests.",
+          "vi": "Một bữa tiệc tiếp đón chào mừng sẽ được tổ chức lúc 6 giờ tối cho khách dự hội nghị."
+        }
+      },
+      {
+        "en": "Package",
+        "pos": "n",
+        "ipa": "/ˈpækɪdʒ/",
+        "vi": "Gói hàng, kiện hàng",
+        "example": {
+          "en": "The courier delivered the express package directly to our office.",
+          "vi": "Nhân viên chuyển phát đã giao kiện hàng hỏa tốc trực tiếp đến văn phòng chúng tôi."
+        }
+      },
+      {
+        "en": "Chairman",
+        "pos": "n",
+        "ipa": "/ˈtʃeəmən/",
+        "vi": "Chủ tịch",
+        "example": {
+          "en": "The chairman called the meeting to order at exactly 9 o’clock.",
+          "vi": "Chủ tịch đã bắt đầu cuộc họp vào đúng 9 giờ."
+        }
+      },
+      {
+        "en": "Resign",
+        "pos": "v",
+        "ipa": "/rɪˈzaɪn/",
+        "vi": "Từ chức",
+        "example": {
+          "en": "The finance director decided to resign for personal reasons.",
+          "vi": "Giám đốc tài chính đã quyết định từ chức vì lý do cá nhân."
+        }
+      },
+      {
+        "en": "Crate",
+        "pos": "n",
+        "ipa": "/kreɪt/",
+        "vi": "Thùng gỗ",
+        "example": {
+          "en": "The wine bottles were securely packed into wooden crates.",
+          "vi": "Những chai rượu vang đã được đóng gói an toàn vào các thùng gỗ."
+        }
+      },
+      {
+        "en": "Estimate",
+        "pos": "v",
+        "ipa": "/ˈestɪmeɪt/",
+        "vi": "Ước tính",
+        "example": {
+          "en": "Engineers estimate that the renovation will take about three months.",
+          "vi": "Các kỹ sư ước tính rằng việc cải tạo sẽ mất khoảng ba tháng."
+        }
+      },
+      {
+        "en": "Campaign",
+        "pos": "n",
+        "ipa": "/kæmˈpeɪn/",
+        "vi": "Chiến dịch",
+        "example": {
+          "en": "Our new marketing campaign boosted online sales significantly.",
+          "vi": "Chiến dịch tiếp thị mới của chúng tôi đã thúc đẩy doanh số bán hàng trực tuyến đáng kể."
+        }
+      },
+      {
+        "en": "Assist",
+        "pos": "v",
+        "ipa": "/əˈsɪst/",
+        "vi": "Hỗ trợ",
+        "example": {
+          "en": "Our support team is available 24/7 to assist customers.",
+          "vi": "Đội ngũ hỗ trợ của chúng tôi luôn sẵn sàng 24/7 để hỗ trợ khách hàng."
+        }
+      },
+      {
+        "en": "Distraction",
+        "pos": "n",
+        "ipa": "/dɪˈstrækʃən/",
+        "vi": "Sự xao nhãng",
+        "example": {
+          "en": "Noise from road construction was a constant distraction for staff.",
+          "vi": "Tiếng ồn từ công trình làm đường là sự xao nhãng liên tục đối với nhân viên."
+        }
+      },
+      {
+        "en": "Operate",
+        "pos": "v",
+        "ipa": "/ˈɒpəreɪt/",
+        "vi": "Vận hành",
+        "example": {
+          "en": "Only certified technicians are permitted to operate this heavy machinery.",
+          "vi": "Chỉ các kỹ thuật viên được cấp chứng chỉ mới được phép vận hành máy móc hạng nặng này."
+        }
+      },
+      {
+        "en": "Blueprint",
+        "pos": "n",
+        "ipa": "/ˈbluːprɪnt/",
+        "vi": "Bản thiết kế",
+        "example": {
+          "en": "The architect unrolled the blueprint to show the building layout.",
+          "vi": "Kiến trúc sư đã trải bản thiết kế ra để trình bày bố cục tòa nhà."
+        }
+      },
+      {
+        "en": "Accommodate",
+        "pos": "v",
+        "ipa": "/əˈkɒmədeɪt/",
+        "vi": "Điều chỉnh để phù hợp, cung cấp",
+        "example": {
+          "en": "The hotel ballroom can easily accommodate up to 500 guests.",
+          "vi": "Phòng đại tiệc của khách sạn có thể dễ dàng chứa tới 500 khách."
+        }
+      },
+      {
+        "en": "Proposal",
+        "pos": "n",
+        "ipa": "/prəˈpəʊzl/",
+        "vi": "Đề xuất",
+        "example": {
+          "en": "The executive committee reviewed the budget proposal carefully.",
+          "vi": "Ủy ban điều hành đã xem xét đề xuất ngân sách một cách cẩn thận."
+        }
+      },
+      {
+        "en": "Reasonable",
+        "pos": "adj",
+        "ipa": "/ˈriːznəbl/",
+        "vi": "Hợp lý",
+        "example": {
+          "en": "They offered their software services at a very reasonable price.",
+          "vi": "Họ cung cấp dịch vụ phần mềm của mình với mức giá rất hợp lý."
+        }
+      },
+      {
+        "en": "Institution",
+        "pos": "n",
+        "ipa": "/ˌɪnstɪˈtjuːʃən/",
+        "vi": "Tổ chức",
+        "example": {
+          "en": "Financial institutions must comply with strict international regulations.",
+          "vi": "Các tổ chức tài chính phải tuân thủ các quy định quốc tế nghiêm ngặt."
+        }
+      },
+      {
+        "en": "Interview",
+        "pos": "n",
+        "ipa": "/ˈɪntəvjuː/",
+        "vi": "Buổi phỏng vấn",
+        "example": {
+          "en": "She performed exceptionally well during her job interview.",
+          "vi": "Cô ấy đã thể hiện xuất sắc trong buổi phỏng vấn xin việc của mình."
+        }
+      },
+      {
+        "en": "Registration",
+        "pos": "n",
+        "ipa": "/ˌredʒɪˈstreɪʃən/",
+        "vi": "Đăng ký",
+        "example": {
+          "en": "Early registration for the digital marketing conference offers a discount.",
+          "vi": "Đăng ký sớm cho hội nghị tiếp thị số sẽ được giảm giá."
+        }
+      }
+    ]
+  },
+  {
+    "lessonId": 6,
+    "lessonTitle": "Lesson 6",
+    "words": [
+      {
+        "en": "Receptionist",
+        "pos": "n",
+        "ipa": "/rɪˈsepʃənɪst/",
+        "vi": "Lễ tân",
+        "example": {
+          "en": "The receptionist greeted all visitors warmly at the front desk.",
+          "vi": "Nhân viên lễ tân niềm nở chào đón tất cả khách đến thăm tại bàn lễ tân."
+        }
+      },
+      {
+        "en": "Form",
+        "pos": "n",
+        "ipa": "/fɔːm/",
+        "vi": "Mẫu đơn",
+        "example": {
+          "en": "Please fill out this application form and return it to HR.",
+          "vi": "Vui lòng điền vào mẫu đơn ứng tuyển này và nộp lại cho phòng nhân sự."
+        }
+      },
+      {
+        "en": "Charity event",
+        "pos": "n",
+        "ipa": "/ˈtʃærəti ɪˈvent/",
+        "vi": "Sự kiện từ thiện",
+        "example": {
+          "en": "Our company sponsored a charity event to support local schools.",
+          "vi": "Công ty chúng tôi đã tài trợ cho một sự kiện từ thiện để hỗ trợ các trường học địa phương."
+        }
+      },
+      {
+        "en": "Convention center",
+        "pos": "n",
+        "ipa": "/kənˈvenʃən ˈsentər/",
+        "vi": "Trung tâm hội nghị",
+        "example": {
+          "en": "The international trade show will be hosted at the downtown convention center.",
+          "vi": "Triển lãm thương mại quốc tế sẽ được tổ chức tại trung tâm hội nghị trung tâm."
+        }
+      },
+      {
+        "en": "Corporation",
+        "pos": "n",
+        "ipa": "/ˌkɔːpəˈreɪʃən/",
+        "vi": "Tập đoàn",
+        "example": {
+          "en": "The multinational corporation operates subsidiaries in over twenty countries.",
+          "vi": "Tập đoàn đa quốc gia vận hành các công ty con tại hơn 20 quốc gia."
+        }
+      },
+      {
+        "en": "Loan",
+        "pos": "n",
+        "ipa": "/ləʊn/",
+        "vi": "Khoản vay",
+        "example": {
+          "en": "The small enterprise applied for a commercial bank loan to expand business.",
+          "vi": "Doanh nghiệp nhỏ đã nộp đơn xin một khoản vay ngân hàng thương mại để mở rộng kinh doanh."
+        }
+      },
+      {
+        "en": "Extension",
+        "pos": "n",
+        "ipa": "/ɪkˈstenʃən/",
+        "vi": "Sự mở rộng",
+        "example": {
+          "en": "The contractor requested a two-week extension to complete the building renovation.",
+          "vi": "Nhà thầu đã yêu cầu gia hạn thêm hai tuần để hoàn tất việc cải tạo tòa nhà."
+        }
+      },
+      {
+        "en": "Drawer",
+        "pos": "n",
+        "ipa": "/drɔːr/",
+        "vi": "Ngăn kéo",
+        "example": {
+          "en": "The contract copies are stored in the top drawer of the filing cabinet.",
+          "vi": "Các bản sao hợp đồng được lưu giữ ở ngăn kéo trên cùng của tủ hồ sơ."
+        }
+      },
+      {
+        "en": "Hire",
+        "pos": "v",
+        "ipa": "/haɪər/",
+        "vi": "Thuê, tuyển dụng",
+        "example": {
+          "en": "The management board decided to hire five experienced software developers.",
+          "vi": "Ban giám đốc đã quyết định tuyển dụng năm nhà phát triển phần mềm giàu kinh nghiệm."
+        }
+      },
+      {
+        "en": "Demonstration",
+        "pos": "n",
+        "ipa": "/ˌdemənˈstreɪʃən/",
+        "vi": "Buổi thuyết trình, sự thuyết minh",
+        "example": {
+          "en": "The sales team gave a live demonstration of the product capabilities.",
+          "vi": "Đội ngũ bán hàng đã có một buổi thuyết minh trực tiếp về các tính năng sản phẩm."
+        }
+      },
+      {
+        "en": "Transfer",
+        "pos": "v, n",
+        "ipa": "/trænsˈfɜːr/",
+        "vi": "Chuyển",
+        "example": {
+          "en": "He requested a transfer to the regional branch office in Da Nang.",
+          "vi": "Anh ấy đã yêu cầu chuyển công tác về văn phòng chi nhánh khu vực tại Đà Nẵng."
+        }
+      },
+      {
+        "en": "Guest",
+        "pos": "n",
+        "ipa": "/ɡest/",
+        "vi": "Khách",
+        "example": {
+          "en": "Hotel guests enjoy complimentary breakfast and high-speed Wi-Fi.",
+          "vi": "Khách lưu trú tại khách sạn được thưởng thức bữa sáng miễn phí và Wi-Fi tốc độ cao."
+        }
+      },
+      {
+        "en": "Merger",
+        "pos": "n",
+        "ipa": "/ˈmɜːdʒər/",
+        "vi": "Sự sáp nhập",
+        "example": {
+          "en": "The proposed merger between the two airline companies is pending regulatory approval.",
+          "vi": "Thương vụ sáp nhập được đề xuất giữa hai công ty hàng không đang chờ cơ quan quản lý phê duyệt."
+        }
+      },
+      {
+        "en": "Satisfaction",
+        "pos": "n",
+        "ipa": "/ˌsætɪsˈfækʃən/",
+        "vi": "Sự hài lòng",
+        "example": {
+          "en": "Customer satisfaction surveys revealed very positive feedback this month.",
+          "vi": "Các khảo sát sự hài lòng của khách hàng đã cho thấy phản hồi rất tích cực trong tháng này."
+        }
+      },
+      {
+        "en": "Renovation",
+        "pos": "n",
+        "ipa": "/ˌrenəˈveɪʃən/",
+        "vi": "Sự cải tạo",
+        "example": {
+          "en": "The office renovation will include new ergonomic desks and lighting.",
+          "vi": "Việc cải tạo văn phòng sẽ bao gồm bàn làm việc công thái học và hệ thống chiếu sáng mới."
+        }
+      },
+      {
+        "en": "Individual",
+        "pos": "n",
+        "ipa": "/ˌɪndɪˈvɪdʒuəl/",
+        "vi": "Cá nhân",
+        "example": {
+          "en": "The training course caters to both corporate groups and individuals.",
+          "vi": "Khóa đào tạo phục vụ cho cả các nhóm doanh nghiệp lẫn các cá nhân."
+        }
+      },
+      {
+        "en": "Warranty",
+        "pos": "n",
+        "ipa": "/ˈwɒrənti/",
+        "vi": "Bảo hành",
+        "example": {
+          "en": "The electronics come with a standard two-year manufacturer warranty.",
+          "vi": "Các thiết bị điện tử đi kèm với chế độ bảo hành tiêu chuẩn hai năm của nhà sản xuất."
+        }
+      },
+      {
+        "en": "Extend",
+        "pos": "v",
+        "ipa": "/ɪkˈstend/",
+        "vi": "Gia hạn, kéo dài",
+        "example": {
+          "en": "The bank decided to extend the loan repayment deadline by thirty days.",
+          "vi": "Ngân hàng đã quyết định gia hạn thời hạn trả nợ thêm 30 ngày."
+        }
+      },
+      {
+        "en": "Manufacturer",
+        "pos": "n",
+        "ipa": "/ˌmænjʊˈfæktʃərər/",
+        "vi": "Nhà sản xuất",
+        "example": {
+          "en": "Contact the manufacturer directly if your item has defects.",
+          "vi": "Hãy liên hệ trực tiếp với nhà sản xuất nếu sản phẩm của bạn có khuyết tật."
+        }
+      },
+      {
+        "en": "Intern",
+        "pos": "n",
+        "ipa": "/ˈɪntɜːn/",
+        "vi": "Thực tập sinh",
+        "example": {
+          "en": "The summer intern assisted the finance team with research data.",
+          "vi": "Thực tập sinh mùa hè đã hỗ trợ nhóm tài chính dữ liệu nghiên cứu."
+        }
+      },
+      {
+        "en": "Evaluation",
+        "pos": "n",
+        "ipa": "/ɪˌvæljʊˈeɪʃən/",
+        "vi": "Đánh giá",
+        "example": {
+          "en": "Annual performance evaluations will be conducted throughout December.",
+          "vi": "Các cuộc đánh giá hiệu suất làm việc hàng năm sẽ được tiến hành trong suốt tháng 12."
+        }
+      },
+      {
+        "en": "Kitchen counter",
+        "pos": "n",
+        "ipa": "/ˈkɪtʃɪn ˈkaʊntər/",
+        "vi": "Quầy bếp",
+        "example": {
+          "en": "She placed the fresh fruit basket on the marble kitchen counter.",
+          "vi": "Cô ấy đặt giỏ trái cây tươi lên quầy bếp bằng đá cẩm thạch."
+        }
+      },
+      {
+        "en": "Shopping mall",
+        "pos": "n",
+        "ipa": "/ˈʃɒpɪŋ mɔːl/",
+        "vi": "Trung tâm thương mại",
+        "example": {
+          "en": "A retail brand opened a flagship store in the new shopping mall.",
+          "vi": "Một thương hiệu bán lẻ đã mở cửa hàng chủ lực tại trung tâm thương mại mới."
+        }
+      },
+      {
+        "en": "Ticket",
+        "pos": "n",
+        "ipa": "/ˈtɪkɪt/",
+        "vi": "Vé",
+        "example": {
+          "en": "Please present your boarding ticket before entering the gate.",
+          "vi": "Vui lòng xuất trình vé lên máy bay của bạn trước khi bước vào cổng."
+        }
+      },
+      {
+        "en": "Approve",
+        "pos": "v",
+        "ipa": "/əˈpruːv/",
+        "vi": "Phê duyệt",
+        "example": {
+          "en": "The director will review and approve the project budget tomorrow.",
+          "vi": "Giám đốc sẽ xem xét và phê duyệt ngân sách dự án vào ngày mai."
+        }
+      }
+    ]
+  },
+  {
+    "lessonId": 7,
+    "lessonTitle": "Lesson 7",
+    "words": [
+      {
+        "en": "Boardroom",
+        "pos": "n",
+        "ipa": "/ˈbɔːdruːm/",
+        "vi": "Phòng họp hội đồng quản trị",
+        "example": {
+          "en": "The executives held an urgent strategy session in the main boardroom.",
+          "vi": "Các giám đốc điều hành đã tổ chức một phiên họp chiến lược khẩn trong phòng họp hội đồng quản trị chính."
+        }
+      },
+      {
+        "en": "Candidate",
+        "pos": "n",
+        "ipa": "/ˈkændɪdət/",
+        "vi": "Ứng cử viên",
+        "example": {
+          "en": "The successful candidate will demonstrate strong communication skills.",
+          "vi": "Ứng cử viên trúng tuyển sẽ thể hiện kỹ năng giao tiếp tốt."
+        }
+      },
+      {
+        "en": "Position",
+        "pos": "n",
+        "ipa": "/pəˈzɪʃən/",
+        "vi": "Vị trí",
+        "example": {
+          "en": "He was promoted to the position of regional sales director.",
+          "vi": "Anh ấy đã được thăng chức lên vị trí giám đốc bán hàng khu vực."
+        }
+      },
+      {
+        "en": "Apply",
+        "pos": "v",
+        "ipa": "/əˈplaɪ/",
+        "vi": "Nộp đơn",
+        "example": {
+          "en": "Interested applicants can apply online through our careers portal.",
+          "vi": "Các ứng viên quan tâm có thể nộp đơn trực tuyến qua cổng thông tin nghề nghiệp của chúng tôi."
+        }
+      },
+      {
+        "en": "Expressway",
+        "pos": "n",
+        "ipa": "/ɪkˈspresweɪ/",
+        "vi": "Đường cao tốc",
+        "example": {
+          "en": "Taking the expressway reduced commuting time by thirty minutes.",
+          "vi": "Đi đường cao tốc đã giảm thời gian đi lại ba mươi phút."
+        }
+      },
+      {
+        "en": "Sign",
+        "pos": "n",
+        "ipa": "/saɪn/",
+        "vi": "Biển hiệu",
+        "example": {
+          "en": "Follow the exit signs to locate the emergency stairwell.",
+          "vi": "Hãy đi theo các biển chỉ dẫn lối thoát hiểm để định vị cầu thang khẩn cấp."
+        }
+      },
+      {
+        "en": "Reservation",
+        "pos": "n",
+        "ipa": "/ˌrezəˈveɪʃən/",
+        "vi": "Đặt chỗ",
+        "example": {
+          "en": "Please confirm your hotel reservation at least 24 hours prior to arrival.",
+          "vi": "Vui lòng xác nhận việc đặt phòng khách sạn của bạn ít nhất 24 giờ trước khi đến."
+        }
+      },
+      {
+        "en": "Cafeteria",
+        "pos": "n",
+        "ipa": "/ˌkæfəˈtɪəriə/",
+        "vi": "Căng tin",
+        "example": {
+          "en": "Staff members often enjoy lunch together in the cafeteria.",
+          "vi": "Các nhân viên thường cùng nhau ăn trưa tại căng tin."
+        }
+      },
+      {
+        "en": "Miss",
+        "pos": "v",
+        "ipa": "/mɪs/",
+        "vi": "Bỏ lỡ",
+        "example": {
+          "en": "Arrive early at the station so you do not miss your train.",
+          "vi": "Hãy đến ga sớm để bạn không bỏ lỡ chuyến tàu của mình."
+        }
+      },
+      {
+        "en": "Modification",
+        "pos": "n",
+        "ipa": "/ˌmɒdɪfɪˈkeɪʃən/",
+        "vi": "Sự sửa đổi",
+        "example": {
+          "en": "Minor modifications were made to the original design plan.",
+          "vi": "Những sửa đổi nhỏ đã được thực hiện đối với bản thiết kế ban đầu."
+        }
+      },
+      {
+        "en": "Precede",
+        "pos": "v",
+        "ipa": "/prɪˈsiːd/",
+        "vi": "Đi trước",
+        "example": {
+          "en": "A brief keynote address will precede the panel discussion.",
+          "vi": "Một bài phát biểu khai mạc ngắn sẽ đi trước phiên thảo luận nhóm chuyên gia."
+        }
+      },
+      {
+        "en": "Inclement weather",
+        "pos": "n",
+        "ipa": "/ɪnˈklemənt ˈweðər/",
+        "vi": "Thời tiết khắc nghiệt",
+        "example": {
+          "en": "The outdoor banquet was canceled due to inclement weather.",
+          "vi": "Bữa tiệc ngoài trời đã bị hủy bỏ do thời tiết khắc nghiệt."
+        }
+      },
+      {
+        "en": "Assign",
+        "pos": "v",
+        "ipa": "/əˈsaɪn/",
+        "vi": "Phân công",
+        "example": {
+          "en": "The project manager will assign specific roles to team members.",
+          "vi": "Quản lý dự án sẽ phân công các vai trò cụ thể cho các thành viên trong nhóm."
+        }
+      },
+      {
+        "en": "Payment",
+        "pos": "n",
+        "ipa": "/ˈpeɪmənt/",
+        "vi": "Thanh toán",
+        "example": {
+          "en": "Full payment is due within thirty days of the invoice date.",
+          "vi": "Khoản thanh toán đầy đủ phải được thực hiện trong vòng 30 ngày kể từ ngày lập hóa đơn."
+        }
+      },
+      {
+        "en": "Compensation",
+        "pos": "n",
+        "ipa": "/ˌkɒmpenˈseɪʃən/",
+        "vi": "Bồi thường",
+        "example": {
+          "en": "Passengers received financial compensation for the flight cancellation.",
+          "vi": "Hành khách đã nhận được khoản bồi thường tài chính vì việc hủy chuyến bay."
+        }
+      },
+      {
+        "en": "Convenient",
+        "pos": "adj",
+        "ipa": "/kənˈviːniənt/",
+        "vi": "Thuận tiện",
+        "example": {
+          "en": "Our office location is very convenient to public transportation.",
+          "vi": "Vị trí văn phòng của chúng tôi rất thuận tiện cho giao thông công cộng."
+        }
+      },
+      {
+        "en": "Flaw",
+        "pos": "n",
+        "ipa": "/flɔː/",
+        "vi": "Khuyết điểm, lỗi",
+        "example": {
+          "en": "Quality control detected a critical flaw in the product assembly.",
+          "vi": "Bộ phận kiểm soát chất lượng đã phát hiện một lỗi nghiêm trọng trong việc lắp ráp sản phẩm."
+        }
+      },
+      {
+        "en": "Submit",
+        "pos": "v",
+        "ipa": "/səbˈmɪt/",
+        "vi": "Nộp",
+        "example": {
+          "en": "Please submit your quarterly expense receipts before Friday.",
+          "vi": "Vui lòng nộp biên lai chi tiêu hàng quý của bạn trước thứ Sáu."
+        }
+      },
+      {
+        "en": "Negotiate",
+        "pos": "v",
+        "ipa": "/nɪˈɡəʊʃieɪt/",
+        "vi": "Thương lượng",
+        "example": {
+          "en": "The procurement team managed to negotiate lower supply costs.",
+          "vi": "Đội ngũ mua sắm đã cố gắng thương lượng để có chi phí cung ứng thấp hơn."
+        }
+      },
+      {
+        "en": "Terminate",
+        "pos": "v",
+        "ipa": "/ˈtɜːmɪneɪt/",
+        "vi": "Chấm dứt",
+        "example": {
+          "en": "Either party may terminate the agreement with thirty days written notice.",
+          "vi": "Bất kỳ bên nào cũng có thể chấm dứt thỏa thuận với thông báo trước 30 ngày bằng văn bản."
+        }
+      },
+      {
+        "en": "Financial advisor",
+        "pos": "n",
+        "ipa": "/faɪˈnænʃəl ədˈvaɪzər/",
+        "vi": "Cố vấn tài chính",
+        "example": {
+          "en": "Our company consulted a certified financial advisor before expanding overseas.",
+          "vi": "Công ty chúng tôi đã tham khảo ý kiến của một cố vấn tài chính được chứng nhận trước khi mở rộng ra nước ngoài."
+        }
+      },
+      {
+        "en": "Upcoming",
+        "pos": "adj",
+        "ipa": "/ˈʌpˌkʌmɪŋ/",
+        "vi": "Sắp tới",
+        "example": {
+          "en": "We will present our research findings at the upcoming international summit.",
+          "vi": "Chúng tôi sẽ trình bày kết quả nghiên cứu của mình tại hội nghị thượng đỉnh quốc tế sắp tới."
+        }
+      },
+      {
+        "en": "Invitation card",
+        "pos": "n",
+        "ipa": "/ˌɪnvɪˈteɪʃən kɑːd/",
+        "vi": "Thiệp mời",
+        "example": {
+          "en": "Formal invitation cards were mailed to all corporate sponsors.",
+          "vi": "Thiệp mời trang trọng đã được gửi qua đường bưu điện đến tất cả các nhà tài trợ doanh nghiệp."
+        }
+      },
+      {
+        "en": "Agenda",
+        "pos": "n",
+        "ipa": "/əˈdʒendə/",
+        "vi": "Chương trình nghị sự",
+        "example": {
+          "en": "The chairman distributed the meeting agenda at the start of the session.",
+          "vi": "Chủ tịch đã phát chương trình nghị sự cuộc họp vào đầu phiên làm việc."
+        }
+      },
+      {
+        "en": "Competitor",
+        "pos": "n",
+        "ipa": "/kəmˈpetɪtər/",
+        "vi": "Đối thủ",
+        "example": {
+          "en": "Our new pricing strategy keeps us ahead of major market competitors.",
+          "vi": "Chiến lược giá mới giúp chúng tôi luôn đi trước các đối thủ cạnh tranh lớn trên thị trường."
+        }
+      }
+    ]
+  },
+  {
+    "lessonId": 8,
+    "lessonTitle": "Lesson 8",
+    "words": [
+      {
+        "en": "Analysis",
+        "pos": "n",
+        "ipa": "/əˈnæləsɪs/",
+        "vi": "Phân tích",
+        "example": {
+          "en": "Market analysis indicates rising consumer interest in eco-friendly products.",
+          "vi": "Phân tích thị trường cho thấy sự quan tâm ngày càng tăng của người tiêu dùng đối với các sản phẩm thân thiện với môi trường."
+        }
+      },
+      {
+        "en": "Forecast",
+        "pos": "n",
+        "ipa": "/ˈfɔːkɑːst/",
+        "vi": "Dự báo",
+        "example": {
+          "en": "The financial forecast projects strong profit growth for the next quarter.",
+          "vi": "Dự báo tài chính dự tính mức tăng trưởng lợi nhuận mạnh mẽ trong quý tới."
+        }
+      },
+      {
+        "en": "Peak season",
+        "pos": "n",
+        "ipa": "/piːk ˈsiːzən/",
+        "vi": "Mùa cao điểm",
+        "example": {
+          "en": "Airlines hire additional temporary staff during the summer peak season.",
+          "vi": "Các hãng hàng không thuê thêm nhân viên tạm thời trong mùa cao điểm mùa hè."
+        }
+      },
+      {
+        "en": "Necessary",
+        "pos": "adj",
+        "ipa": "/ˈnesəsəri/",
+        "vi": "Cần thiết",
+        "example": {
+          "en": "It is necessary to obtain official approval before starting construction.",
+          "vi": "Việc xin phê duyệt chính thức là cần thiết trước khi bắt đầu thi công."
+        }
+      },
+      {
+        "en": "Attract",
+        "pos": "v",
+        "ipa": "/əˈtrækt/",
+        "vi": "Thu hút",
+        "example": {
+          "en": "Competitive compensation packages help attract top software talent.",
+          "vi": "Các gói đãi ngộ cạnh tranh giúp thu hút nhân tài phần mềm hàng đầu."
+        }
+      },
+      {
+        "en": "Financial aid",
+        "pos": "n",
+        "ipa": "/faɪˈnænʃəl eɪd/",
+        "vi": "Hỗ trợ tài chính",
+        "example": {
+          "en": "The government provided emergency financial aid to struggling small businesses.",
+          "vi": "Chính phủ đã cung cấp hỗ trợ tài chính khẩn cấp cho các doanh nghiệp nhỏ đang gặp khó khăn."
+        }
+      },
+      {
+        "en": "Legal",
+        "pos": "adj",
+        "ipa": "/ˈliːɡəl/",
+        "vi": "Hợp pháp",
+        "example": {
+          "en": "Seek professional legal advice before signing commercial lease agreements.",
+          "vi": "Hãy tìm kiếm lời khuyên pháp lý chuyên nghiệp trước khi ký hợp đồng thuê thương mại."
+        }
+      },
+      {
+        "en": "Prominent",
+        "pos": "adj",
+        "ipa": "/ˈprɒmɪnənt/",
+        "vi": "Nổi bật",
+        "example": {
+          "en": "She is a prominent researcher in renewable energy technologies.",
+          "vi": "Bà ấy là một nhà nghiên cứu nổi bật trong các công nghệ năng lượng tái tạo."
+        }
+      },
+      {
+        "en": "Resident",
+        "pos": "n",
+        "ipa": "/ˈrezɪdənt/",
+        "vi": "Cư dân",
+        "example": {
+          "en": "Local residents were invited to provide feedback on the city park project.",
+          "vi": "Cư dân địa phương đã được mời đóng góp ý kiến về dự án công viên thành phố."
+        }
+      },
+      {
+        "en": "Community",
+        "pos": "n",
+        "ipa": "/kəˈmjuːnəti/",
+        "vi": "Cộng đồng",
+        "example": {
+          "en": "Our enterprise supports community initiatives through charity fundraisers.",
+          "vi": "Doanh nghiệp chúng tôi hỗ trợ các sáng kiến cộng đồng thông qua các đợt gây quỹ từ thiện."
+        }
+      },
+      {
+        "en": "Contribution",
+        "pos": "n",
+        "ipa": "/ˌkɒntrɪˈbjuːʃən/",
+        "vi": "Đóng góp",
+        "example": {
+          "en": "The director praised her outstanding contribution to corporate development.",
+          "vi": "Giám đốc đã khen ngợi đóng góp nổi bật của cô ấy cho sự phát triển của công ty."
+        }
+      },
+      {
+        "en": "Vital",
+        "pos": "adj",
+        "ipa": "/ˈvaɪtl/",
+        "vi": "Quan trọng",
+        "example": {
+          "en": "Clear cross-departmental communication is vital for project success.",
+          "vi": "Giao tiếp rõ ràng giữa các phòng ban là điều tối quan trọng đối với thành công của dự án."
+        }
+      },
+      {
+        "en": "Shareholder",
+        "pos": "n",
+        "ipa": "/ˈʃeəhəʊldər/",
+        "vi": "Cổ đông",
+        "example": {
+          "en": "Shareholders voted overwhelmingly in favor of the merger proposal.",
+          "vi": "Các cổ đông đã bỏ phiếu áp đảo ủng hộ đề xuất sáp nhập."
+        }
+      },
+      {
+        "en": "Audience",
+        "pos": "n",
+        "ipa": "/ˈɔːdiəns/",
+        "vi": "Khán giả",
+        "example": {
+          "en": "The keynote speaker captivated the large conference audience.",
+          "vi": "Diễn giả chính đã lôi cuốn đông đảo khán giả tham dự hội nghị."
+        }
+      },
+      {
+        "en": "Strive to",
+        "pos": "v",
+        "ipa": "/straɪv tuː/",
+        "vi": "Phấn đấu/cố gắng để",
+        "example": {
+          "en": "We continuously strive to deliver exceptional service quality to clients.",
+          "vi": "Chúng tôi không ngừng phấn đấu để mang đến chất lượng dịch vụ đặc biệt cho khách hàng."
+        }
+      },
+      {
+        "en": "Provide",
+        "pos": "v",
+        "ipa": "/prəˈvaɪd/",
+        "vi": "Cung cấp",
+        "example": {
+          "en": "The company provides comprehensive health insurance benefits for all staff.",
+          "vi": "Công ty cung cấp chế độ bảo hiểm y tế toàn diện cho toàn thể nhân viên."
+        }
+      },
+      {
+        "en": "Durable",
+        "pos": "adj",
+        "ipa": "/ˈdjʊərəbl/",
+        "vi": "Bền",
+        "example": {
+          "en": "This office desk is built with durable materials that resist scratches.",
+          "vi": "Bàn làm việc văn phòng này được chế tạo bằng vật liệu bền có khả năng chống trầy xước."
+        }
+      },
+      {
+        "en": "Immediately",
+        "pos": "adv",
+        "ipa": "/ɪˈmiːdiətli/",
+        "vi": "Ngay lập tức",
+        "example": {
+          "en": "Please report any technical malfunctions to IT support immediately.",
+          "vi": "Vui lòng báo cáo ngay lập tức bất kỳ sự cố kỹ thuật nào cho bộ phận hỗ trợ CNTT."
+        }
+      },
+      {
+        "en": "Fee",
+        "pos": "n",
+        "ipa": "/fiː/",
+        "vi": "Lệ phí",
+        "example": {
+          "en": "Late registrations are subject to an additional processing fee.",
+          "vi": "Việc đăng ký muộn phải chịu thêm một khoản lệ phí xử lý."
+        }
+      },
+      {
+        "en": "Unexpected",
+        "pos": "adj",
+        "ipa": "/ˌʌnɪkˈspektɪd/",
+        "vi": "Không lường trước",
+        "example": {
+          "en": "An unexpected delay in shipping postponed the scheduled product launch.",
+          "vi": "Sự chậm trễ không lường trước trong vận chuyển đã khiến buổi ra mắt sản phẩm dự kiến bị hoãn lại."
+        }
+      },
+      {
+        "en": "Encourage",
+        "pos": "v",
+        "ipa": "/ɪnˈkʌrɪdʒ/",
+        "vi": "Khuyến khích",
+        "example": {
+          "en": "Managers encourage team members to share creative innovation ideas.",
+          "vi": "Các nhà quản lý khuyến khích thành viên trong nhóm chia sẻ những ý tưởng đổi mới sáng tạo."
+        }
+      },
+      {
+        "en": "Material",
+        "pos": "n",
+        "ipa": "/məˈtɪəriəl/",
+        "vi": "Vật liệu",
+        "example": {
+          "en": "All building materials used in this development meet environmental codes.",
+          "vi": "Tất cả các vật liệu xây dựng được sử dụng trong dự án này đều đáp ứng các tiêu chuẩn môi trường."
+        }
+      },
+      {
+        "en": "Recruit",
+        "pos": "v",
+        "ipa": "/rɪˈkruːt/",
+        "vi": "Tuyển dụng",
+        "example": {
+          "en": "Our enterprise plans to recruit ten graduate interns next semester.",
+          "vi": "Doanh nghiệp chúng tôi dự định tuyển dụng mười thực tập sinh mới tốt nghiệp vào kỳ tới."
+        }
+      },
+      {
+        "en": "Throughout",
+        "pos": "adv",
+        "ipa": "/θruːˈaʊt/",
+        "vi": "Xuyên suốt",
+        "example": {
+          "en": "Safety inspections were conducted consistently throughout the construction phase.",
+          "vi": "Các cuộc kiểm tra an toàn đã được tiến hành nhất quán xuyên suốt giai đoạn xây dựng."
+        }
+      },
+      {
+        "en": "Implement",
+        "pos": "v",
+        "ipa": "/ˈɪmplɪment/",
+        "vi": "Thực hiện",
+        "example": {
+          "en": "The human resources division will implement the new remote work policy next month.",
+          "vi": "Bộ phận nhân sự sẽ thực hiện chính sách làm việc từ xa mới vào tháng tới."
+        }
+      }
+    ]
+  },
+  {
+    "lessonId": 9,
+    "lessonTitle": "Lesson 9",
+    "words": [
+      {
+        "en": "Effective",
+        "pos": "adj",
+        "ipa": "/ɪˈfektɪv/",
+        "vi": "Hiệu quả",
+        "example": {
+          "en": "The new inventory management strategy proved to be highly effective.",
+          "vi": "Chiến lược quản lý hàng tồn kho mới đã chứng minh là rất hiệu quả."
+        }
+      },
+      {
+        "en": "Valid",
+        "pos": "adj",
+        "ipa": "/ˈvælɪd/",
+        "vi": "Hợp lệ",
+        "example": {
+          "en": "Ensure your parking permit remains valid throughout your visit.",
+          "vi": "Đảm bảo giấy phép đỗ xe của bạn vẫn còn hợp lệ trong suốt chuyến thăm."
+        }
+      },
+      {
+        "en": "Receipt",
+        "pos": "n",
+        "ipa": "/rɪˈsiːt/",
+        "vi": "Hóa đơn",
+        "example": {
+          "en": "Retain your purchase receipt to request an expense reimbursement.",
+          "vi": "Hãy giữ lại hóa đơn mua hàng của bạn để yêu cầu hoàn trả chi phí."
+        }
+      },
+      {
+        "en": "Extensive renovation",
+        "pos": "n",
+        "ipa": "/ɪkˈstensɪv ˌrenəˈveɪʃən/",
+        "vi": "Cải tạo toàn diện",
+        "example": {
+          "en": "The historic branch underwent an extensive renovation last spring.",
+          "vi": "Chi nhánh lịch sử đã trải qua một đợt cải tạo toàn diện vào mùa xuân năm ngoái."
+        }
+      },
+      {
+        "en": "Directly",
+        "pos": "adv",
+        "ipa": "/dəˈrektli/",
+        "vi": "Trực tiếp",
+        "example": {
+          "en": "Submit all confidential billing inquiries directly to the accounts officer.",
+          "vi": "Gửi trực tiếp tất cả các câu hỏi bảo mật về thanh toán cho nhân viên kế toán."
+        }
+      },
+      {
+        "en": "Nominate",
+        "pos": "v",
+        "ipa": "/ˈnɒmɪneɪt/",
+        "vi": "Đề cử",
+        "example": {
+          "en": "Supervisors may nominate deserving employees for the Annual Excellence Award.",
+          "vi": "Người giám sát có thể đề cử những nhân viên xứng đáng cho Giải thưởng Xuất sắc Thường niên."
+        }
+      },
+      {
+        "en": "Project",
+        "pos": "n",
+        "ipa": "/ˈprɒdʒekt/",
+        "vi": "Dự án",
+        "example": {
+          "en": "The infrastructure upgrade project was finished two weeks ahead of schedule.",
+          "vi": "Dự án nâng cấp cơ sở hạ tầng đã hoàn thành trước thời hạn hai tuần."
+        }
+      },
+      {
+        "en": "Obtain",
+        "pos": "v",
+        "ipa": "/əbˈteɪn/",
+        "vi": "Đạt được",
+        "example": {
+          "en": "You must obtain written authorization prior to accessing client records.",
+          "vi": "Bạn phải đạt được sự ủy quyền bằng văn bản trước khi truy cập hồ sơ khách hàng."
+        }
+      },
+      {
+        "en": "Organization",
+        "pos": "n",
+        "ipa": "/ˌɔːɡənaɪˈzeɪʃən/",
+        "vi": "Tổ chức",
+        "example": {
+          "en": "The non-profit organization provides career mentoring for university graduates.",
+          "vi": "Tổ chức phi lợi nhuận cung cấp cố vấn nghề nghiệp cho sinh viên tốt nghiệp đại học."
+        }
+      },
+      {
+        "en": "Disaster",
+        "pos": "n",
+        "ipa": "/dɪˈzɑːstər/",
+        "vi": "Thảm họa",
+        "example": {
+          "en": "Companies should implement robust data backup plans to prepare for natural disasters.",
+          "vi": "Các công ty nên thực hiện kế hoạch sao lưu dữ liệu vững chắc để chuẩn bị cho thiên tai thảm họa."
+        }
+      },
+      {
+        "en": "Term",
+        "pos": "n",
+        "ipa": "/tɜːm/",
+        "vi": "Nhiệm kỳ, kỳ hạn",
+        "example": {
+          "en": "Carefully review the lease agreement terms before signing.",
+          "vi": "Xem xét cẩn thận các điều khoản thỏa thuận thuê trước khi ký."
+        }
+      },
+      {
+        "en": "Execute",
+        "pos": "v",
+        "ipa": "/ˈeksɪkjuːt/",
+        "vi": "Thực thi",
+        "example": {
+          "en": "Our engineering unit executed the project deployment with flawless precision.",
+          "vi": "Đơn vị kỹ thuật của chúng tôi đã thực thi việc triển khai dự án với độ chính xác hoàn hảo."
+        }
+      },
+      {
+        "en": "Criteria",
+        "pos": "n",
+        "ipa": "/kraɪˈtɪəriə/",
+        "vi": "Tiêu chí",
+        "example": {
+          "en": "The evaluation panel established strict criteria for selecting scholarship recipients.",
+          "vi": "Hội đồng đánh giá đã thiết lập các tiêu chí nghiêm ngặt để lựa chọn người nhận học bổng."
+        }
+      },
+      {
+        "en": "Prestige",
+        "pos": "n",
+        "ipa": "/preˈstiːʒ/",
+        "vi": "Uy tín",
+        "example": {
+          "en": "Winning the international award enhanced the architectural firm’s prestige.",
+          "vi": "Chiến thắng giải thưởng quốc tế đã nâng cao uy tín của công ty kiến trúc."
+        }
+      },
+      {
+        "en": "Prestigious",
+        "pos": "adj",
+        "ipa": "/preˈstɪdʒəs/",
+        "vi": "Danh giá",
+        "example": {
+          "en": "She earned a prestigious fellowship at a renowned technology institute.",
+          "vi": "Cô ấy đã giành được một học bổng danh giá tại một viện công nghệ nổi tiếng."
+        }
+      },
+      {
+        "en": "Budget",
+        "pos": "n",
+        "ipa": "/ˈbʌdʒɪt/",
+        "vi": "Ngân sách",
+        "example": {
+          "en": "We managed to complete office renovations well within our allocated budget.",
+          "vi": "Chúng tôi đã hoàn thành việc cải tạo văn phòng nằm gọn trong phạm vi ngân sách được phân bổ."
+        }
+      },
+      {
+        "en": "Task",
+        "pos": "n",
+        "ipa": "/tɑːsk/",
+        "vi": "Nhiệm vụ",
+        "example": {
+          "en": "Each team member was assigned a specific research task.",
+          "vi": "Mỗi thành viên trong nhóm được phân công một nhiệm vụ nghiên cứu cụ thể."
+        }
+      },
+      {
+        "en": "Standard",
+        "pos": "n",
+        "ipa": "/ˈstændəd/",
+        "vi": "Tiêu chuẩn",
+        "example": {
+          "en": "Our products comply strictly with international safety and durability standards.",
+          "vi": "Sản phẩm của chúng tôi tuân thủ nghiêm ngặt các tiêu chuẩn an toàn và độ bền quốc tế."
+        }
+      },
+      {
+        "en": "Feature",
+        "pos": "n",
+        "ipa": "/ˈfiːtʃər/",
+        "vi": "Tính năng",
+        "example": {
+          "en": "A prominent feature of this phone is its long-lasting battery life.",
+          "vi": "Một tính năng nổi bật của chiếc điện thoại này là thời lượng pin kéo dài."
+        }
+      },
+      {
+        "en": "Existing",
+        "pos": "adj",
+        "ipa": "/ɪɡˈzɪstɪŋ/",
+        "vi": "Hiện có",
+        "example": {
+          "en": "The software update works seamlessly alongside existing database systems.",
+          "vi": "Bản cập nhật phần mềm hoạt động liền mạch cùng với các hệ thống cơ sở dữ liệu hiện có."
+        }
+      },
+      {
+        "en": "Permit",
+        "pos": "v, n",
+        "ipa": "/pəˈmɪt/",
+        "vi": "(V) cho phép; (n) giấy phép",
+        "example": {
+          "en": "You must display a valid parking permit on your windshield.",
+          "vi": "Bạn phải dán giấy phép đỗ xe hợp lệ lên kính chắn gió của mình."
+        }
+      },
+      {
+        "en": "Invoice",
+        "pos": "n",
+        "ipa": "/ˈɪnvɔɪs/",
+        "vi": "Hóa đơn",
+        "example": {
+          "en": "Please send the invoice to our billing department for processing.",
+          "vi": "Vui lòng gửi hóa đơn đến phòng thanh toán của chúng tôi để xử lý."
+        }
+      },
+      {
+        "en": "Rental car",
+        "pos": "n",
+        "ipa": "/ˈrentl kɑːr/",
+        "vi": "Xe thuê",
+        "example": {
+          "en": "He picked up a rental car at the airport counter upon arrival.",
+          "vi": "Anh ấy đã nhận xe thuê tại quầy sân bay ngay khi đến nơi."
+        }
+      },
+      {
+        "en": "Stationery store",
+        "pos": "n",
+        "ipa": "/ˈsteɪʃənəri stɔːr/",
+        "vi": "Cửa hàng văn phòng phẩm",
+        "example": {
+          "en": "The secretary ordered pens, binders, and paper clips from a local stationery store.",
+          "vi": "Thư ký đã đặt mua bút, bìa hồ sơ và kẹp giấy từ một cửa hàng văn phòng phẩm địa phương."
+        }
+      },
+      {
+        "en": "Sample",
+        "pos": "n",
+        "ipa": "/ˈsɑːmpl/",
+        "vi": "Mẫu",
+        "example": {
+          "en": "The sales representative distributed free cosmetic samples to attendees.",
+          "vi": "Đại diện bán hàng đã phát các mẫu mỹ phẩm miễn phí cho người tham dự."
+        }
+      }
+    ]
+  },
+  {
+    "lessonId": 10,
+    "lessonTitle": "Lesson 10",
+    "words": [
+      {
+        "en": "Elevator",
+        "pos": "n",
+        "ipa": "/ˈelɪveɪtər/",
+        "vi": "Thang máy",
+        "example": {
+          "en": "Take the elevator to the eighth floor to visit executive management.",
+          "vi": "Hãy đi thang máy lên tầng tám để gặp ban quản lý điều hành."
+        }
+      },
+      {
+        "en": "Property manager",
+        "pos": "n",
+        "ipa": "/ˈprɒpəti ˈmænɪdʒər/",
+        "vi": "Quản lý bất động sản",
+        "example": {
+          "en": "Contact the property manager if you experience heating issues in the building.",
+          "vi": "Hãy liên hệ với người quản lý bất động sản nếu bạn gặp sự cố sưởi ấm trong tòa nhà."
+        }
+      },
+      {
+        "en": "Interfere with",
+        "pos": "v",
+        "ipa": "/ˌɪntəˈfɪər wɪð/",
+        "vi": "Can thiệp vào",
+        "example": {
+          "en": "Loud office remodeling should not interfere with daily workplace operations.",
+          "vi": "Việc sửa chữa văn phòng ồn ào không được can thiệp vào các hoạt động hằng ngày tại nơi làm việc."
+        }
+      },
+      {
+        "en": "Mission",
+        "pos": "n",
+        "ipa": "/ˈmɪʃən/",
+        "vi": "Sứ mệnh",
+        "example": {
+          "en": "Our corporate mission is to deliver sustainable technology worldwide.",
+          "vi": "Sứ mệnh doanh nghiệp của chúng tôi là cung cấp công nghệ bền vững trên toàn thế giới."
+        }
+      },
+      {
+        "en": "Job opening",
+        "pos": "n",
+        "ipa": "/dʒɒb ˈəʊpənɪŋ/",
+        "vi": "Vị trí tuyển dụng",
+        "example": {
+          "en": "We currently have a job opening in our digital marketing department.",
+          "vi": "Hiện tại chúng tôi có một vị trí tuyển dụng tại phòng tiếp thị kỹ thuật số."
+        }
+      },
+      {
+        "en": "Medical center",
+        "pos": "n",
+        "ipa": "/ˈmedɪkəl ˈsentər/",
+        "vi": "Trung tâm y tế",
+        "example": {
+          "en": "An emergency clinic is conveniently located inside the regional medical center.",
+          "vi": "Một phòng khám khẩn cấp được đặt thuận tiện bên trong trung tâm y tế khu vực."
+        }
+      },
+      {
+        "en": "Technician",
+        "pos": "n",
+        "ipa": "/tekˈnɪʃən/",
+        "vi": "Kỹ thuật viên",
+        "example": {
+          "en": "An IT technician arrived promptly to repair our local network router.",
+          "vi": "Một kỹ thuật viên CNTT đã đến kịp thời để sửa chữa bộ định tuyến mạng cục bộ của chúng tôi."
+        }
+      },
+      {
+        "en": "Retiree",
+        "pos": "n",
+        "ipa": "/rɪtaɪˈriː/",
+        "vi": "Người về hưu",
+        "example": {
+          "en": "The company pension program offers comprehensive healthcare to all retirees.",
+          "vi": "Chương trình hưu trí của công ty cung cấp dịch vụ chăm sóc sức khỏe toàn diện cho tất cả người về hưu."
+        }
+      },
+      {
+        "en": "Co-worker",
+        "pos": "n",
+        "ipa": "/kəʊˈwɜːkər/",
+        "vi": "Đồng nghiệp",
+        "example": {
+          "en": "She enjoys collaborating with supportive co-workers on creative campaigns.",
+          "vi": "Cô ấy thích hợp tác với các đồng nghiệp luôn hỗ trợ trong những chiến dịch sáng tạo."
+        }
+      },
+      {
+        "en": "Home appliance",
+        "pos": "n",
+        "ipa": "/həʊm əˈplaɪəns/",
+        "vi": "Thiết bị gia dụng",
+        "example": {
+          "en": "Energy-saving home appliances help households cut electricity bills.",
+          "vi": "Các thiết bị gia dụng tiết kiệm năng lượng giúp các hộ gia đình cắt giảm hóa đơn tiền điện."
+        }
+      },
+      {
+        "en": "Advertising campaign",
+        "pos": "n",
+        "ipa": "/ˈædvətaɪzɪŋ kæmˈpeɪn/",
+        "vi": "Chiến dịch quảng cáo",
+        "example": {
+          "en": "Their latest advertising campaign increased brand recognition across Asia.",
+          "vi": "Chiến dịch quảng cáo mới nhất của họ đã gia tăng mức độ nhận diện thương hiệu khắp châu Á."
+        }
+      },
+      {
+        "en": "Athlete",
+        "pos": "n",
+        "ipa": "/ˈæθliːt/",
+        "vi": "Vận động viên",
+        "example": {
+          "en": "The sportswear label signed an endorsement deal with a world-class athlete.",
+          "vi": "Nhãn hàng đồ thể thao đã ký hợp đồng quảng bá với một vận động viên đẳng cấp thế giới."
+        }
+      },
+      {
+        "en": "Politician",
+        "pos": "n",
+        "ipa": "/ˌpɒləˈtɪʃən/",
+        "vi": "Chính trị gia",
+        "example": {
+          "en": "Local politicians attended the groundbreaking ceremony for the community hospital.",
+          "vi": "Các chính trị gia địa phương đã tham dự lễ khởi công bệnh viện cộng đồng."
+        }
+      },
+      {
+        "en": "Relocate",
+        "pos": "v",
+        "ipa": "/ˌriːləʊˈkeɪt/",
+        "vi": "Di dời",
+        "example": {
+          "en": "Due to company growth, we plan to relocate our headquarters to a larger complex.",
+          "vi": "Do sự phát triển của công ty, chúng tôi dự định di dời trụ sở chính đến một khu phức hợp lớn hơn."
+        }
+      },
+      {
+        "en": "Involve in",
+        "pos": "v",
+        "ipa": "/ɪnˈvɒlv ɪn/",
+        "vi": "Tham gia vào",
+        "example": {
+          "en": "Employees are encouraged to involve themselves in community volunteer work.",
+          "vi": "Nhân viên được khuyến khích tham gia vào các hoạt động tình nguyện cộng đồng."
+        }
+      },
+      {
+        "en": "Overlook",
+        "pos": "v",
+        "ipa": "/ˌəʊvəˈlʊk/",
+        "vi": "Bỏ qua, nhìn ra phía",
+        "example": {
+          "en": "The corner executive office overlooks the city riverfront park.",
+          "vi": "Văn phòng điều hành ở góc nhìn ra phía công viên ven sông thành phố."
+        }
+      },
+      {
+        "en": "Residence",
+        "pos": "n",
+        "ipa": "/ˈrezɪdəns/",
+        "vi": "Nơi cư trú",
+        "example": {
+          "en": "Proof of permanent residence is required when opening a local bank account.",
+          "vi": "Cần có bằng chứng về nơi cư trú thường trú khi mở tài khoản ngân hàng địa phương."
+        }
+      },
+      {
+        "en": "Signature",
+        "pos": "n",
+        "ipa": "/ˈsɪɡnətʃər/",
+        "vi": "Chữ ký",
+        "example": {
+          "en": "Please place your signature at the bottom of the second contract page.",
+          "vi": "Vui lòng đặt chữ ký của bạn ở cuối trang hợp đồng thứ hai."
+        }
+      },
+      {
+        "en": "Illuminate",
+        "pos": "v",
+        "ipa": "/ɪˈluːmɪneɪt/",
+        "vi": "Chiếu sáng",
+        "example": {
+          "en": "Energy-saving LED floodlights illuminate the factory parking lot at night.",
+          "vi": "Đèn pha LED tiết kiệm năng lượng chiếu sáng bãi đỗ xe của nhà máy vào ban đêm."
+        }
+      },
+      {
+        "en": "Outstanding",
+        "pos": "adj",
+        "ipa": "/aʊtˈstændɪŋ/",
+        "vi": "Xuất sắc, nổi bật",
+        "example": {
+          "en": "She received an award for her outstanding customer service performance.",
+          "vi": "Cô ấy đã nhận được giải thưởng vì thành tích dịch vụ khách hàng xuất sắc."
+        }
+      },
+      {
+        "en": "Safety procedure",
+        "pos": "n",
+        "ipa": "/ˈseɪfti prəˈsiːdʒər/",
+        "vi": "Quy trình an toàn",
+        "example": {
+          "en": "Every technician must adhere to safety procedures while working on high-voltage lines.",
+          "vi": "Mọi kỹ thuật viên phải tuân thủ các quy trình an toàn khi làm việc trên đường dây điện cao thế."
+        }
+      },
+      {
+        "en": "Recognize",
+        "pos": "v",
+        "ipa": "/ˈrekəɡnaɪz/",
+        "vi": "Nhận ra, công nhận",
+        "example": {
+          "en": "The company aims to recognize staff who make meaningful contributions.",
+          "vi": "Công ty hướng tới việc công nhận những nhân viên có đóng góp ý nghĩa."
+        }
+      },
+      {
+        "en": "Previously",
+        "pos": "adv",
+        "ipa": "/ˈpriːviəsli/",
+        "vi": "Trước đây",
+        "example": {
+          "en": "He previously worked as an auditor at an international accounting agency.",
+          "vi": "Trước đây anh ấy đã từng làm kiểm toán viên tại một công ty kế toán quốc tế."
+        }
+      },
+      {
+        "en": "Mandatory",
+        "pos": "adj",
+        "ipa": "/ˈmændətəri/",
+        "vi": "Bắt buộc",
+        "example": {
+          "en": "Attendance at the workplace fire safety briefing is mandatory for all personnel.",
+          "vi": "Việc tham dự buổi hướng dẫn an toàn phòng cháy chữa cháy nơi làm việc là bắt buộc đối với tất cả nhân sự."
+        }
+      },
+      {
+        "en": "Expansion",
+        "pos": "n",
+        "ipa": "/ɪkˈspænʃən/",
+        "vi": "Mở rộng",
+        "example": {
+          "en": "The rapid expansion into foreign markets doubled our annual revenue.",
+          "vi": "Sự mở rộng nhanh chóng sang các thị trường nước ngoài đã nhân đôi doanh thu hàng năm của chúng tôi."
+        }
+      }
+    ]
+  },
+  {
+    "lessonId": 11,
+    "lessonTitle": "Lesson 11",
+    "words": [
+      {
+        "en": "Specialize in",
+        "pos": "v",
+        "ipa": "/ˈspeʃəlaɪz ɪn/",
+        "vi": "Chuyên về",
+        "example": {
+          "en": "Our design studio specializes in sustainable commercial architecture.",
+          "vi": "Xưởng thiết kế của chúng tôi chuyên về kiến trúc thương mại bền vững."
+        }
+      },
+      {
+        "en": "Honor",
+        "pos": "v",
+        "ipa": "/ˈɒnər/",
+        "vi": "Tôn vinh",
+        "example": {
+          "en": "We will hold an annual banquet to honor outstanding long-term employees.",
+          "vi": "Chúng tôi sẽ tổ chức dạ tiệc thường niên để tôn vinh những nhân viên lâu năm xuất sắc."
+        }
+      },
+      {
+        "en": "During",
+        "pos": "prep",
+        "ipa": "/ˈdjʊərɪŋ/",
+        "vi": "Trong khi",
+        "example": {
+          "en": "Please keep mobile phones silent during the formal keynote presentation.",
+          "vi": "Vui lòng để điện thoại di động ở chế độ im lặng trong suốt buổi thuyết trình khai mạc trang trọng."
+        }
+      },
+      {
+        "en": "Client",
+        "pos": "n",
+        "ipa": "/ˈklaɪənt/",
+        "vi": "Khách hàng",
+        "example": {
+          "en": "Our account manager scheduled an in-person meeting with the overseas client.",
+          "vi": "Quản lý tài khoản của chúng tôi đã lên lịch một cuộc gặp trực tiếp với khách hàng nước ngoài."
+        }
+      },
+      {
+        "en": "Reschedule",
+        "pos": "v",
+        "ipa": "/ˌriːˈʃedjuːl/",
+        "vi": "Sắp xếp lại lịch",
+        "example": {
+          "en": "We had to reschedule the product showcase due to unexpected flight cancellations.",
+          "vi": "Chúng tôi đã phải sắp xếp lại lịch buổi giới thiệu sản phẩm do chuyến bay bị hủy ngoài dự kiến."
+        }
+      },
+      {
+        "en": "Look for",
+        "pos": "v",
+        "ipa": "/lʊk fɔːr/",
+        "vi": "Tìm kiếm",
+        "example": {
+          "en": "The human resources team is actively looking for qualified data analysts.",
+          "vi": "Nhóm nhân sự đang tích cực tìm kiếm các nhà phân tích dữ liệu đủ điều kiện."
+        }
+      },
+      {
+        "en": "Be concerned about",
+        "pos": "v",
+        "ipa": "/bi kənˈsɜːnd əˈbaʊt/",
+        "vi": "Lo lắng về",
+        "example": {
+          "en": "Management is concerned about rising logistics and fuel expenditures.",
+          "vi": "Ban quản lý đang lo lắng về chi phí nhiên liệu và hậu cần ngày càng tăng."
+        }
+      },
+      {
+        "en": "Furniture store",
+        "pos": "n",
+        "ipa": "/ˈfɜːnɪtʃər stɔːr/",
+        "vi": "Cửa hàng nội thất",
+        "example": {
+          "en": "We ordered ergonomic chairs from a modern furniture store downtown.",
+          "vi": "Chúng tôi đã đặt mua ghế công thái học từ một cửa hàng nội thất hiện đại ở trung tâm thành phố."
+        }
+      },
+      {
+        "en": "Apartment",
+        "pos": "n",
+        "ipa": "/əˈpɑːtmənt/",
+        "vi": "Căn hộ",
+        "example": {
+          "en": "He rented a furnished studio apartment within walking distance of work.",
+          "vi": "Anh ấy đã thuê một căn hộ studio đầy đủ nội thất trong khoảng cách đi bộ đến chỗ làm."
+        }
+      },
+      {
+        "en": "Mention",
+        "pos": "v",
+        "ipa": "/ˈmenʃən/",
+        "vi": "Đề cập",
+        "example": {
+          "en": "Did the team supervisor mention when the deadline was rescheduled?",
+          "vi": "Người giám sát nhóm có đề cập khi nào thời hạn được dời lại không?"
+        }
+      },
+      {
+        "en": "Consult",
+        "pos": "v",
+        "ipa": "/kənˈsʌlt/",
+        "vi": "Tham khảo",
+        "example": {
+          "en": "Please consult the employee handbook for policies regarding sick leave.",
+          "vi": "Vui lòng tham khảo sổ tay nhân viên để biết các chính sách liên quan đến nghỉ ốm."
+        }
+      },
+      {
+        "en": "Crew",
+        "pos": "n",
+        "ipa": "/kruː/",
+        "vi": "Đội ngũ, nhóm",
+        "example": {
+          "en": "The maintenance crew worked overnight to repair the water pipe leak.",
+          "vi": "Đội ngũ bảo trì đã làm việc thấu đêm để khắc phục sự cố rò rỉ đường ống nước."
+        }
+      },
+      {
+        "en": "Behind schedule",
+        "pos": "prep",
+        "ipa": "/bɪˈhaɪnd ˈʃedjuːl/",
+        "vi": "Trễ lịch trình",
+        "example": {
+          "en": "Construction is running two weeks behind schedule due to rainstorms.",
+          "vi": "Việc xây dựng đang bị trễ lịch trình hai tuần do mưa bão."
+        }
+      },
+      {
+        "en": "Grand opening",
+        "pos": "n",
+        "ipa": "/ɡrænd ˈəʊpənɪŋ/",
+        "vi": "Khai trương long trọng",
+        "example": {
+          "en": "The department store announced its grand opening celebration for this Saturday.",
+          "vi": "Cửa hàng bách hóa đã công bố lễ khai trương long trọng vào thứ Bảy này."
+        }
+      },
+      {
+        "en": "Pipe",
+        "pos": "n",
+        "ipa": "/paɪp/",
+        "vi": "Ống",
+        "example": {
+          "en": "Technicians installed copper pipes for the building water heating system.",
+          "vi": "Kỹ thuật viên đã lắp đặt các ống đồng cho hệ thống đun nước của tòa nhà."
+        }
+      },
+      {
+        "en": "Compile",
+        "pos": "v",
+        "ipa": "/kəmˈpaɪl/",
+        "vi": "Biên soạn",
+        "example": {
+          "en": "The administrative assistant will compile the annual financial statements.",
+          "vi": "Trợ lý hành chính sẽ biên soạn các báo cáo tài chính hàng năm."
+        }
+      },
+      {
+        "en": "Approve",
+        "pos": "v",
+        "ipa": "/əˈpruːv/",
+        "vi": "Phê duyệt",
+        "example": {
+          "en": "The board will convene to approve the revised quarterly expenditure budget.",
+          "vi": "Hội đồng quản trị sẽ họp để phê duyệt ngân sách chi tiêu sửa đổi hàng quý."
+        }
+      },
+      {
+        "en": "Promptly",
+        "pos": "adv",
+        "ipa": "/ˈprɒmptli/",
+        "vi": "Kịp thời",
+        "example": {
+          "en": "Our technical support center responds promptly to customer service inquiries.",
+          "vi": "Trung tâm hỗ trợ kỹ thuật của chúng tôi phản hồi kịp thời các thắc mắc dịch vụ khách hàng."
+        }
+      },
+      {
+        "en": "Detail",
+        "pos": "n",
+        "ipa": "/ˈdiːteɪl/",
+        "vi": "Chi tiết",
+        "example": {
+          "en": "The project manager reviewed every technical detail in the contract.",
+          "vi": "Quản lý dự án đã xem xét từng chi tiết kỹ thuật trong hợp đồng."
+        }
+      },
+      {
+        "en": "Require",
+        "pos": "v",
+        "ipa": "/rɪˈkwaɪər/",
+        "vi": "Yêu cầu",
+        "example": {
+          "en": "Entering the server control facility requires special keycard authorization.",
+          "vi": "Việc bước vào cơ sở điều khiển máy chủ yêu cầu sự cấp phép bằng thẻ từ đặc biệt."
+        }
+      },
+      {
+        "en": "Recovery",
+        "pos": "n",
+        "ipa": "/rɪˈkʌvəri/",
+        "vi": "Sự phục hồi",
+        "example": {
+          "en": "Analysts forecast a steady economic recovery across retail sectors this year.",
+          "vi": "Các nhà phân tích dự báo sự phục hồi kinh tế ổn định trên khắp các lĩnh vực bán lẻ trong năm nay."
+        }
+      },
+      {
+        "en": "Lead to",
+        "pos": "v",
+        "ipa": "/liːd tuː/",
+        "vi": "Dẫn đến",
+        "example": {
+          "en": "Careful risk analysis can lead to more profitable investment choices.",
+          "vi": "Phân tích rủi ro cẩn thận có thể dẫn đến những lựa chọn đầu tư sinh lời hơn."
+        }
+      },
+      {
+        "en": "Allow",
+        "pos": "v",
+        "ipa": "/əˈlaʊ/",
+        "vi": "Cho phép",
+        "example": {
+          "en": "Our company policies allow flexible telecommuting two days each week.",
+          "vi": "Chính sách công ty chúng tôi cho phép làm việc từ xa linh hoạt hai ngày mỗi tuần."
+        }
+      },
+      {
+        "en": "Emergency",
+        "pos": "n",
+        "ipa": "/ɪˈmɜːdʒənsi/",
+        "vi": "Tình trạng khẩn cấp",
+        "example": {
+          "en": "In case of an emergency, evacuate calmly via the nearest illuminated exit.",
+          "vi": "Trong trường hợp khẩn cấp, hãy sơ tán bình tĩnh qua lối thoát hiểm được chiếu sáng gần nhất."
+        }
+      },
+      {
+        "en": "Provide",
+        "pos": "v",
+        "ipa": "/prəˈvaɪd/",
+        "vi": "Cung cấp",
+        "example": {
+          "en": "The hotel provides complimentary shuttle van transportation to the airport.",
+          "vi": "Khách sạn cung cấp dịch vụ đưa đón bằng xe van miễn phí đến sân bay."
+        }
+      }
+    ]
+  },
+  {
+    "lessonId": 12,
+    "lessonTitle": "Lesson 12",
+    "words": [
+      {
+        "en": "Area",
+        "pos": "n",
+        "ipa": "/ˈeəriə/",
+        "vi": "Khu vực",
+        "example": {
+          "en": "Smoking is prohibited anywhere within the building reception area.",
+          "vi": "Hút thuốc bị cấm ở bất kỳ đâu trong khu vực lễ tân của tòa nhà."
+        }
+      },
+      {
+        "en": "Deal with",
+        "pos": "v",
+        "ipa": "/diːl wɪð/",
+        "vi": "Giải quyết",
+        "example": {
+          "en": "Our customer support team is trained to deal with complex client inquiries.",
+          "vi": "Đội ngũ hỗ trợ khách hàng của chúng tôi được đào tạo để giải quyết các thắc mắc phức tạp của khách hàng."
+        }
+      },
+      {
+        "en": "Opening",
+        "pos": "n",
+        "ipa": "/ˈəʊpənɪŋ/",
+        "vi": "Sự khai trương",
+        "example": {
+          "en": "Hundreds of guests attended the grand opening of the new gallery.",
+          "vi": "Hàng trăm khách mời đã tham dự buổi khai trương long trọng của phòng trưng bày mới."
+        }
+      },
+      {
+        "en": "Qualified",
+        "pos": "adj",
+        "ipa": "/ˈkwɒlɪfaɪd/",
+        "vi": "Đủ tiêu chuẩn",
+        "example": {
+          "en": "Only qualified accountants will be considered for the finance director role.",
+          "vi": "Chỉ các kế toán viên đủ tiêu chuẩn mới được xem xét cho vai trò giám đốc tài chính."
+        }
+      },
+      {
+        "en": "Monitor",
+        "pos": "v",
+        "ipa": "/ˈmɒnɪtər/",
+        "vi": "Giám sát",
+        "example": {
+          "en": "Supervisors will monitor warehouse operations to ensure worker safety.",
+          "vi": "Người giám sát sẽ giám sát hoạt động kho bãi để đảm bảo an toàn cho công nhân."
+        }
+      },
+      {
+        "en": "Lecture",
+        "pos": "n",
+        "ipa": "/ˈlektʃər/",
+        "vi": "Bài giảng",
+        "example": {
+          "en": "The visiting professor gave an informative lecture on global trade law.",
+          "vi": "Giáo sư thỉnh giảng đã có một bài giảng mang nhiều thông tin bổ ích về luật thương mại toàn cầu."
+        }
+      },
+      {
+        "en": "Oven",
+        "pos": "n",
+        "ipa": "/ˈʌvən/",
+        "vi": "Lò nướng",
+        "example": {
+          "en": "The bakery installed a commercial convection oven to increase production.",
+          "vi": "Tiệm bánh đã lắp đặt lò nướng đối lưu thương mại để gia tăng sản lượng."
+        }
+      },
+      {
+        "en": "Inspector",
+        "pos": "n",
+        "ipa": "/ɪnˈspektər/",
+        "vi": "Thanh tra, người kiểm tra",
+        "example": {
+          "en": "A health inspector conducted a routine examination of the restaurant kitchen.",
+          "vi": "Một thanh tra y tế đã tiến hành cuộc kiểm tra định kỳ nhà bếp nhà hàng."
+        }
+      },
+      {
+        "en": "Damage",
+        "pos": "n",
+        "ipa": "/ˈdæmɪdʒ/",
+        "vi": "Thiệt hại",
+        "example": {
+          "en": "The insurance policy covers any property damage caused by water leaks.",
+          "vi": "Hợp đồng bảo hiểm chi trả mọi thiệt hại tài sản do rò rỉ nước gây ra."
+        }
+      },
+      {
+        "en": "Out of stock",
+        "pos": "prep",
+        "ipa": "/aʊt əv stɒk/",
+        "vi": "Hết hàng",
+        "example": {
+          "en": "The wireless headphones are temporarily out of stock until next Tuesday.",
+          "vi": "Tai nghe không dây tạm thời hết hàng cho đến thứ Ba tuần sau."
+        }
+      },
+      {
+        "en": "Clinic",
+        "pos": "n",
+        "ipa": "/ˈklɪnɪk/",
+        "vi": "Phòng khám",
+        "example": {
+          "en": "A free dental clinic operates weekly for underprivileged residents.",
+          "vi": "Một phòng khám nha khoa miễn phí hoạt động hàng tuần cho các cư dân có hoàn cảnh khó khăn."
+        }
+      },
+      {
+        "en": "Result",
+        "pos": "n",
+        "ipa": "/rɪˈzʌlt/",
+        "vi": "Kết quả",
+        "example": {
+          "en": "The quarterly survey results indicated significant customer satisfaction improvements.",
+          "vi": "Kết quả khảo sát hàng quý cho thấy những cải thiện đáng kể về sự hài lòng của khách hàng."
+        }
+      },
+      {
+        "en": "Patient",
+        "pos": "n, adj",
+        "ipa": "/ˈpeɪʃənt/",
+        "vi": "Bệnh nhân (n); Kiên nhẫn (adj)",
+        "example": {
+          "en": "Please be patient while customer support representatives retrieve your account details.",
+          "vi": "Vui lòng kiên nhẫn trong khi đại diện hỗ trợ khách hàng truy xuất thông tin tài khoản của bạn."
+        }
+      },
+      {
+        "en": "Doubt",
+        "pos": "n",
+        "ipa": "/daʊt/",
+        "vi": "Nghi ngờ",
+        "example": {
+          "en": "There is little doubt that the new advertising campaign will succeed.",
+          "vi": "Có rất ít nghi ngờ về việc chiến dịch quảng cáo mới sẽ thành công."
+        }
+      },
+      {
+        "en": "Reimburse",
+        "pos": "v",
+        "ipa": "/ˌriːɪmˈbɜːs/",
+        "vi": "Hoàn trả",
+        "example": {
+          "en": "The accounting team will reimburse all travel expenditures with valid receipts.",
+          "vi": "Phòng kế toán sẽ hoàn trả tất cả các chi phí đi lại có hóa đơn hợp lệ."
+        }
+      },
+      {
+        "en": "Confused",
+        "pos": "adj",
+        "ipa": "/kənˈfjuːzd/",
+        "vi": "Bối rối",
+        "example": {
+          "en": "Clients were confused by the ambiguous instructions in the registration form.",
+          "vi": "Khách hàng đã bối rối bởi những hướng dẫn mơ hồ trong mẫu đơn đăng ký."
+        }
+      },
+      {
+        "en": "Itinerary",
+        "pos": "n",
+        "ipa": "/aɪˈtɪnərəri/",
+        "vi": "Lộ trình, lịch trình",
+        "example": {
+          "en": "The travel agent sent an updated flight and conference itinerary via email.",
+          "vi": "Đại lý du lịch đã gửi lộ trình chuyến bay và hội nghị cập nhật qua email."
+        }
+      },
+      {
+        "en": "Nutritionist",
+        "pos": "n",
+        "ipa": "/njuːˈtrɪʃənɪst/",
+        "vi": "Chuyên gia dinh dưỡng",
+        "example": {
+          "en": "The corporate wellness center hired a certified nutritionist for staff consultations.",
+          "vi": "Trung tâm chăm sóc sức khỏe doanh nghiệp đã thuê một chuyên gia dinh dưỡng được chứng nhận để tư vấn cho nhân viên."
+        }
+      },
+      {
+        "en": "Expert",
+        "pos": "n",
+        "ipa": "/ˈekspɜːt/",
+        "vi": "Chuyên gia",
+        "example": {
+          "en": "Our enterprise consulted a cybersecurity expert to enhance data protection.",
+          "vi": "Doanh nghiệp chúng tôi đã tham khảo ý kiến của một chuyên gia an ninh mạng để tăng cường bảo vệ dữ liệu."
+        }
+      },
+      {
+        "en": "Ingredient",
+        "pos": "n",
+        "ipa": "/ɪnˈɡriːdiənt/",
+        "vi": "Nguyên liệu",
+        "example": {
+          "en": "The restaurant prides itself on using organic, locally-sourced ingredients.",
+          "vi": "Nhà hàng tự hào về việc sử dụng các nguyên liệu hữu cơ có nguồn gốc từ địa phương."
+        }
+      },
+      {
+        "en": "Respect",
+        "pos": "v",
+        "ipa": "/rɪˈspekt/",
+        "vi": "Tôn trọng",
+        "example": {
+          "en": "Employees must respect individual perspectives during collaborative meetings.",
+          "vi": "Nhân viên phải tôn trọng các quan điểm cá nhân trong các cuộc họp cộng tác."
+        }
+      },
+      {
+        "en": "Mentor",
+        "pos": "n",
+        "ipa": "/ˈmentɔːr/",
+        "vi": "Người cố vấn",
+        "example": {
+          "en": "Each newcomer is assigned an experienced senior mentor during their probation.",
+          "vi": "Mỗi người mới đến được phân công một người cố vấn cấp cao giàu kinh nghiệm trong thời gian thử việc."
+        }
+      },
+      {
+        "en": "Customer service",
+        "pos": "n",
+        "ipa": "/ˈkʌstəmər ˈsɜːvɪs/",
+        "vi": "Dịch vụ khách hàng",
+        "example": {
+          "en": "Exceptional customer service remains our company’s highest operational priority.",
+          "vi": "Dịch vụ khách hàng đặc biệt vẫn là ưu tiên hoạt động hàng đầu của công ty chúng tôi."
+        }
+      },
+      {
+        "en": "Job fair",
+        "pos": "n",
+        "ipa": "/dʒɒb feər/",
+        "vi": "Hội chợ việc làm",
+        "example": {
+          "en": "Recruiters met hundreds of promising university candidates at the job fair.",
+          "vi": "Các nhà tuyển dụng đã gặp gỡ hàng trăm ứng viên đại học đầy triển vọng tại hội chợ việc làm."
+        }
+      },
+      {
+        "en": "Gallery",
+        "pos": "n",
+        "ipa": "/ˈɡæləri/",
+        "vi": "Phòng trưng bày",
+        "example": {
+          "en": "An art gallery in downtown exhibits contemporary works by local sculptors.",
+          "vi": "Một phòng trưng bày nghệ thuật ở trung tâm thành phố triển lãm các tác phẩm đương đại của các nhà điêu khắc địa phương."
+        }
+      }
+    ]
+  },
+  {
+    "lessonId": 13,
+    "lessonTitle": "Lesson 13",
+    "words": [
+      {
+        "en": "Be supposed to",
+        "pos": "v",
+        "ipa": "/bi səˈpəʊzd tuː/",
+        "vi": "Được cho là",
+        "example": {
+          "en": "Employees are supposed to submit their weekly timesheets by Friday afternoon.",
+          "vi": "Các nhân viên được cho là phải nộp bảng chấm công hàng tuần trước chiều thứ Sáu."
+        }
+      },
+      {
+        "en": "Explore",
+        "pos": "v",
+        "ipa": "/ɪkˈsplɔːr/",
+        "vi": "Khám phá",
+        "example": {
+          "en": "Our research team will explore innovative solutions for renewable energy.",
+          "vi": "Nhóm nghiên cứu của chúng tôi sẽ khám phá các giải pháp đổi mới cho năng lượng tái tạo."
+        }
+      },
+      {
+        "en": "Take care",
+        "pos": "v",
+        "ipa": "/teɪk keər/",
+        "vi": "Chăm sóc",
+        "example": {
+          "en": "The administrative staff will take care of all travel arrangements for the conference.",
+          "vi": "Nhân viên hành chính sẽ chăm sóc và lo liệu toàn bộ việc sắp xếp đi lại cho hội nghị."
+        }
+      },
+      {
+        "en": "Row a boat",
+        "pos": "v",
+        "ipa": "/rəʊ ə bəʊt/",
+        "vi": "Chèo thuyền",
+        "example": {
+          "en": "Tourists can row a boat across the scenic lake during summertime.",
+          "vi": "Khách du lịch có thể chèo thuyền băng qua hồ nước tuyệt đẹp trong suốt mùa hè."
+        }
+      },
+      {
+        "en": "Dock",
+        "pos": "v",
+        "ipa": "/dɒk/",
+        "vi": "Cập bến",
+        "example": {
+          "en": "The international cruise ship will dock at the harbor early tomorrow morning.",
+          "vi": "Tàu du lịch quốc tế sẽ cập bến tại cảng vào sáng sớm ngày mai."
+        }
+      },
+      {
+        "en": "Cook meals",
+        "pos": "v",
+        "ipa": "/kʊk miːlz/",
+        "vi": "Nấu bữa ăn",
+        "example": {
+          "en": "The culinary team cooks healthy meals for corporate cafeteria patrons.",
+          "vi": "Đội ngũ ẩm thực nấu các bữa ăn lành mạnh cho thực khách căng tin công ty."
+        }
+      },
+      {
+        "en": "Set a table",
+        "pos": "v",
+        "ipa": "/set ə ˈteɪbl/",
+        "vi": "Bày bàn ăn",
+        "example": {
+          "en": "Catering staff set the tables neatly before the banquet began.",
+          "vi": "Nhân viên tiệc đã bày bàn ăn ngay ngắn trước khi bữa tiệc bắt đầu."
+        }
+      },
+      {
+        "en": "Short-sleeved shirt",
+        "pos": "n",
+        "ipa": "/ʃɔːt sliːvd ʃɜːt/",
+        "vi": "Áo sơ mi ngắn tay",
+        "example": {
+          "en": "Employees are permitted to wear short-sleeved shirts during the summer season.",
+          "vi": "Nhân viên được phép mặc áo sơ mi ngắn tay trong mùa hè."
+        }
+      },
+      {
+        "en": "Shore",
+        "pos": "n",
+        "ipa": "/ʃɔːr/",
+        "vi": "Bờ biển",
+        "example": {
+          "en": "A scenic promenade stretches along the rocky ocean shore.",
+          "vi": "Một lối đi dạo tuyệt đẹp trải dài dọc theo bờ biển đầy đá."
+        }
+      },
+      {
+        "en": "No longer",
+        "pos": "adv",
+        "ipa": "/nəʊ ˈlɒŋɡər/",
+        "vi": "Không còn nữa",
+        "example": {
+          "en": "This outdated printer model is no longer supported by the manufacturer.",
+          "vi": "Mẫu máy in lỗi thời này không còn được nhà sản xuất hỗ trợ nữa."
+        }
+      },
+      {
+        "en": "Apart from = except for",
+        "pos": "prep",
+        "ipa": "/əˈpɑːt frɒm/",
+        "vi": "Ngoại trừ",
+        "example": {
+          "en": "Apart from minor shipping delays, the product launch was a great success.",
+          "vi": "Ngoại trừ sự chậm trễ vận chuyển nhỏ, buổi ra mắt sản phẩm đã thành công rực rỡ."
+        }
+      },
+      {
+        "en": "Promise",
+        "pos": "v",
+        "ipa": "/ˈprɒmɪs/",
+        "vi": "Hứa",
+        "example": {
+          "en": "The contractor promised to complete the hallway repairs by next Monday.",
+          "vi": "Nhà thầu đã hứa sẽ hoàn thành việc sửa chữa hành lang trước thứ Hai tới."
+        }
+      },
+      {
+        "en": "Business hours",
+        "pos": "n",
+        "ipa": "/ˈbɪznəs ˈaʊərz/",
+        "vi": "Giờ làm việc",
+        "example": {
+          "en": "Our customer support hotline is open during regular business hours.",
+          "vi": "Đường dây nóng hỗ trợ khách hàng của chúng tôi mở cửa trong giờ làm việc thông thường."
+        }
+      },
+      {
+        "en": "Guarantee",
+        "pos": "v",
+        "ipa": "/ˌɡærənˈtiː/",
+        "vi": "Đảm bảo",
+        "example": {
+          "en": "We guarantee full refunds if customers are not completely satisfied.",
+          "vi": "Chúng tôi đảm bảo hoàn tiền đầy đủ nếu khách hàng không hoàn toàn hài lòng."
+        }
+      },
+      {
+        "en": "Base on",
+        "pos": "v",
+        "ipa": "/beɪs ɒn/",
+        "vi": "Dựa trên",
+        "example": {
+          "en": "Annual bonuses are based on individual and departmental performance metrics.",
+          "vi": "Tiền thưởng hàng năm được dựa trên các chỉ số hiệu suất cá nhân và phòng ban."
+        }
+      },
+      {
+        "en": "Handle",
+        "pos": "v",
+        "ipa": "/ˈhændl/",
+        "vi": "Xử lý",
+        "example": {
+          "en": "Senior account representatives handle major corporate client accounts.",
+          "vi": "Đại diện tài khoản cấp cao xử lý các tài khoản khách hàng doanh nghiệp lớn."
+        }
+      },
+      {
+        "en": "Stipulate",
+        "pos": "v",
+        "ipa": "/ˈstɪpjʊleɪt/",
+        "vi": "Quy định",
+        "example": {
+          "en": "The lease agreement stipulates that rent must be paid on the first of each month.",
+          "vi": "Hợp đồng thuê nhà quy định rằng tiền thuê phải được thanh toán vào ngày đầu tiên mỗi tháng."
+        }
+      },
+      {
+        "en": "Questionnaire",
+        "pos": "n",
+        "ipa": "/ˌkwestʃəˈneər/",
+        "vi": "Bảng câu hỏi",
+        "example": {
+          "en": "Please complete the brief feedback questionnaire after the workshop.",
+          "vi": "Vui lòng hoàn thành bảng câu hỏi phản hồi ngắn sau buổi hội thảo."
+        }
+      },
+      {
+        "en": "Forthcoming",
+        "pos": "adj",
+        "ipa": "/fɔːθˈkʌmɪŋ/",
+        "vi": "Sắp tới",
+        "example": {
+          "en": "Details regarding the forthcoming merger will be revealed in a press release.",
+          "vi": "Chi tiết liên quan đến thương vụ sáp nhập sắp tới sẽ được tiết lộ trong thông cáo báo chí."
+        }
+      },
+      {
+        "en": "Setting",
+        "pos": "n",
+        "ipa": "/ˈsetɪŋ/",
+        "vi": "Bối cảnh, môi trường",
+        "example": {
+          "en": "The hotel provides an elegant setting for corporate conferences.",
+          "vi": "Khách sạn mang đến một bối cảnh thanh lịch cho các hội nghị doanh nghiệp."
+        }
+      },
+      {
+        "en": "Up to date",
+        "pos": "adj",
+        "ipa": "/ʌp tuː deɪt/",
+        "vi": "Cập nhật",
+        "example": {
+          "en": "Ensure all financial spreadsheets are kept fully up to date.",
+          "vi": "Đảm bảo tất cả các bảng tính tài chính luôn được cập nhật đầy đủ."
+        }
+      },
+      {
+        "en": "Renew",
+        "pos": "v",
+        "ipa": "/rɪˈnjuː/",
+        "vi": "Gia hạn",
+        "example": {
+          "en": "You can easily renew your annual gym membership through the online portal.",
+          "vi": "Bạn có thể dễ dàng gia hạn thẻ thành viên phòng gym hàng năm qua cổng thông tin trực tuyến."
+        }
+      },
+      {
+        "en": "Throughout",
+        "pos": "adv",
+        "ipa": "/θruːˈaʊt/",
+        "vi": "Xuyên suốt",
+        "example": {
+          "en": "The conference attendees remained engaged and enthusiastic throughout.",
+          "vi": "Những người tham dự hội nghị vẫn rất tập trung và nhiệt tình xuyên suốt."
+        }
+      },
+      {
+        "en": "Simply",
+        "pos": "adv",
+        "ipa": "/ˈsɪmpli/",
+        "vi": "Đơn giản",
+        "example": {
+          "en": "To reset your account password, simply click on the verification link.",
+          "vi": "Để đặt lại mật khẩu tài khoản của bạn, chỉ đơn giản nhấp vào liên kết xác minh."
+        }
+      },
+      {
+        "en": "Origin",
+        "pos": "n",
+        "ipa": "/ˈɒrɪdʒɪn/",
+        "vi": "Nguồn gốc",
+        "example": {
+          "en": "The certificate specifies the country of origin for all imported goods.",
+          "vi": "Chứng thư chỉ định rõ quốc gia xuất xứ đối với tất cả hàng hóa nhập khẩu."
+        }
+      }
+    ]
+  },
+  {
+    "lessonId": 14,
+    "lessonTitle": "Lesson 14",
+    "words": [
+      {
+        "en": "Shipment",
+        "pos": "n",
+        "ipa": "/ˈʃɪpmənt/",
+        "vi": "Lô hàng gửi",
+        "example": {
+          "en": "The tracking number confirms that your shipment has cleared customs.",
+          "vi": "Số theo dõi xác nhận rằng lô hàng của bạn đã hoàn tất thủ tục hải quan."
+        }
+      },
+      {
+        "en": "Coupon",
+        "pos": "n",
+        "ipa": "/ˈkuːpɒn/",
+        "vi": "Phiếu giảm giá",
+        "example": {
+          "en": "Present this promotional discount coupon at checkout for twenty percent off.",
+          "vi": "Xuất trình phiếu giảm giá khuyến mãi này tại quầy thanh toán để được giảm 20%."
+        }
+      },
+      {
+        "en": "Potential",
+        "pos": "adj",
+        "ipa": "/pəˈtenʃəl/",
+        "vi": "Tiềm năng",
+        "example": {
+          "en": "The marketing representative met with several potential commercial clients.",
+          "vi": "Đại diện tiếp thị đã gặp gỡ một số khách hàng thương mại tiềm năng."
+        }
+      },
+      {
+        "en": "Aim to",
+        "pos": "v",
+        "ipa": "/eɪm tuː/",
+        "vi": "Nhằm mục đích",
+        "example": {
+          "en": "We aim to increase international exports by fifteen percent this year.",
+          "vi": "Chúng tôi nhằm mục đích tăng xuất khẩu quốc tế lên 15% trong năm nay."
+        }
+      },
+      {
+        "en": "Persistent",
+        "pos": "adj",
+        "ipa": "/pəˈsɪstənt/",
+        "vi": "Kiên trì",
+        "example": {
+          "en": "Her persistent efforts eventually secured the lucrative partnership contract.",
+          "vi": "Những nỗ lực kiên trì của cô ấy cuối cùng đã mang lại hợp đồng đối tác béo bở."
+        }
+      },
+      {
+        "en": "Attempt to",
+        "pos": "v",
+        "ipa": "/əˈtempt tuː/",
+        "vi": "Cố gắng",
+        "example": {
+          "en": "The developers will attempt to resolve the server latency issue by noon.",
+          "vi": "Các nhà phát triển sẽ cố gắng giải quyết sự cố độ trễ máy chủ trước buổi trưa."
+        }
+      },
+      {
+        "en": "Mark",
+        "pos": "v",
+        "ipa": "/mɑːk/",
+        "vi": "Đánh dấu",
+        "example": {
+          "en": "Mark all confidential files with a red official stamp.",
+          "vi": "Đánh dấu tất cả các tập tin bảo mật bằng một con dấu đỏ chính thức."
+        }
+      },
+      {
+        "en": "Fortunate",
+        "pos": "adj",
+        "ipa": "/ˈfɔːtʃənət/",
+        "vi": "May mắn",
+        "example": {
+          "en": "We were fortunate to recruit an experienced senior logistics director.",
+          "vi": "Chúng tôi đã may mắn tuyển dụng được một giám đốc hậu cần cấp cao giàu kinh nghiệm."
+        }
+      },
+      {
+        "en": "Work closely with",
+        "pos": "v",
+        "ipa": "/wɜːk ˈkləʊsli wɪð/",
+        "vi": "Làm việc chặt chẽ với",
+        "example": {
+          "en": "Graphic designers work closely with copywriters to create advertising brochures.",
+          "vi": "Các nhà thiết kế đồ họa làm việc chặt chẽ với người viết lời quảng cáo để tạo ra tờ rơi giới thiệu."
+        }
+      },
+      {
+        "en": "Measure",
+        "pos": "v, n",
+        "ipa": "/ˈmeʒər/",
+        "vi": "Đo lường (v); Biện pháp (n)",
+        "example": {
+          "en": "Strict safety measures were implemented across the factory floor.",
+          "vi": "Các biện pháp an toàn nghiêm ngặt đã được triển khai trên khắp khu vực nhà máy."
+        }
+      },
+      {
+        "en": "Evaluate",
+        "pos": "v",
+        "ipa": "/ɪˈvæljueɪt/",
+        "vi": "Đánh giá",
+        "example": {
+          "en": "A special committee will evaluate all competitive supplier bids.",
+          "vi": "Một ủy ban đặc biệt sẽ đánh giá tất cả các hồ sơ dự thầu cạnh tranh của nhà cung cấp."
+        }
+      },
+      {
+        "en": "Server",
+        "pos": "n",
+        "ipa": "/ˈsɜːvər/",
+        "vi": "Người phục vụ",
+        "example": {
+          "en": "The attentive banquet server refilled water glasses promptly.",
+          "vi": "Người phục vụ tiệc chu đáo đã rót đầy các ly nước một cách kịp thời."
+        }
+      },
+      {
+        "en": "Process",
+        "pos": "v",
+        "ipa": "/ˈprəʊses/",
+        "vi": "Xử lý",
+        "example": {
+          "en": "The bank requires three business days to process commercial wire transfers.",
+          "vi": "Ngân hàng yêu cầu ba ngày làm việc để xử lý các giao dịch chuyển tiền điện thương mại."
+        }
+      },
+      {
+        "en": "Session",
+        "pos": "n",
+        "ipa": "/ˈseʃən/",
+        "vi": "Phiên",
+        "example": {
+          "en": "The morning training session will cover advanced data analytics tools.",
+          "vi": "Phiên đào tạo buổi sáng sẽ bao gồm các công cụ phân tích dữ liệu nâng cao."
+        }
+      },
+      {
+        "en": "Firm",
+        "pos": "n",
+        "ipa": "/fɜːm/",
+        "vi": "Công ty",
+        "example": {
+          "en": "She works as a corporate litigation partner at a leading law firm.",
+          "vi": "Cô ấy làm việc với tư cách là cộng sự tranh tụng doanh nghiệp tại một công ty luật hàng đầu."
+        }
+      },
+      {
+        "en": "Be willing to",
+        "pos": "v",
+        "ipa": "/bi ˈwɪlɪŋ tuː/",
+        "vi": "Sẵn sàng",
+        "example": {
+          "en": "Management is willing to negotiate the proposed contract terms.",
+          "vi": "Ban lãnh đạo sẵn sàng thương lượng các điều khoản hợp đồng được đề xuất."
+        }
+      },
+      {
+        "en": "Agency",
+        "pos": "n",
+        "ipa": "/ˈeɪdʒənsi/",
+        "vi": "Cơ quan, hãng",
+        "example": {
+          "en": "We hired an external advertising agency to rebrand our product line.",
+          "vi": "Chúng tôi đã thuê một hãng quảng cáo bên ngoài để tái định vị thương hiệu dòng sản phẩm của mình."
+        }
+      },
+      {
+        "en": "Emphasize",
+        "pos": "v",
+        "ipa": "/ˈemfəsaɪz/",
+        "vi": "Nhấn mạnh",
+        "example": {
+          "en": "The keynote speaker emphasized the growing importance of sustainability.",
+          "vi": "Diễn giả chính đã nhấn mạnh tầm quan trọng ngày càng tăng của tính bền vững."
+        }
+      },
+      {
+        "en": "Launch",
+        "pos": "v",
+        "ipa": "/lɔːntʃ/",
+        "vi": "Ra mắt",
+        "example": {
+          "en": "The software company plans to launch its flagship application next month.",
+          "vi": "Công ty phần mềm dự định ra mắt ứng dụng chủ lực vào tháng tới."
+        }
+      },
+      {
+        "en": "Shortage",
+        "pos": "n",
+        "ipa": "/ˈʃɔːtɪdʒ/",
+        "vi": "Sự thiếu hụt",
+        "example": {
+          "en": "A global semiconductor shortage affected automobile production schedules.",
+          "vi": "Sự thiếu hụt chất bán dẫn toàn cầu đã ảnh hưởng đến lịch trình sản xuất ô tô."
+        }
+      },
+      {
+        "en": "Promote",
+        "pos": "v",
+        "ipa": "/prəˈməʊt/",
+        "vi": "Quảng bá",
+        "example": {
+          "en": "The marketing team organized events to promote the new electric scooter.",
+          "vi": "Đội ngũ tiếp thị đã tổ chức các sự kiện để quảng bá dòng xe tay ga điện mới."
+        }
+      },
+      {
+        "en": "Strategy",
+        "pos": "n",
+        "ipa": "/ˈstrætədʒi/",
+        "vi": "Chiến lược",
+        "example": {
+          "en": "Our long-term growth strategy focuses on expanding digital presence.",
+          "vi": "Chiến lược tăng trưởng dài hạn của chúng tôi tập trung vào việc mở rộng hiện diện kỹ thuật số."
+        }
+      },
+      {
+        "en": "Contract",
+        "pos": "n",
+        "ipa": "/ˈkɒntrækt/",
+        "vi": "Hợp đồng",
+        "example": {
+          "en": "Both executives signed the commercial distribution contract yesterday.",
+          "vi": "Cả hai giám đốc điều hành đã ký hợp đồng phân phối thương mại vào ngày hôm qua."
+        }
+      },
+      {
+        "en": "Ability",
+        "pos": "n",
+        "ipa": "/əˈbɪləti/",
+        "vi": "Khả năng",
+        "example": {
+          "en": "Candidates must demonstrate the ability to lead multicultural project teams.",
+          "vi": "Ứng viên phải thể hiện khả năng dẫn dắt các nhóm dự án đa văn hóa."
+        }
+      },
+      {
+        "en": "Renovate",
+        "pos": "v",
+        "ipa": "/ˈrenəveɪt/",
+        "vi": "Cải tạo",
+        "example": {
+          "en": "The property owners decided to renovate the historic downtown hotel.",
+          "vi": "Chủ sở hữu bất động sản đã quyết định cải tạo khách sạn lịch sử ở trung tâm thành phố."
+        }
+      }
+    ]
+  },
+  {
+    "lessonId": 15,
+    "lessonTitle": "Lesson 15",
+    "words": [
+      {
+        "en": "Feel free",
+        "pos": "v",
+        "ipa": "/fiːl friː/",
+        "vi": "Cứ tự nhiên",
+        "example": {
+          "en": "Please feel free to ask questions during the question-and-answer session.",
+          "vi": "Xin hãy cứ tự nhiên đặt câu hỏi trong phiên hỏi đáp."
+        }
+      },
+      {
+        "en": "Main entrance",
+        "pos": "n",
+        "ipa": "/meɪn ˈentrəns/",
+        "vi": "Lối vào chính",
+        "example": {
+          "en": "Security guards check visitor credentials at the main entrance.",
+          "vi": "Nhân viên bảo vệ kiểm tra giấy tờ tùy thân của khách tại lối vào chính."
+        }
+      },
+      {
+        "en": "Receive",
+        "pos": "v",
+        "ipa": "/rɪˈsiːv/",
+        "vi": "Nhận",
+        "example": {
+          "en": "You will receive an automated confirmation email once payment clears.",
+          "vi": "Bạn sẽ nhận được email xác nhận tự động sau khi thanh toán được xử lý xong."
+        }
+      },
+      {
+        "en": "Adjacent to",
+        "pos": "prep",
+        "ipa": "/əˈdʒeɪsənt tuː/",
+        "vi": "Kề bên, cạnh",
+        "example": {
+          "en": "The conference room is located adjacent to the executive cafeteria.",
+          "vi": "Phòng hội nghị nằm kề bên căng tin của ban điều hành."
+        }
+      },
+      {
+        "en": "Auditorium",
+        "pos": "n",
+        "ipa": "/ˌɔːdɪˈtɔːriəm/",
+        "vi": "Khán phòng",
+        "example": {
+          "en": "The keynote presentation will take place inside the main auditorium.",
+          "vi": "Bài thuyết trình khai mạc sẽ diễn ra bên trong khán phòng chính."
+        }
+      },
+      {
+        "en": "State-of-the-art",
+        "pos": "adj",
+        "ipa": "/steɪt əv ði: ɑːt/",
+        "vi": "Tối tân nhất, hiện đại",
+        "example": {
+          "en": "The research laboratory is equipped with state-of-the-art diagnostic instruments.",
+          "vi": "Phòng thí nghiệm nghiên cứu được trang bị các dụng cụ chẩn đoán tối tân nhất."
+        }
+      },
+      {
+        "en": "Verify",
+        "pos": "v",
+        "ipa": "/ˈverɪfaɪ/",
+        "vi": "Xác minh",
+        "example": {
+          "en": "Please verify the recipient shipping address before submitting the order.",
+          "vi": "Vui lòng xác minh địa chỉ giao hàng của người nhận trước khi gửi đơn hàng."
+        }
+      },
+      {
+        "en": "Defect",
+        "pos": "n",
+        "ipa": "/ˈdiːfekt/",
+        "vi": "Khuyết điểm",
+        "example": {
+          "en": "Any item found with a manufacturing defect will be replaced immediately.",
+          "vi": "Bất kỳ sản phẩm nào bị phát hiện có lỗi khuyết tật sản xuất sẽ được đổi ngay lập tức."
+        }
+      },
+      {
+        "en": "Rent",
+        "pos": "v",
+        "ipa": "/rent/",
+        "vi": "Thuê",
+        "example": {
+          "en": "The startup company decided to rent temporary office space downtown.",
+          "vi": "Công ty khởi nghiệp đã quyết định thuê không gian văn phòng tạm thời ở trung tâm thành phố."
+        }
+      },
+      {
+        "en": "Include",
+        "pos": "v",
+        "ipa": "/ɪnˈkluːd/",
+        "vi": "Bao gồm",
+        "example": {
+          "en": "The quoted conference package price includes breakfast and parking.",
+          "vi": "Giá trọn gói hội nghị được báo giá bao gồm bữa sáng và chỗ đỗ xe."
+        }
+      },
+      {
+        "en": "Rely on",
+        "pos": "v",
+        "ipa": "/rɪˈlaɪ ɒn/",
+        "vi": "Dựa vào",
+        "example": {
+          "en": "Businesses rely on reliable cloud servers to store sensitive information.",
+          "vi": "Các doanh nghiệp dựa vào máy chủ đám mây đáng tin cậy để lưu trữ thông tin nhạy cảm."
+        }
+      },
+      {
+        "en": "Go well with",
+        "pos": "v",
+        "ipa": "/ɡəʊ wel wɪð/",
+        "vi": "Hợp với",
+        "example": {
+          "en": "The selected interior carpet color goes well with the wall paint.",
+          "vi": "Màu thảm nội thất được chọn rất hợp với màu sơn tường."
+        }
+      },
+      {
+        "en": "Call off",
+        "pos": "v",
+        "ipa": "/kɔːl ɒf/",
+        "vi": "Hủy bỏ",
+        "example": {
+          "en": "Organizers decided to call off the outdoor festival due to storms.",
+          "vi": "Ban tổ chức đã quyết định hủy bỏ lễ hội ngoài trời do bão."
+        }
+      },
+      {
+        "en": "Within walking distance",
+        "pos": "prep",
+        "ipa": "/wɪˈðɪn ˈwɔːkɪŋ ˈdɪstəns/",
+        "vi": "Trong khoảng cách đi bộ",
+        "example": {
+          "en": "The metro station is located within walking distance of our office.",
+          "vi": "Ga tàu điện ngầm nằm trong khoảng cách đi bộ từ văn phòng chúng tôi."
+        }
+      },
+      {
+        "en": "Get in touch",
+        "pos": "v",
+        "ipa": "/ɡet ɪn tʌtʃ/",
+        "vi": "Liên lạc",
+        "example": {
+          "en": "Please get in touch with our billing department for invoice questions.",
+          "vi": "Vui lòng liên lạc với phòng thanh toán của chúng tôi nếu có câu hỏi về hóa đơn."
+        }
+      },
+      {
+        "en": "Figure",
+        "pos": "v, n",
+        "ipa": "/ˈfɪɡər/",
+        "vi": "Tính toán (v); Ngoại hình, nhân vật (n)",
+        "example": {
+          "en": "Accountants figured the overall quarterly earnings with great accuracy.",
+          "vi": "Các kế toán viên đã tính toán thu nhập tổng thể hàng quý với độ chính xác cao."
+        }
+      },
+      {
+        "en": "Contain",
+        "pos": "v",
+        "ipa": "/kənˈteɪn/",
+        "vi": "Chứa",
+        "example": {
+          "en": "The shipping crate contains delicate optical testing instruments.",
+          "vi": "Thùng hàng vận chuyển chứa các thiết bị kiểm tra quang học tinh vi."
+        }
+      },
+      {
+        "en": "Campaign",
+        "pos": "n",
+        "ipa": "/kæmˈpeɪn/",
+        "vi": "Chiến dịch",
+        "example": {
+          "en": "The advertising campaign reached millions of potential customers online.",
+          "vi": "Chiến dịch quảng cáo đã tiếp cận hàng triệu khách hàng tiềm năng trên mạng."
+        }
+      },
+      {
+        "en": "Assist",
+        "pos": "v",
+        "ipa": "/əˈsɪst/",
+        "vi": "Hỗ trợ",
+        "example": {
+          "en": "A customer care representative will assist you with the booking process.",
+          "vi": "Một đại diện chăm sóc khách hàng sẽ hỗ trợ bạn quy trình đặt chỗ."
+        }
+      },
+      {
+        "en": "Operate",
+        "pos": "v",
+        "ipa": "/ˈɒpəreɪt/",
+        "vi": "Vận hành",
+        "example": {
+          "en": "The new factory is scheduled to operate at full capacity by November.",
+          "vi": "Nhà máy mới dự kiến sẽ vận hành hết công suất vào tháng 11."
+        }
+      }
+    ]
+  },
+  {
+    "lessonId": 16,
+    "lessonTitle": "Lesson 16",
+    "words": [
+      {
+        "en": "Blueprint",
+        "pos": "n",
+        "ipa": "/ˈbluːprɪnt/",
+        "vi": "Bản vẽ thiết kế",
+        "example": {
+          "en": "Contractors reviewed the engineering blueprint before starting the foundation work.",
+          "vi": "Các nhà thầu đã xem xét bản vẽ kỹ thuật trước khi bắt đầu công việc làm móng."
+        }
+      },
+      {
+        "en": "Accommodate",
+        "pos": "v",
+        "ipa": "/əˈkɒmədeɪt/",
+        "vi": "Điều chỉnh để phù hợp, đáp ứng",
+        "example": {
+          "en": "The venue was expanded to accommodate an unexpectedly large audience.",
+          "vi": "Địa điểm đã được mở rộng để đáp ứng lượng khán giả đông bất ngờ."
+        }
+      },
+      {
+        "en": "Proposal",
+        "pos": "n",
+        "ipa": "/prəˈpəʊzl/",
+        "vi": "Đề xuất",
+        "example": {
+          "en": "The procurement proposal outlines energy-saving options for the headquarters.",
+          "vi": "Đề xuất mua sắm phác thảo các lựa chọn tiết kiệm năng lượng cho trụ sở chính."
+        }
+      },
+      {
+        "en": "Institution",
+        "pos": "n",
+        "ipa": "/ˌɪnstɪˈtjuːʃən/",
+        "vi": "Tổ chức",
+        "example": {
+          "en": "The educational institution offers vocational scholarships for local residents.",
+          "vi": "Tổ chức giáo dục này cung cấp học bổng dạy nghề cho người dân địa phương."
+        }
+      },
+      {
+        "en": "Interview",
+        "pos": "n",
+        "ipa": "/ˈɪntəvjuː/",
+        "vi": "Cuộc phỏng vấn",
+        "example": {
+          "en": "The hiring committee scheduled a second round of interviews for tomorrow.",
+          "vi": "Hội đồng tuyển dụng đã lên lịch cho vòng phỏng vấn thứ hai vào ngày mai."
+        }
+      },
+      {
+        "en": "Guest",
+        "pos": "n",
+        "ipa": "/ɡest/",
+        "vi": "Khách",
+        "example": {
+          "en": "Special conference guests received welcome gift bags at registration.",
+          "vi": "Khách mời hội nghị đặc biệt đã nhận được túi quà chào mừng khi đăng ký."
+        }
+      },
+      {
+        "en": "Flight",
+        "pos": "n",
+        "ipa": "/flaɪt/",
+        "vi": "Chuyến bay",
+        "example": {
+          "en": "All flights out of the metropolitan terminal were delayed due to dense fog.",
+          "vi": "Tất cả các chuyến bay khởi hành từ nhà ga thủ đô đều bị hoãn do sương mù dày đặc."
+        }
+      },
+      {
+        "en": "Upon",
+        "pos": "prep",
+        "ipa": "/əˈpɒn/",
+        "vi": "Ngay khi, trên",
+        "example": {
+          "en": "Upon arrival at the corporate lobby, please check in with security.",
+          "vi": "Ngay khi đến sảnh công ty, vui lòng đăng ký với bảo vệ."
+        }
+      },
+      {
+        "en": "Proximity",
+        "pos": "n",
+        "ipa": "/prɒkˈsɪməti/",
+        "vi": "Trạng thái ở gần",
+        "example": {
+          "en": "The hotel’s proximity to the international exhibition center is ideal for exhibitors.",
+          "vi": "Vị trí ở gần trung tâm triển lãm quốc tế của khách sạn là rất lý tưởng cho các nhà triển lãm."
+        }
+      },
+      {
+        "en": "No longer",
+        "pos": "adv",
+        "ipa": "/nəʊ ˈlɒŋɡər/",
+        "vi": "Không còn nữa",
+        "example": {
+          "en": "Paper catalogs are no longer printed as we transitioned to digital brochures.",
+          "vi": "Danh mục sản phẩm bằng giấy không còn được in nữa vì chúng tôi đã chuyển sang tài liệu số."
+        }
+      },
+      {
+        "en": "Workflow",
+        "pos": "n",
+        "ipa": "/ˈwɜːkfləʊ/",
+        "vi": "Quy trình làm việc",
+        "example": {
+          "en": "Adopting automation software streamlined the administrative workflow.",
+          "vi": "Việc áp dụng phần mềm tự động hóa đã tinh gọn quy trình làm việc hành chính."
+        }
+      },
+      {
+        "en": "Be accustomed to",
+        "pos": "v",
+        "ipa": "/bi əˈkʌstəmd tuː/",
+        "vi": "Quen với",
+        "example": {
+          "en": "Experienced consultants are accustomed to meeting tight corporate deadlines.",
+          "vi": "Các chuyên gia tư vấn giàu kinh nghiệm đã quen với việc đáp ứng các thời hạn doanh nghiệp gấp gáp."
+        }
+      },
+      {
+        "en": "Agency",
+        "pos": "n",
+        "ipa": "/ˈeɪdʒənsi/",
+        "vi": "Cơ quan",
+        "example": {
+          "en": "A government agency published new guidelines for workplace safety compliance.",
+          "vi": "Một cơ quan chính phủ đã công bố các hướng dẫn mới về việc tuân thủ an toàn lao động."
+        }
+      },
+      {
+        "en": "International",
+        "pos": "adj",
+        "ipa": "/ˌɪntəˈnæʃnəl/",
+        "vi": "Quốc tế",
+        "example": {
+          "en": "The corporation organized an international symposium for industry experts.",
+          "vi": "Tập đoàn đã tổ chức một hội nghị chuyên đề quốc tế cho các chuyên gia trong ngành."
+        }
+      },
+      {
+        "en": "Invest",
+        "pos": "v",
+        "ipa": "/ɪnˈvest/",
+        "vi": "Đầu tư",
+        "example": {
+          "en": "The venture capital firm decided to invest heavily in renewable energy projects.",
+          "vi": "Quỹ đầu tư mạo hiểm đã quyết định đầu tư mạnh vào các dự án năng lượng tái tạo."
+        }
+      },
+      {
+        "en": "Quantity",
+        "pos": "n",
+        "ipa": "/ˈkwɒntəti/",
+        "vi": "Số lượng",
+        "example": {
+          "en": "Discounts apply when ordering supplies in large quantities.",
+          "vi": "Chiết khấu được áp dụng khi đặt mua vật tư với số lượng lớn."
+        }
+      },
+      {
+        "en": "Decrease",
+        "pos": "v",
+        "ipa": "/dɪˈkriːs/",
+        "vi": "Giảm",
+        "example": {
+          "en": "Automating repetitive data entry helped decrease operational overhead.",
+          "vi": "Tự động hóa việc nhập dữ liệu lặp đi lặp lại đã giúp giảm chi phí vận hành."
+        }
+      },
+      {
+        "en": "Create",
+        "pos": "v",
+        "ipa": "/krɪˈeɪt/",
+        "vi": "Tạo ra",
+        "example": {
+          "en": "The new branch opening will create fifty jobs for local professionals.",
+          "vi": "Việc mở chi nhánh mới sẽ tạo ra 50 việc làm cho các chuyên gia địa phương."
+        }
+      },
+      {
+        "en": "Vendor",
+        "pos": "n",
+        "ipa": "/ˈvendər/",
+        "vi": "Người bán hàng (dạo, ven đường)",
+        "example": {
+          "en": "Street food vendors lined the perimeter of the cultural trade fair.",
+          "vi": "Các người bán hàng rong đứng dọc theo khuôn viên của hội chợ thương mại văn hóa."
+        }
+      },
+      {
+        "en": "Figure",
+        "pos": "v",
+        "ipa": "/ˈfɪɡər/",
+        "vi": "Tính toán",
+        "example": {
+          "en": "The project manager figured that completion would require two additional weeks.",
+          "vi": "Quản lý dự án đã tính toán rằng việc hoàn thành sẽ đòi hỏi thêm hai tuần nữa."
+        }
+      }
+    ]
+  },
+  {
+    "lessonId": 17,
+    "lessonTitle": "Lesson 17",
+    "words": [
+      {
+        "en": "Luncheon",
+        "pos": "n",
+        "ipa": "/ˈlʌntʃən/",
+        "vi": "Bữa trưa, tiệc trưa",
+        "example": {
+          "en": "The awards committee hosted an appreciation luncheon for corporate partners.",
+          "vi": "Ủy ban trao giải đã tổ chức một bữa tiệc trưa tri ân dành cho các đối tác doanh nghiệp."
+        }
+      },
+      {
+        "en": "Restrict",
+        "pos": "v",
+        "ipa": "/rɪˈstrɪkt/",
+        "vi": "Hạn chế",
+        "example": {
+          "en": "Building regulations restrict visitor access to confidential research floors.",
+          "vi": "Các quy định của tòa nhà hạn chế khách tiếp cận các tầng nghiên cứu bí mật."
+        }
+      },
+      {
+        "en": "Distribute",
+        "pos": "v",
+        "ipa": "/dɪˈstrɪbjuːt/",
+        "vi": "Phân phối",
+        "example": {
+          "en": "Logistics agents distribute packages throughout the metropolitan region.",
+          "vi": "Các đại lý hậu cần phân phối các kiện hàng khắp khu vực đô thị."
+        }
+      },
+      {
+        "en": "Trade fair",
+        "pos": "n",
+        "ipa": "/treɪd feər/",
+        "vi": "Hội chợ thương mại",
+        "example": {
+          "en": "Representatives from thirty nations gathered for the annual technology trade fair.",
+          "vi": "Đại diện từ 30 quốc gia đã tề tựu tại hội chợ thương mại công nghệ thường niên."
+        }
+      },
+      {
+        "en": "Conservative",
+        "pos": "adj",
+        "ipa": "/kənˈsɜːvətɪv/",
+        "vi": "Bảo thủ",
+        "example": {
+          "en": "The investment advisor recommended a conservative asset management strategy.",
+          "vi": "Cố vấn đầu tư khuyến nghị một chiến lược quản lý tài sản bảo thủ, an toàn."
+        }
+      },
+      {
+        "en": "Amenity",
+        "pos": "n",
+        "ipa": "/əˈmiːnəti/",
+        "vi": "Tiện nghi",
+        "example": {
+          "en": "The luxury hotel offers premium amenities including a heated rooftop pool.",
+          "vi": "Khách sạn sang trọng cung cấp các tiện nghi cao cấp bao gồm hồ bơi nước nóng trên tầng thượng."
+        }
+      },
+      {
+        "en": "Impose",
+        "pos": "v",
+        "ipa": "/ɪmˈpəʊz/",
+        "vi": "Áp đặt",
+        "example": {
+          "en": "The city council voted to impose stricter parking fines downtown.",
+          "vi": "Hội đồng thành phố đã bỏ phiếu áp đặt các mức phạt đỗ xe nghiêm khắc hơn tại trung tâm thành phố."
+        }
+      },
+      {
+        "en": "Claim",
+        "pos": "v",
+        "ipa": "/kleɪm/",
+        "vi": "Tuyên bố",
+        "example": {
+          "en": "The advertisement claims that this battery lasts twice as long as competitors.",
+          "vi": "Quảng cáo tuyên bố rằng loại pin này dùng được lâu gấp đôi đối thủ."
+        }
+      },
+      {
+        "en": "Contend",
+        "pos": "v",
+        "ipa": "/kənˈtend/",
+        "vi": "Tranh luận, đấu tranh",
+        "example": {
+          "en": "The defense attorney contended that the contract conditions were breached.",
+          "vi": "Luật sư bào chữa đã tranh luận rằng các điều kiện hợp đồng đã bị vi phạm."
+        }
+      },
+      {
+        "en": "Alternative",
+        "pos": "adj",
+        "ipa": "/ɔːlˈtɜːnətɪv/",
+        "vi": "Thay thế",
+        "example": {
+          "en": "We are seeking an alternative supplier due to frequent raw material delays.",
+          "vi": "Chúng tôi đang tìm kiếm một nhà cung cấp thay thế do sự chậm trễ nguyên liệu thường xuyên."
+        }
+      },
+      {
+        "en": "Authorize",
+        "pos": "v",
+        "ipa": "/ˈɔːθəraɪz/",
+        "vi": "Ủy quyền",
+        "example": {
+          "en": "Only senior branch executives can authorize budget expenditures over ten thousand dollars.",
+          "vi": "Chỉ các giám đốc chi nhánh cấp cao mới có thể ủy quyền chi tiêu ngân sách trên mười nghìn đô la."
+        }
+      },
+      {
+        "en": "Validate",
+        "pos": "v",
+        "ipa": "/ˈvælɪdeɪt/",
+        "vi": "Xác nhận",
+        "example": {
+          "en": "Please have the receptionist validate your parking ticket before exiting.",
+          "vi": "Vui lòng nhờ nhân viên lễ tân xác nhận vé đỗ xe của bạn trước khi ra ngoài."
+        }
+      },
+      {
+        "en": "Rent",
+        "pos": "v",
+        "ipa": "/rent/",
+        "vi": "Thuê",
+        "example": {
+          "en": "Many overseas delegates choose to rent hybrid vehicles for commuting.",
+          "vi": "Nhiều đại biểu nước ngoài chọn thuê xe hybrid để đi lại."
+        }
+      },
+      {
+        "en": "Rely on",
+        "pos": "v",
+        "ipa": "/rɪˈlaɪ ɒn/",
+        "vi": "Dựa vào",
+        "example": {
+          "en": "We rely on customer survey data to continuously improve our product catalog.",
+          "vi": "Chúng tôi dựa vào dữ liệu khảo sát khách hàng để liên tục cải tiến danh mục sản phẩm của mình."
+        }
+      },
+      {
+        "en": "Entire",
+        "pos": "adj",
+        "ipa": "/ɪnˈtaɪər/",
+        "vi": "Toàn bộ",
+        "example": {
+          "en": "The entire marketing staff attended the digital innovation workshop.",
+          "vi": "Toàn bộ nhân viên tiếp thị đã tham dự buổi hội thảo đổi mới kỹ thuật số."
+        }
+      },
+      {
+        "en": "Urge",
+        "pos": "v",
+        "ipa": "/ɜːdʒ/",
+        "vi": "Thúc giục",
+        "example": {
+          "en": "Supervisors urge all factory employees to wear protective gear at all times.",
+          "vi": "Người giám sát thúc giục tất cả công nhân nhà máy luôn đeo đồ bảo hộ mọi lúc."
+        }
+      },
+      {
+        "en": "Eliminate",
+        "pos": "v",
+        "ipa": "/ɪˈlɪmɪneɪt/",
+        "vi": "Loại bỏ",
+        "example": {
+          "en": "The new workflow system aims to eliminate redundant administrative paperwork.",
+          "vi": "Hệ thống quy trình làm việc mới nhằm mục đích loại bỏ các thủ tục giấy tờ hành chính dư thừa."
+        }
+      },
+      {
+        "en": "Commuter",
+        "pos": "n",
+        "ipa": "/kəˈmjuːtər/",
+        "vi": "Người đi làm",
+        "example": {
+          "en": "Subway expansions offer urban commuters a fast alternative to road congestion.",
+          "vi": "Việc mở rộng tàu điện ngầm mang lại cho người đi làm ở đô thị một lựa chọn nhanh thay cho ùn tắc đường bộ."
+        }
+      },
+      {
+        "en": "Practical",
+        "pos": "adj",
+        "ipa": "/ˈpræktɪkəl/",
+        "vi": "Thực tế",
+        "example": {
+          "en": "The workshop emphasized practical techniques for effective team leadership.",
+          "vi": "Buổi hội thảo nhấn mạnh các kỹ thuật thực tế cho việc lãnh đạo nhóm hiệu quả."
+        }
+      },
+      {
+        "en": "Last",
+        "pos": "v, adj",
+        "ipa": "/lɑːst/",
+        "vi": "Kéo dài (v); Lâu dài (adj); Cuối (adj)",
+        "example": {
+          "en": "The morning keynote address is expected to last approximately forty-five minutes.",
+          "vi": "Bài phát biểu khai mạc buổi sáng dự kiến sẽ kéo dài khoảng 45 phút."
+        }
+      }
+    ]
+  },
+  {
+    "lessonId": 18,
+    "lessonTitle": "Lesson 18",
+    "words": [
+      {
+        "en": "Toward",
+        "pos": "prep",
+        "ipa": "/təˈwɔːd/",
+        "vi": "Hướng về",
+        "example": {
+          "en": "The committee made substantial progress toward completing the budget plan.",
+          "vi": "Ủy ban đã đạt được tiến bộ đáng kể hướng tới việc hoàn thành kế hoạch ngân sách."
+        }
+      },
+      {
+        "en": "Prior to",
+        "pos": "prep",
+        "ipa": "/ˈpraɪər tuː/",
+        "vi": "Trước",
+        "example": {
+          "en": "Please check your audio equipment prior to beginning the conference presentation.",
+          "vi": "Vui lòng kiểm tra thiết bị âm thanh của bạn trước khi bắt đầu bài thuyết trình hội nghị."
+        }
+      },
+      {
+        "en": "Remain",
+        "pos": "v",
+        "ipa": "/rɪˈmeɪn/",
+        "vi": "Còn lại",
+        "example": {
+          "en": "Several unresolved issues remain to be discussed in the final meeting.",
+          "vi": "Một số vấn đề chưa được giải quyết vẫn còn lại để thảo luận trong cuộc họp cuối cùng."
+        }
+      },
+      {
+        "en": "Postpone",
+        "pos": "v",
+        "ipa": "/pəˈspəʊn/",
+        "vi": "Hoãn lại",
+        "example": {
+          "en": "Due to severe weather warnings, organizers decided to postpone the marathon.",
+          "vi": "Do các cảnh báo thời tiết khắc nghiệt, ban tổ chức đã quyết định hoãn cuộc đua marathon."
+        }
+      },
+      {
+        "en": "License",
+        "pos": "n",
+        "ipa": "/ˈlaɪsəns/",
+        "vi": "Giấy phép",
+        "example": {
+          "en": "The contractor must hold a valid professional license to operate within the city.",
+          "vi": "Nhà thầu phải có giấy phép hành nghề hợp lệ để hoạt động trong thành phố."
+        }
+      },
+      {
+        "en": "Expedite",
+        "pos": "v",
+        "ipa": "/ˈekspədaɪt/",
+        "vi": "Đẩy nhanh, xúc tiến",
+        "example": {
+          "en": "Customers may pay a nominal surcharge to expedite courier delivery.",
+          "vi": "Khách hàng có thể trả một khoản phụ phí nhỏ để đẩy nhanh việc giao hàng chuyển phát nhanh."
+        }
+      },
+      {
+        "en": "Favorable",
+        "pos": "adj",
+        "ipa": "/ˈfeɪvərəbl/",
+        "vi": "Thuận lợi",
+        "example": {
+          "en": "The audit report presented a favorable assessment of the firm’s financial status.",
+          "vi": "Báo cáo kiểm toán đã đưa ra một đánh giá thuận lợi về tình trạng tài chính của công ty."
+        }
+      },
+      {
+        "en": "Informative",
+        "pos": "adj",
+        "ipa": "/ɪnˈfɔːmətɪv/",
+        "vi": "Mang tính thông tin",
+        "example": {
+          "en": "Attendees found the market research workshop to be extremely informative.",
+          "vi": "Những người tham dự nhận thấy buổi hội thảo nghiên cứu thị trường cực kỳ nhiều thông tin bổ ích."
+        }
+      },
+      {
+        "en": "Comprehensive",
+        "pos": "adj",
+        "ipa": "/ˌkɒmprɪˈhensɪv/",
+        "vi": "Toàn diện",
+        "example": {
+          "en": "The human resources handbook offers a comprehensive guide to employee benefits.",
+          "vi": "Sổ tay nhân sự cung cấp một hướng dẫn toàn diện về các quyền lợi của nhân viên."
+        }
+      },
+      {
+        "en": "Qualification",
+        "pos": "n",
+        "ipa": "/ˌkwɒlɪfɪˈkeɪʃən/",
+        "vi": "Trình độ",
+        "example": {
+          "en": "Applicants must possess the relevant educational qualifications and work experience.",
+          "vi": "Ứng viên phải sở hữu trình độ học vấn phù hợp và kinh nghiệm làm việc liên quan."
+        }
+      },
+      {
+        "en": "Rapid",
+        "pos": "adj",
+        "ipa": "/ˈræpɪd/",
+        "vi": "Nhanh chóng",
+        "example": {
+          "en": "The startup company experienced rapid expansion during its first three years.",
+          "vi": "Công ty khởi nghiệp đã trải qua sự mở rộng nhanh chóng trong ba năm đầu tiên."
+        }
+      },
+      {
+        "en": "Expenditure",
+        "pos": "n",
+        "ipa": "/ɪkˈspendɪtʃər/",
+        "vi": "Chi phí, chi tiêu",
+        "example": {
+          "en": "The CFO called for careful monitoring of capital expenditures this quarter.",
+          "vi": "Giám đốc tài chính đã yêu cầu giám sát chặt chẽ các chi tiêu vốn trong quý này."
+        }
+      },
+      {
+        "en": "Enhance",
+        "pos": "v",
+        "ipa": "/ɪnˈhɑːns/",
+        "vi": "Tăng cường, nâng cao",
+        "example": {
+          "en": "Staff development workshops help enhance professional communication skills.",
+          "vi": "Các buổi hội thảo phát triển nhân viên giúp nâng cao kỹ năng giao tiếp chuyên nghiệp."
+        }
+      },
+      {
+        "en": "Attach",
+        "pos": "v",
+        "ipa": "/əˈtætʃ/",
+        "vi": "Đính kèm",
+        "example": {
+          "en": "Please attach your updated resume and portfolio to the job application.",
+          "vi": "Vui lòng đính kèm sơ yếu lý lịch và hồ sơ năng lực cập nhật của bạn vào đơn xin việc."
+        }
+      },
+      {
+        "en": "Accordingly",
+        "pos": "adv",
+        "ipa": "/əˈkɔːdɪŋli/",
+        "vi": "Tương ứng",
+        "example": {
+          "en": "Project timelines were modified accordingly after the shipping delay.",
+          "vi": "Tiến độ dự án đã được sửa đổi tương ứng sau sự chậm trễ giao hàng."
+        }
+      },
+      {
+        "en": "Regulate",
+        "pos": "v",
+        "ipa": "/ˈreɡjʊleɪt/",
+        "vi": "Quy định",
+        "example": {
+          "en": "Government environmental statutes regulate industrial waste disposal.",
+          "vi": "Các quy chế môi trường của chính phủ quy định việc xử lý chất thải công nghiệp."
+        }
+      },
+      {
+        "en": "Exchange",
+        "pos": "v",
+        "ipa": "/ɪksˈtʃeɪndʒ/",
+        "vi": "Trao đổi",
+        "example": {
+          "en": "Conference delegates exchanged business cards during the networking intermission.",
+          "vi": "Các đại biểu hội nghị đã trao đổi danh thiếp trong thời gian nghỉ giao lưu kết nối."
+        }
+      },
+      {
+        "en": "Portable",
+        "pos": "adj",
+        "ipa": "/ˈpɔːtəbl/",
+        "vi": "Di động, cầm tay",
+        "example": {
+          "en": "Engineers carry portable testing units to diagnose field machinery issues.",
+          "vi": "Các kỹ sư mang theo các thiết bị kiểm tra di động cầm tay để chẩn đoán các sự cố máy móc tại thực địa."
+        }
+      },
+      {
+        "en": "Backpack",
+        "pos": "n",
+        "ipa": "/ˈbækpæk/",
+        "vi": "Ba lô",
+        "example": {
+          "en": "He packed his laptop and notebook into a durable waterproof backpack.",
+          "vi": "Anh ấy đã xếp máy tính xách tay và sổ ghi chép vào chiếc ba lô chống nước bền chắc."
+        }
+      },
+      {
+        "en": "Rope",
+        "pos": "n",
+        "ipa": "/rəʊp/",
+        "vi": "Dây thừng",
+        "example": {
+          "en": "Heavy cargo crates were secured with strong nylon ropes.",
+          "vi": "Các thùng hàng nặng đã được cố định chắc chắn bằng dây thừng nylon."
+        }
+      }
+    ]
+  },
+  {
+    "lessonId": 19,
+    "lessonTitle": "Lesson 19",
+    "words": [
+      {
+        "en": "Pharmacy",
+        "pos": "n",
+        "ipa": "/ˈfɑːməsi/",
+        "vi": "Hiệu thuốc",
+        "example": {
+          "en": "You can pick up prescription medications at the 24-hour hospital pharmacy.",
+          "vi": "Bạn có thể nhận thuốc theo đơn tại hiệu thuốc bệnh viện mở cửa 24 giờ."
+        }
+      },
+      {
+        "en": "Fundraising",
+        "pos": "n",
+        "ipa": "/ˈfʌndreɪzɪŋ/",
+        "vi": "Gây quỹ",
+        "example": {
+          "en": "The community organization launched a fundraising gala to build a children’s clinic.",
+          "vi": "Tổ chức cộng đồng đã phát động một dạ tiệc gây quỹ để xây dựng một phòng khám nhi."
+        }
+      },
+      {
+        "en": "Request",
+        "pos": "v, n",
+        "ipa": "/rɪˈkwest/",
+        "vi": "Yêu cầu",
+        "example": {
+          "en": "Please submit your official leave request through the staff intranet portal.",
+          "vi": "Vui lòng nộp yêu cầu nghỉ phép chính thức của bạn qua cổng mạng nội bộ nhân viên."
+        }
+      },
+      {
+        "en": "Invite",
+        "pos": "v",
+        "ipa": "/ɪnˈvaɪt/",
+        "vi": "Mời",
+        "example": {
+          "en": "Management intends to invite all corporate stakeholders to the anniversary ceremony.",
+          "vi": "Ban lãnh đạo dự định mời tất cả các bên liên quan của doanh nghiệp đến dự lễ kỷ niệm."
+        }
+      },
+      {
+        "en": "Commercial",
+        "pos": "adj",
+        "ipa": "/kəˈmɜːʃəl/",
+        "vi": "Thương mại",
+        "example": {
+          "en": "The agency specializes in commercial property leasing and investment advice.",
+          "vi": "Hãng chuyên về tư vấn đầu tư và cho thuê bất động sản thương mại."
+        }
+      },
+      {
+        "en": "Publish",
+        "pos": "v",
+        "ipa": "/ˈpʌblɪʃ/",
+        "vi": "Xuất bản",
+        "example": {
+          "en": "The industry association will publish its annual market analysis report next month.",
+          "vi": "Hiệp hội ngành nghề sẽ xuất bản báo cáo phân tích thị trường thường niên vào tháng tới."
+        }
+      },
+      {
+        "en": "Regular customer",
+        "pos": "n",
+        "ipa": "/ˈreɡjələr ˈkʌstəmər/",
+        "vi": "Khách hàng thường xuyên",
+        "example": {
+          "en": "The boutique coffee shop rewards regular customers with a loyalty discount card.",
+          "vi": "Quán cà phê trao thưởng cho các khách hàng thường xuyên bằng thẻ giảm giá khách hàng thân thiết."
+        }
+      },
+      {
+        "en": "Badge",
+        "pos": "n",
+        "ipa": "/bædʒ/",
+        "vi": "Huy hiệu",
+        "example": {
+          "en": "Security personnel require all contractors to wear an identification badge visible.",
+          "vi": "Nhân viên bảo vệ yêu cầu tất cả nhà thầu phải đeo huy hiệu nhận dạng rõ ràng."
+        }
+      },
+      {
+        "en": "Address",
+        "pos": "v, n",
+        "ipa": "/əˈdres/",
+        "vi": "(v) giải quyết; (n) địa chỉ",
+        "example": {
+          "en": "The director will address staff concerns regarding upcoming branch relocations.",
+          "vi": "Giám đốc sẽ giải quyết các mối quan tâm của nhân viên về việc di dời chi nhánh sắp tới."
+        }
+      },
+      {
+        "en": "Access",
+        "pos": "v",
+        "ipa": "/ˈækses/",
+        "vi": "Truy cập",
+        "example": {
+          "en": "Authorized team members can access confidential files through encrypted servers.",
+          "vi": "Các thành viên trong nhóm được ủy quyền có thể truy cập các tập tin mật qua máy chủ mã hóa."
+        }
+      },
+      {
+        "en": "Organize",
+        "pos": "v",
+        "ipa": "/ˈɔːɡənaɪz/",
+        "vi": "Tổ chức",
+        "example": {
+          "en": "Human resources will organize a comprehensive orientation session for interns.",
+          "vi": "Phòng nhân sự sẽ tổ chức một buổi định hướng toàn diện cho các thực tập sinh."
+        }
+      },
+      {
+        "en": "Celebrate",
+        "pos": "v",
+        "ipa": "/ˈselɪbreɪt/",
+        "vi": "Ăn mừng",
+        "example": {
+          "en": "The entire division gathered at a restaurant to celebrate their sales milestone.",
+          "vi": "Toàn bộ bộ phận đã tập trung tại một nhà hàng để ăn mừng cột mốc doanh số của họ."
+        }
+      },
+      {
+        "en": "Terminal",
+        "pos": "n",
+        "ipa": "/ˈtɜːmɪnl/",
+        "vi": "Nhà ga",
+        "example": {
+          "en": "Shuttle buses connect domestic terminal 1 with international terminal 2.",
+          "vi": "Xe buýt đưa đón kết nối nhà ga nội địa 1 với nhà ga quốc tế 2."
+        }
+      },
+      {
+        "en": "Cuisine",
+        "pos": "n",
+        "ipa": "/kwɪˈziːn/",
+        "vi": "Ẩm thực",
+        "example": {
+          "en": "The hotel banquet features an exquisite selection of contemporary Asian cuisine.",
+          "vi": "Tiệc khách sạn có tuyển chọn tinh tế các món ẩm thực châu Á đương đại."
+        }
+      },
+      {
+        "en": "Attorney",
+        "pos": "n",
+        "ipa": "/əˈtɜːni/",
+        "vi": "Luật sư",
+        "example": {
+          "en": "The firm retained an experienced corporate attorney to draft the merger contract.",
+          "vi": "Công ty đã thuê một luật sư doanh nghiệp giàu kinh nghiệm để soạn thảo hợp đồng sáp nhập."
+        }
+      },
+      {
+        "en": "Attire",
+        "pos": "n",
+        "ipa": "/əˈtaɪər/",
+        "vi": "Trang phục",
+        "example": {
+          "en": "Business formal attire is mandatory when representing the company at hearings.",
+          "vi": "Trang phục công sở trang trọng là bắt buộc khi đại diện cho công ty tại các phiên điều trần."
+        }
+      },
+      {
+        "en": "Enroll",
+        "pos": "v",
+        "ipa": "/ɪnˈrəʊl/",
+        "vi": "Ghi danh, đăng ký",
+        "example": {
+          "en": "Employees wishing to develop language proficiency can enroll in evening classes.",
+          "vi": "Nhân viên muốn phát triển trình độ ngôn ngữ có thể ghi danh vào các lớp học buổi tối."
+        }
+      },
+      {
+        "en": "Period",
+        "pos": "n",
+        "ipa": "/ˈpɪəriəd/",
+        "vi": "Thời kỳ",
+        "example": {
+          "en": "During the introductory period, customers will enjoy a complimentary software trial.",
+          "vi": "Trong thời kỳ giới thiệu, khách hàng sẽ được hưởng bản dùng thử phần mềm miễn phí."
+        }
+      },
+      {
+        "en": "Manual",
+        "pos": "n",
+        "ipa": "/ˈmænjuəl/",
+        "vi": "Sách hướng dẫn",
+        "example": {
+          "en": "Please refer to the operations manual for troubleshooting printer error messages.",
+          "vi": "Vui lòng tham khảo sách hướng dẫn vận hành để khắc phục các thông báo lỗi máy in."
+        }
+      },
+      {
+        "en": "Adopt",
+        "pos": "v",
+        "ipa": "/əˈdɒpt/",
+        "vi": "Áp dụng",
+        "example": {
+          "en": "The company plans to adopt paperless workflows across all administrative branches.",
+          "vi": "Công ty dự định áp dụng quy trình làm việc không giấy tờ trên tất cả các chi nhánh hành chính."
+        }
+      }
+    ]
+  },
+  {
+    "lessonId": 20,
+    "lessonTitle": "Lesson 20",
+    "words": [
+      {
+        "en": "Alternative",
+        "pos": "adj",
+        "ipa": "/ɔːlˈtɜːnətɪv/",
+        "vi": "Thay thế",
+        "example": {
+          "en": "The logistics manager proposed an alternative distribution route to bypass roadwork.",
+          "vi": "Quản lý hậu cần đề xuất một tuyến đường phân phối thay thế để tránh đoạn đường đang thi công."
+        }
+      },
+      {
+        "en": "Private",
+        "pos": "adj",
+        "ipa": "/ˈpraɪvət/",
+        "vi": "Riêng tư",
+        "example": {
+          "en": "The CEO held a private conference with key shareholders to discuss restructuring.",
+          "vi": "Tổng giám đốc đã tổ chức một cuộc họp riêng tư với các cổ đông chủ chốt để thảo luận về tái cơ cấu."
+        }
+      },
+      {
+        "en": "Shuttle",
+        "pos": "n",
+        "ipa": "/ˈʃʌtl/",
+        "vi": "Xe đưa đón",
+        "example": {
+          "en": "A complimentary hotel shuttle runs every twenty minutes to the metro station.",
+          "vi": "Một chuyến xe đưa đón khách sạn miễn phí chạy 20 phút một chuyến đến ga tàu điện ngầm."
+        }
+      },
+      {
+        "en": "Be familiar with",
+        "pos": "v",
+        "ipa": "/bi fəˈmɪliər wɪð/",
+        "vi": "Quen thuộc với",
+        "example": {
+          "en": "Accountants must be familiar with the latest corporate tax compliance laws.",
+          "vi": "Kế toán viên phải quen thuộc với các luật tuân thủ thuế doanh nghiệp mới nhất."
+        }
+      },
+      {
+        "en": "Route",
+        "pos": "n",
+        "ipa": "/ruːt/",
+        "vi": "Lộ trình, tuyến đường",
+        "example": {
+          "en": "Delivery drivers follow the most fuel-efficient delivery route mapped by GPS.",
+          "vi": "Tài xế giao hàng đi theo lộ trình giao hàng tiết kiệm nhiên liệu nhất được định vị bởi GPS."
+        }
+      },
+      {
+        "en": "Agriculture",
+        "pos": "n",
+        "ipa": "/ˈæɡrɪkʌltʃər/",
+        "vi": "Nông nghiệp",
+        "example": {
+          "en": "The international expo featured innovations in sustainable greenhouse agriculture.",
+          "vi": "Hội chợ triển lãm quốc tế giới thiệu những đổi mới trong nông nghiệp nhà kính bền vững."
+        }
+      },
+      {
+        "en": "Landscape",
+        "pos": "n",
+        "ipa": "/ˈlændskeɪp/",
+        "vi": "Phong cảnh",
+        "example": {
+          "en": "The picturesque mountain landscape attracted thousands of nature photographers.",
+          "vi": "Phong cảnh miền núi tuyệt đẹp như tranh vẽ đã thu hút hàng ngàn nhiếp ảnh gia thiên nhiên."
+        }
+      },
+      {
+        "en": "Battery",
+        "pos": "n",
+        "ipa": "/ˈbætəri/",
+        "vi": "Pin",
+        "example": {
+          "en": "The electric delivery van is powered by an extended-life lithium battery.",
+          "vi": "Chiếc xe van giao hàng điện được cung cấp năng lượng bởi pin lithium có tuổi thọ kéo dài."
+        }
+      },
+      {
+        "en": "Real estate",
+        "pos": "n",
+        "ipa": "/rɪəl ɪˈsteɪt/",
+        "vi": "Bất động sản",
+        "example": {
+          "en": "The corporation invested capital into prime downtown commercial real estate.",
+          "vi": "Tập đoàn đã đầu tư vốn vào bất động sản thương mại đắc địa ở trung tâm thành phố."
+        }
+      },
+      {
+        "en": "Agent",
+        "pos": "n",
+        "ipa": "/ˈeɪdʒənt/",
+        "vi": "Đại lý",
+        "example": {
+          "en": "Our authorized insurance agent answered all questions regarding coverage options.",
+          "vi": "Đại lý bảo hiểm được ủy quyền của chúng tôi đã giải đáp mọi câu hỏi về các lựa chọn bảo hiểm."
+        }
+      },
+      {
+        "en": "Accessory",
+        "pos": "n",
+        "ipa": "/əkˈsesəri/",
+        "vi": "Phụ kiện",
+        "example": {
+          "en": "The retailer sells mobile phone chargers, protective cases, and audio accessories.",
+          "vi": "Nhà bán lẻ bán củ sạc điện thoại di động, ốp bảo vệ và các phụ kiện âm thanh."
+        }
+      },
+      {
+        "en": "Architect",
+        "pos": "n",
+        "ipa": "/ˈɑːkɪtekt/",
+        "vi": "Kiến trúc sư",
+        "example": {
+          "en": "A renowned landscape architect designed the community eco-park layout.",
+          "vi": "Một kiến trúc sư cảnh quan nổi tiếng đã thiết kế bố cục công viên sinh thái cộng đồng."
+        }
+      },
+      {
+        "en": "Offer",
+        "pos": "v",
+        "ipa": "/ˈɒfər/",
+        "vi": "Đề nghị",
+        "example": {
+          "en": "The management board decided to offer the job candidate a generous signing bonus.",
+          "vi": "Ban giám đốc đã quyết định đề nghị ứng viên xin việc một khoản tiền thưởng ký hợp đồng hậu hĩnh."
+        }
+      },
+      {
+        "en": "Reference",
+        "pos": "n",
+        "ipa": "/ˈrefrəns/",
+        "vi": "Tham khảo",
+        "example": {
+          "en": "Please keep the employee benefit guide nearby for quick future reference.",
+          "vi": "Vui lòng giữ tài liệu hướng dẫn quyền lợi nhân viên bên cạnh để tiện tham khảo nhanh sau này."
+        }
+      },
+      {
+        "en": "Ranger",
+        "pos": "n",
+        "ipa": "/ˈreɪndʒər/",
+        "vi": "Kiểm lâm",
+        "example": {
+          "en": "The park ranger guided the group safely along the steep wilderness trail.",
+          "vi": "Người kiểm lâm đã hướng dẫn đoàn đi an toàn dọc theo con đường mòn hiểm trở nơi hoang dã."
+        }
+      },
+      {
+        "en": "Expire",
+        "pos": "v",
+        "ipa": "/ɪkˈspaɪər/",
+        "vi": "Hết hạn",
+        "example": {
+          "en": "Your annual facility parking pass will expire at the end of next month.",
+          "vi": "Thẻ đỗ xe cơ sở hàng năm của bạn sẽ hết hạn vào cuối tháng tới."
+        }
+      },
+      {
+        "en": "Conflict",
+        "pos": "v, n",
+        "ipa": "/ˈkɒnflɪkt/",
+        "vi": "Xung đột",
+        "example": {
+          "en": "The supervisor intervened calmly to resolve a scheduling conflict among employees.",
+          "vi": "Người giám sát đã can thiệp một cách bình tĩnh để giải quyết xung đột lịch trình giữa các nhân viên."
+        }
+      },
+      {
+        "en": "Credential",
+        "pos": "n",
+        "ipa": "/krəˈdenʃəl/",
+        "vi": "Giấy chứng nhận",
+        "example": {
+          "en": "Candidates must submit their professional credentials to the licensing board.",
+          "vi": "Các ứng viên phải nộp giấy chứng nhận chuyên môn của mình cho hội đồng cấp phép."
+        }
+      },
+      {
+        "en": "Misplaced",
+        "pos": "adj",
+        "ipa": "/ˌmɪsˈpleɪst/",
+        "vi": "Để sai chỗ",
+        "example": {
+          "en": "The auditor quickly located the misplaced financial folder in the lower cabinet.",
+          "vi": "Kiểm toán viên đã nhanh chóng tìm thấy tập tài liệu tài chính bị để sai chỗ ở ngăn tủ dưới."
+        }
+      },
+      {
+        "en": "Shift",
+        "pos": "n",
+        "ipa": "/ʃɪft/",
+        "vi": "Ca làm việc",
+        "example": {
+          "en": "Production employees rotate between morning, afternoon, and night shifts.",
+          "vi": "Công nhân sản xuất luân phiên giữa các ca làm việc sáng, chiều và đêm."
+        }
+      }
+    ]
+  },
+  {
+    "lessonId": 21,
+    "lessonTitle": "Lesson 21",
+    "words": [
+      {
+        "en": "Appreciate",
+        "pos": "v",
+        "ipa": "/əˈpriːʃieɪt/",
+        "vi": "Đánh giá cao",
+        "example": {
+          "en": "We greatly appreciate your prompt assistance during the audit preparation.",
+          "vi": "Chúng tôi rất đánh giá cao sự hỗ trợ kịp thời của bạn trong quá trình chuẩn bị kiểm toán."
+        }
+      },
+      {
+        "en": "Penalty",
+        "pos": "n",
+        "ipa": "/ˈpenəlti/",
+        "vi": "Hình phạt",
+        "example": {
+          "en": "The lease specifies a financial penalty for terminating the contract prematurely.",
+          "vi": "Hợp đồng thuê quy định một hình phạt tài chính cho việc chấm dứt hợp đồng trước hạn."
+        }
+      },
+      {
+        "en": "Attain",
+        "pos": "v",
+        "ipa": "/əˈteɪn/",
+        "vi": "Đạt được",
+        "example": {
+          "en": "Through disciplined teamwork, the division managed to attain all its quarterly targets.",
+          "vi": "Nhờ tinh thần làm việc nhóm kỷ luật, bộ phận đã đạt được tất cả các mục tiêu hàng quý."
+        }
+      },
+      {
+        "en": "Optional",
+        "pos": "adj",
+        "ipa": "/ˈɒpʃənl/",
+        "vi": "Tùy chọn",
+        "example": {
+          "en": "Attending the weekend corporate retreat is completely optional for all staff.",
+          "vi": "Việc tham dự chuyến nghỉ dưỡng doanh nghiệp cuối tuần là hoàn toàn tùy chọn cho tất cả nhân viên."
+        }
+      },
+      {
+        "en": "Punctual",
+        "pos": "adj",
+        "ipa": "/ˈpʌŋktʃuəl/",
+        "vi": "Đúng giờ",
+        "example": {
+          "en": "Candidates should be punctual and arrive fifteen minutes before their scheduled interview.",
+          "vi": "Ứng viên nên đúng giờ và đến trước 15 phút so với lịch phỏng vấn đã định."
+        }
+      },
+      {
+        "en": "Distinguish",
+        "pos": "v",
+        "ipa": "/dɪˈstɪŋɡwɪʃ/",
+        "vi": "Phân biệt",
+        "example": {
+          "en": "Quality testing helps distinguish authentic premium fabrics from cheaper substitutes.",
+          "vi": "Kiểm tra chất lượng giúp phân biệt vải cao cấp chính hãng với các loại vải thay thế rẻ hơn."
+        }
+      },
+      {
+        "en": "Distinguished",
+        "pos": "adj",
+        "ipa": "/dɪˈstɪŋɡwɪʃt/",
+        "vi": "Xuất sắc",
+        "example": {
+          "en": "A distinguished economist was invited to give the keynote conference address.",
+          "vi": "Một nhà kinh tế học xuất sắc đã được mời phát biểu bài phát biểu chính tại hội nghị."
+        }
+      },
+      {
+        "en": "Ideal",
+        "pos": "adj",
+        "ipa": "/aɪˈdɪəl/",
+        "vi": "Lý tưởng",
+        "example": {
+          "en": "The quiet seaside resort was an ideal location for the leadership summit.",
+          "vi": "Khu nghỉ dưỡng ven biển yên tĩnh là một địa điểm lý tưởng cho hội nghị thượng đỉnh lãnh đạo."
+        }
+      },
+      {
+        "en": "Relinquish",
+        "pos": "v",
+        "ipa": "/rɪˈlɪŋkwɪʃ/",
+        "vi": "Từ bỏ",
+        "example": {
+          "en": "The founder decided to relinquish executive control to a new managing director.",
+          "vi": "Người sáng lập đã quyết định từ bỏ quyền kiểm soát điều hành cho giám đốc điều hành mới."
+        }
+      },
+      {
+        "en": "Elegant",
+        "pos": "adj",
+        "ipa": "/ˈelɪɡənt/",
+        "vi": "Thanh lịch",
+        "example": {
+          "en": "The newly redecorated executive dining hall features an elegant interior design.",
+          "vi": "Phòng ăn điều hành mới được trang trí lại có thiết kế nội thất thanh lịch."
+        }
+      },
+      {
+        "en": "Subject to",
+        "pos": "adj",
+        "ipa": "/ˈsʌbdʒɪkt tuː/",
+        "vi": "Phải chịu",
+        "example": {
+          "en": "All international airfares are subject to airport taxes and fuel surcharges.",
+          "vi": "Tất cả giá vé máy bay quốc tế đều phải chịu thuế sân bay và phụ phí nhiên liệu."
+        }
+      },
+      {
+        "en": "Assume",
+        "pos": "v",
+        "ipa": "/əˈsjuːm/",
+        "vi": "Giả định",
+        "example": {
+          "en": "Never assume equipment is disconnected without checking the main power switch.",
+          "vi": "Đừng bao giờ giả định thiết bị đã ngắt điện mà không kiểm tra công tắc nguồn chính."
+        }
+      },
+      {
+        "en": "Repel",
+        "pos": "v",
+        "ipa": "/rɪˈpel/",
+        "vi": "Đẩy lùi",
+        "example": {
+          "en": "The waterproof coating on these jackets effectively repels heavy rain.",
+          "vi": "Lớp phủ chống thấm trên những chiếc áo khoác này giúp đẩy lùi mưa to hiệu quả."
+        }
+      },
+      {
+        "en": "Workflow",
+        "pos": "n",
+        "ipa": "/ˈwɜːkfləʊ/",
+        "vi": "Quy trình làm việc",
+        "example": {
+          "en": "Implementing cloud-based collaboration software significantly boosted team workflow.",
+          "vi": "Triển khai phần mềm cộng tác dựa trên đám mây đã thúc đẩy đáng kể quy trình làm việc của nhóm."
+        }
+      },
+      {
+        "en": "Method",
+        "pos": "n",
+        "ipa": "/ˈmeθəd/",
+        "vi": "Phương pháp",
+        "example": {
+          "en": "Scientists developed an innovative method for testing solar cell durability.",
+          "vi": "Các nhà khoa học đã phát triển một phương pháp đổi mới để thử nghiệm độ bền của pin mặt trời."
+        }
+      },
+      {
+        "en": "Beverage",
+        "pos": "n",
+        "ipa": "/ˈbevərɪdʒ/",
+        "vi": "Đồ uống",
+        "example": {
+          "en": "Complimentary beverages and light snacks will be served during intermission.",
+          "vi": "Đồ uống miễn phí và đồ ăn nhẹ sẽ được phục vụ trong thời gian nghỉ giải lao."
+        }
+      },
+      {
+        "en": "Prohibit",
+        "pos": "v",
+        "ipa": "/prəˈhɪbɪt/",
+        "vi": "Cấm",
+        "example": {
+          "en": "Building regulations strictly prohibit smoking inside the auditorium.",
+          "vi": "Quy định tòa nhà nghiêm cấm hút thuốc bên trong khán phòng."
+        }
+      },
+      {
+        "en": "Equivalent to",
+        "pos": "adj",
+        "ipa": "/ɪˈkwɪvələnt tuː/",
+        "vi": "Tương đương với",
+        "example": {
+          "en": "The tuition discount is equivalent to three months of vocational training.",
+          "vi": "Khoản giảm học phí tương đương với ba tháng đào tạo nghề."
+        }
+      },
+      {
+        "en": "Duration",
+        "pos": "n",
+        "ipa": "/djʊˈreɪʃən/",
+        "vi": "Khoảng thời gian",
+        "example": {
+          "en": "Visitors must wear identification badges for the entire duration of the plant tour.",
+          "vi": "Khách tham quan phải đeo thẻ nhận dạng trong toàn bộ khoảng thời gian của chuyến tham quan nhà máy."
+        }
+      },
+      {
+        "en": "Category",
+        "pos": "n",
+        "ipa": "/ˈkætəɡri/",
+        "vi": "Hạng mục",
+        "example": {
+          "en": "Expenditures are divided into three distinct budget categories for review.",
+          "vi": "Các khoản chi tiêu được chia thành ba hạng mục ngân sách riêng biệt để xem xét."
+        }
+      }
+    ]
+  },
+  {
+    "lessonId": 22,
+    "lessonTitle": "Lesson 22",
+    "words": [
+      {
+        "en": "In-depth",
+        "pos": "adj",
+        "ipa": "/ˌɪn ˈdepθ/",
+        "vi": "Sâu sắc",
+        "example": {
+          "en": "The quarterly report provides an in-depth analysis of consumer purchasing habits.",
+          "vi": "Báo cáo hàng quý cung cấp một phân tích sâu sắc về thói quen mua sắm của người tiêu dùng."
+        }
+      },
+      {
+        "en": "Designate",
+        "pos": "v",
+        "ipa": "/ˈdezɪɡneɪt/",
+        "vi": "Chỉ định",
+        "example": {
+          "en": "Management will designate specific parking bays for carpool commuters.",
+          "vi": "Ban quản lý sẽ chỉ định các vị trí đỗ xe cụ thể cho người đi chung xe."
+        }
+      },
+      {
+        "en": "Escort",
+        "pos": "v",
+        "ipa": "/ɪˈskɔːt/",
+        "vi": "Hộ tống",
+        "example": {
+          "en": "A security officer will escort all visitors to the executive boardroom.",
+          "vi": "Một nhân viên an ninh sẽ hộ tống tất cả khách đến phòng họp hội đồng quản trị."
+        }
+      },
+      {
+        "en": "Salary",
+        "pos": "n",
+        "ipa": "/ˈsæləri/",
+        "vi": "Lương",
+        "example": {
+          "en": "The company offers competitive starting salaries and generous annual benefits.",
+          "vi": "Công ty đưa ra mức lương khởi điểm cạnh tranh và chế độ đãi ngộ hàng năm hậu hĩnh."
+        }
+      },
+      {
+        "en": "Incur",
+        "pos": "v",
+        "ipa": "/ɪnˈkɜːr/",
+        "vi": "Gánh chịu",
+        "example": {
+          "en": "Late payments will incur a two percent administrative surcharge.",
+          "vi": "Các khoản thanh toán chậm sẽ phải gánh chịu khoản phụ phí hành chính 2%."
+        }
+      },
+      {
+        "en": "Manage",
+        "pos": "v",
+        "ipa": "/ˈmænɪdʒ/",
+        "vi": "Quản lý",
+        "example": {
+          "en": "She was chosen to manage the nationwide brand re-launch campaign.",
+          "vi": "Cô ấy đã được chọn để quản lý chiến dịch tái ra mắt thương hiệu trên toàn quốc."
+        }
+      },
+      {
+        "en": "Critic",
+        "pos": "n",
+        "ipa": "/ˈkrɪtɪk/",
+        "vi": "Nhà phê bình",
+        "example": {
+          "en": "Restaurant critics gave the newly opened bistro glowing reviews.",
+          "vi": "Các nhà phê bình ẩm thực đã dành cho quán rượu nhỏ mới mở những đánh giá nồng nhiệt."
+        }
+      },
+      {
+        "en": "Approach",
+        "pos": "v",
+        "ipa": "/əˈprəʊtʃ/",
+        "vi": "Tiếp cận",
+        "example": {
+          "en": "Engineers approached the software architecture redesign with innovative methodologies.",
+          "vi": "Các kỹ sư đã tiếp cận việc tái thiết kế kiến trúc phần mềm bằng những phương pháp đổi mới."
+        }
+      },
+      {
+        "en": "Coincidence",
+        "pos": "n",
+        "ipa": "/kəʊˈɪnsɪdəns/",
+        "vi": "Sự trùng hợp",
+        "example": {
+          "en": "It was a fortunate coincidence that both directors booked the same regional flight.",
+          "vi": "Đó là một sự trùng hợp may mắn khi cả hai giám đốc đều đặt cùng một chuyến bay khu vực."
+        }
+      },
+      {
+        "en": "Offset",
+        "pos": "v",
+        "ipa": "/ˈɒfset/",
+        "vi": "Bù đắp",
+        "example": {
+          "en": "Increased international export revenues helped offset domestic retail declines.",
+          "vi": "Doanh thu xuất khẩu quốc tế gia tăng đã giúp bù đắp sự sụt giảm bán lẻ trong nước."
+        }
+      },
+      {
+        "en": "Entitle",
+        "pos": "v",
+        "ipa": "/ɪnˈtaɪtl/",
+        "vi": "Cho quyền, cho phép",
+        "example": {
+          "en": "A platinum membership entitles holders to free access to all airport business lounges.",
+          "vi": "Tư cách thành viên bạch kim cho phép chủ thẻ quyền vào miễn phí tất cả phòng chờ thương gia sân bay."
+        }
+      },
+      {
+        "en": "Excursion",
+        "pos": "n",
+        "ipa": "/ɪkˈskɜːʃən/",
+        "vi": "Chuyến du ngoạn",
+        "example": {
+          "en": "Conference organizers arranged a guided cultural excursion to local historic monuments.",
+          "vi": "Ban tổ chức hội nghị đã sắp xếp một chuyến du ngoạn văn hóa có hướng dẫn viên tới các di tích lịch sử địa phương."
+        }
+      },
+      {
+        "en": "Validate",
+        "pos": "v",
+        "ipa": "/ˈvælɪdeɪt/",
+        "vi": "Xác nhận",
+        "example": {
+          "en": "Customer service will validate your purchase receipt to authorize the return.",
+          "vi": "Bộ phận chăm sóc khách hàng sẽ xác nhận hóa đơn mua hàng của bạn để cho phép đổi trả."
+        }
+      },
+      {
+        "en": "Coordinate",
+        "pos": "v",
+        "ipa": "/kəʊˈɔːdɪneɪt/",
+        "vi": "Phối hợp",
+        "example": {
+          "en": "The project manager coordinates efforts between the engineering and marketing teams.",
+          "vi": "Quản lý dự án phối hợp các nỗ lực giữa nhóm kỹ thuật và tiếp thị."
+        }
+      },
+      {
+        "en": "Multiple",
+        "pos": "adj",
+        "ipa": "/ˈmʌltɪpl/",
+        "vi": "Nhiều",
+        "example": {
+          "en": "The mobile banking app incorporates multiple layers of biometric security.",
+          "vi": "Ứng dụng ngân hàng di động kết hợp nhiều lớp bảo mật sinh trắc học."
+        }
+      },
+      {
+        "en": "Subjective",
+        "pos": "adj",
+        "ipa": "/səbˈdʒektɪv/",
+        "vi": "Chủ quan",
+        "example": {
+          "en": "Aesthetic design choices are often subjective and vary among consumers.",
+          "vi": "Các lựa chọn thiết kế thẩm mỹ thường mang tính chủ quan và khác nhau giữa những người tiêu dùng."
+        }
+      },
+      {
+        "en": "Appeal",
+        "pos": "v, n",
+        "ipa": "/əˈpiːl/",
+        "vi": "(V) hấp dẫn; (n) sức hút",
+        "example": {
+          "en": "The sleek, minimalist design appeals strongly to younger urban professionals.",
+          "vi": "Thiết kế tối giản, kiểu dáng đẹp có sức hấp dẫn mạnh mẽ đối với các chuyên gia trẻ ở đô thị."
+        }
+      },
+      {
+        "en": "Fluctuate",
+        "pos": "v",
+        "ipa": "/ˈflʌktʃueɪt/",
+        "vi": "Dao động",
+        "example": {
+          "en": "Foreign currency exchange rates fluctuate continuously throughout the trading day.",
+          "vi": "Tỷ giá hối đoái ngoại tệ dao động liên tục trong suốt ngày giao dịch."
+        }
+      },
+      {
+        "en": "Server",
+        "pos": "n",
+        "ipa": "/ˈsɜːvər/",
+        "vi": "Người phục vụ",
+        "example": {
+          "en": "The banquet server cleared dessert plates efficiently between keynote speeches.",
+          "vi": "Người phục vụ tiệc đã dọn dẹp đĩa tráng miệng một cách nhanh gọn giữa các bài phát biểu chính."
+        }
+      },
+      {
+        "en": "Session",
+        "pos": "n",
+        "ipa": "/ˈseʃən/",
+        "vi": "Phiên, buổi",
+        "example": {
+          "en": "Tomorrow morning’s breakout session will cover financial risk management.",
+          "vi": "Phiên thảo luận chuyên đề sáng mai sẽ đề cập đến quản lý rủi ro tài chính."
+        }
+      }
+    ]
+  },
+  {
+    "lessonId": 23,
+    "lessonTitle": "Lesson 23",
+    "words": [
+      {
+        "en": "Firm",
+        "pos": "n",
+        "ipa": "/fɜːm/",
+        "vi": "Công ty",
+        "example": {
+          "en": "The consulting firm advised multinational corporations on cross-border acquisitions.",
+          "vi": "Công ty tư vấn đã cố vấn cho các tập đoàn đa quốc gia về những thương vụ thâu tóm xuyên biên giới."
+        }
+      },
+      {
+        "en": "Agency",
+        "pos": "n",
+        "ipa": "/ˈeɪdʒənsi/",
+        "vi": "Hãng",
+        "example": {
+          "en": "The travel agency arranged customized vacation packages for business executives.",
+          "vi": "Hãng du lịch đã sắp xếp các gói kỳ nghỉ tùy chỉnh cho các giám đốc doanh nghiệp."
+        }
+      },
+      {
+        "en": "Emphasize",
+        "pos": "v",
+        "ipa": "/ˈemfəsaɪz/",
+        "vi": "Nhấn mạnh",
+        "example": {
+          "en": "Management training programs emphasize active listening and clear delegation.",
+          "vi": "Các chương trình đào tạo quản lý nhấn mạnh việc lắng nghe chủ động và giao việc rõ ràng."
+        }
+      },
+      {
+        "en": "Launch",
+        "pos": "v",
+        "ipa": "/lɔːntʃ/",
+        "vi": "Ra mắt",
+        "example": {
+          "en": "The brand will launch its eco-friendly product series at the international expo.",
+          "vi": "Thương hiệu sẽ ra mắt dòng sản phẩm thân thiện với môi trường tại hội chợ triển lãm quốc tế."
+        }
+      },
+      {
+        "en": "Shortage",
+        "pos": "n",
+        "ipa": "/ˈʃɔːtɪdʒ/",
+        "vi": "Sự thiếu hụt",
+        "example": {
+          "en": "Temporary raw material shortages prompted the factory to adjust shift hours.",
+          "vi": "Sự thiếu hụt nguyên liệu tạm thời đã khiến nhà máy phải điều chỉnh giờ làm việc của ca."
+        }
+      },
+      {
+        "en": "Promote",
+        "pos": "v",
+        "ipa": "/prəˈməʊt/",
+        "vi": "Quảng bá, thăng chức",
+        "example": {
+          "en": "The board voted to promote him to senior vice president of global marketing.",
+          "vi": "Hội đồng quản trị đã bỏ phiếu thăng chức cho anh ấy lên vị trí phó chủ tịch cấp cao về tiếp thị toàn cầu."
+        }
+      },
+      {
+        "en": "Campaign",
+        "pos": "n",
+        "ipa": "/kæmˈpeɪn/",
+        "vi": "Chiến dịch",
+        "example": {
+          "en": "A multi-channel marketing campaign attracted thousands of prospective buyers.",
+          "vi": "Một chiến dịch tiếp thị đa kênh đã thu hút hàng ngàn người mua tiềm năng."
+        }
+      },
+      {
+        "en": "Contract",
+        "pos": "n",
+        "ipa": "/ˈkɒntrækt/",
+        "vi": "Hợp đồng",
+        "example": {
+          "en": "The legal department reviewed all clauses in the supplier contract.",
+          "vi": "Phòng pháp chế đã xem xét kỹ tất cả các điều khoản trong hợp đồng nhà cung cấp."
+        }
+      },
+      {
+        "en": "Ability",
+        "pos": "n",
+        "ipa": "/əˈbɪləti/",
+        "vi": "Khả năng",
+        "example": {
+          "en": "Her proven ability to solve technical crises earned praise from the board.",
+          "vi": "Khả năng giải quyết các khủng hoảng kỹ thuật đã được chứng minh của cô ấy đã nhận được lời khen ngợi từ hội đồng quản trị."
+        }
+      },
+      {
+        "en": "Renovate",
+        "pos": "v",
+        "ipa": "/ˈrenəveɪt/",
+        "vi": "Cải tạo",
+        "example": {
+          "en": "We plan to renovate the conference rooms with modular tables and digital boards.",
+          "vi": "Chúng tôi dự định cải tạo các phòng hội nghị bằng bàn module và bảng kỹ thuật số."
+        }
+      },
+      {
+        "en": "Feel free",
+        "pos": "v",
+        "ipa": "/fiːl friː/",
+        "vi": "Cứ tự nhiên",
+        "example": {
+          "en": "Feel free to contact the help desk if you experience technical issues.",
+          "vi": "Cứ tự nhiên liên hệ với bàn trợ giúp nếu bạn gặp bất kỳ vấn đề kỹ thuật nào."
+        }
+      },
+      {
+        "en": "Receive",
+        "pos": "v",
+        "ipa": "/rɪˈsiːv/",
+        "vi": "Nhận",
+        "example": {
+          "en": "All full-time staff receive comprehensive medical and dental insurance.",
+          "vi": "Tất cả nhân viên toàn thời gian đều nhận được bảo hiểm y tế và nha khoa toàn diện."
+        }
+      },
+      {
+        "en": "Auditorium",
+        "pos": "n",
+        "ipa": "/ˌɔːdɪˈtɔːriəm/",
+        "vi": "Khán phòng",
+        "example": {
+          "en": "The company annual general meeting took place in the grand auditorium.",
+          "vi": "Đại hội đồng cổ đông thường niên của công ty đã diễn ra tại khán phòng lớn."
+        }
+      },
+      {
+        "en": "Verify",
+        "pos": "v",
+        "ipa": "/ˈverɪfaɪ/",
+        "vi": "Xác minh",
+        "example": {
+          "en": "Auditors will verify internal financial records against external bank statements.",
+          "vi": "Các kiểm toán viên sẽ xác minh hồ sơ tài chính nội bộ với sao kê ngân hàng bên ngoài."
+        }
+      },
+      {
+        "en": "Job opening",
+        "pos": "n",
+        "ipa": "/dʒɒb ˈəʊpənɪŋ/",
+        "vi": "Vị trí tuyển dụng",
+        "example": {
+          "en": "We posted a job opening for an experienced senior systems architect.",
+          "vi": "Chúng tôi đã đăng tải một vị trí tuyển dụng cho kiến trúc sư hệ thống cấp cao giàu kinh nghiệm."
+        }
+      },
+      {
+        "en": "Headquarter",
+        "pos": "n",
+        "ipa": "/ˌhedˈkwɔːtər/",
+        "vi": "Trụ sở chính",
+        "example": {
+          "en": "The tech corporation relocated its corporate headquarter to Singapore.",
+          "vi": "Tập đoàn công nghệ đã di dời trụ sở chính doanh nghiệp của mình đến Singapore."
+        }
+      },
+      {
+        "en": "Sales division",
+        "pos": "n",
+        "ipa": "/seɪlz dɪˈvɪʒən/",
+        "vi": "Bộ phận bán hàng",
+        "example": {
+          "en": "The sales division exceeded quarterly revenue targets by twenty-five percent.",
+          "vi": "Bộ phận bán hàng đã vượt mục tiêu doanh thu hàng quý hai mươi lăm phần trăm."
+        }
+      },
+      {
+        "en": "Most likely",
+        "pos": "adv",
+        "ipa": "/məʊst ˈlaɪkli/",
+        "vi": "Có khả năng nhất",
+        "example": {
+          "en": "The executive committee will most likely approve the budget proposal on Monday.",
+          "vi": "Ủy ban điều hành rất có khả năng sẽ phê duyệt đề xuất ngân sách vào thứ Hai."
+        }
+      },
+      {
+        "en": "Medical center",
+        "pos": "n",
+        "ipa": "/ˈmedɪkəl ˈsentər/",
+        "vi": "Trung tâm y tế",
+        "example": {
+          "en": "The new wellness initiative includes annual health checkups at the medical center.",
+          "vi": "Sáng kiến chăm sóc sức khỏe mới bao gồm khám sức khỏe hàng năm tại trung tâm y tế."
+        }
+      },
+      {
+        "en": "Technician",
+        "pos": "n",
+        "ipa": "/tekˈnɪʃən/",
+        "vi": "Kỹ thuật viên",
+        "example": {
+          "en": "A certified technician recalibrated the industrial robotic assembly arm.",
+          "vi": "Một kỹ thuật viên có chứng chỉ đã hiệu chuẩn lại cánh tay lắp ráp robot công nghiệp."
+        }
+      }
+    ]
+  },
+  {
+    "lessonId": 24,
+    "lessonTitle": "Lesson 24",
+    "words": [
+      {
+        "en": "Retiree",
+        "pos": "n",
+        "ipa": "/rɪtaɪˈriː/",
+        "vi": "Người hưu trí",
+        "example": {
+          "en": "The company pension program offers comprehensive medical coverage to all retirees.",
+          "vi": "Chương trình hưu trí của công ty cung cấp bảo hiểm y tế toàn diện cho tất cả người hưu trí."
+        }
+      },
+      {
+        "en": "Co-worker",
+        "pos": "n",
+        "ipa": "/kəʊˈwɜːkər/",
+        "vi": "Đồng nghiệp",
+        "example": {
+          "en": "She enjoys collaborating with supportive co-workers across departments.",
+          "vi": "Cô ấy thích hợp tác với các đồng nghiệp luôn hỗ trợ lẫn nhau giữa các phòng ban."
+        }
+      },
+      {
+        "en": "Home appliance",
+        "pos": "n",
+        "ipa": "/həʊm əˈplaɪəns/",
+        "vi": "Thiết bị gia dụng",
+        "example": {
+          "en": "The manufacturer released energy-efficient home appliances for modern households.",
+          "vi": "Nhà sản xuất đã phát hành các thiết bị gia dụng tiết kiệm năng lượng cho các hộ gia đình hiện đại."
+        }
+      },
+      {
+        "en": "Advertising campaign",
+        "pos": "n",
+        "ipa": "/ˈædvətaɪzɪŋ kæmˈpeɪn/",
+        "vi": "Chiến dịch quảng cáo",
+        "example": {
+          "en": "The digital advertising campaign resulted in record website traffic and inquiries.",
+          "vi": "Chiến dịch quảng cáo kỹ thuật số đã mang lại lượng truy cập trang web và thắc mắc kỷ lục."
+        }
+      },
+      {
+        "en": "Athlete",
+        "pos": "n",
+        "ipa": "/ˈæθliːt/",
+        "vi": "Vận động viên",
+        "example": {
+          "en": "Professional athletes endorsed the new line of ergonomic training footwear.",
+          "vi": "Các vận động viên chuyên nghiệp đã quảng bá cho dòng giày tập luyện công thái học mới."
+        }
+      },
+      {
+        "en": "Politician",
+        "pos": "n",
+        "ipa": "/ˌpɒləˈtɪʃən/",
+        "vi": "Chính trị gia",
+        "example": {
+          "en": "Several local politicians supported the clean energy initiative for the city.",
+          "vi": "Một số chính trị gia địa phương đã ủng hộ sáng kiến năng lượng sạch cho thành phố."
+        }
+      },
+      {
+        "en": "Relocate",
+        "pos": "v",
+        "ipa": "/ˌriːləʊˈkeɪt/",
+        "vi": "Di dời",
+        "example": {
+          "en": "The enterprise will relocate its research facility closer to the university campus.",
+          "vi": "Doanh nghiệp sẽ di dời cơ sở nghiên cứu của mình đến gần khuôn viên trường đại học hơn."
+        }
+      },
+      {
+        "en": "Overlook",
+        "pos": "v",
+        "ipa": "/ˌəʊvəˈlʊk/",
+        "vi": "Bỏ qua, nhìn ra phía",
+        "example": {
+          "en": "Do not overlook minor details when reviewing the draft partnership agreement.",
+          "vi": "Đừng bỏ qua những chi tiết nhỏ khi xem xét bản thảo thỏa thuận hợp tác."
+        }
+      },
+      {
+        "en": "Residence",
+        "pos": "n",
+        "ipa": "/ˈrezɪdəns/",
+        "vi": "Nơi cư trú",
+        "example": {
+          "en": "The applicant confirmed her permanent residence by submitting utility bills.",
+          "vi": "Người nộp đơn đã xác nhận nơi cư trú thường trú của mình bằng cách nộp các hóa đơn tiện ích."
+        }
+      },
+      {
+        "en": "Signature",
+        "pos": "n",
+        "ipa": "/ˈsɪɡnətʃər/",
+        "vi": "Chữ ký",
+        "example": {
+          "en": "The legal document is invalid without an authorized corporate officer signature.",
+          "vi": "Văn bản pháp lý sẽ không có giá trị nếu thiếu chữ ký của viên chức công ty được ủy quyền."
+        }
+      },
+      {
+        "en": "Illuminate",
+        "pos": "v",
+        "ipa": "/ɪˈluːmɪneɪt/",
+        "vi": "Chiếu sáng",
+        "example": {
+          "en": "Automatic outdoor spotlights illuminate the office entrance courtyard.",
+          "vi": "Đèn chiếu ngoài trời tự động chiếu sáng sân trước lối vào văn phòng."
+        }
+      },
+      {
+        "en": "Outstanding",
+        "pos": "adj",
+        "ipa": "/aʊtˈstændɪŋ/",
+        "vi": "Nổi bật",
+        "example": {
+          "en": "Her outstanding leadership during the transition period earned widespread respect.",
+          "vi": "Sự lãnh đạo nổi bật của cô ấy trong giai đoạn chuyển đổi đã nhận được sự tôn trọng rộng rãi."
+        }
+      },
+      {
+        "en": "Safety procedure",
+        "pos": "n",
+        "ipa": "/ˈseɪfti prəˈsiːdʒər/",
+        "vi": "Quy trình an toàn",
+        "example": {
+          "en": "Factory employees are rigorously trained on emergency fire safety procedures.",
+          "vi": "Công nhân nhà máy được đào tạo nghiêm ngặt về các quy trình an toàn phòng cháy chữa cháy khẩn cấp."
+        }
+      },
+      {
+        "en": "Recognize",
+        "pos": "v",
+        "ipa": "/ˈrekəɡnaɪz/",
+        "vi": "Nhận ra",
+        "example": {
+          "en": "The annual gala honors staff and recognizes exceptional dedication to service.",
+          "vi": "Dạ tiệc thường niên tôn vinh nhân viên và nhận ra, biểu dương sự cống hiến đặc biệt cho dịch vụ."
+        }
+      },
+      {
+        "en": "Previously",
+        "pos": "adv",
+        "ipa": "/ˈpriːviəsli/",
+        "vi": "Trước đây",
+        "example": {
+          "en": "The executive was previously employed as a regional branch manager in Tokyo.",
+          "vi": "Giám đốc điều hành trước đây đã từng làm việc với tư cách là người quản lý chi nhánh khu vực tại Tokyo."
+        }
+      },
+      {
+        "en": "Mandatory",
+        "pos": "adj",
+        "ipa": "/ˈmændətəri/",
+        "vi": "Bắt buộc",
+        "example": {
+          "en": "Completing the online compliance training module is mandatory for all newcomers.",
+          "vi": "Hoàn thành học phần đào tạo tuân thủ trực tuyến là bắt buộc đối với tất cả nhân viên mới."
+        }
+      },
+      {
+        "en": "Expansion",
+        "pos": "n",
+        "ipa": "/ɪkˈspænʃən/",
+        "vi": "Sự mở rộng",
+        "example": {
+          "en": "The company secured bank financing to support its international facility expansion.",
+          "vi": "Công ty đã đảm bảo nguồn tài chính ngân hàng để hỗ trợ việc mở rộng cơ sở quốc tế."
+        }
+      },
+      {
+        "en": "Specialize in",
+        "pos": "v",
+        "ipa": "/ˈspeʃəlaɪz ɪn/",
+        "vi": "Chuyên về",
+        "example": {
+          "en": "Our consulting partners specialize in cloud infrastructure and data security.",
+          "vi": "Các đối tác tư vấn của chúng tôi chuyên về cơ sở hạ tầng đám mây và bảo mật dữ liệu."
+        }
+      },
+      {
+        "en": "Honor",
+        "pos": "v",
+        "ipa": "/ˈɒnər/",
+        "vi": "Tôn vinh",
+        "example": {
+          "en": "The industry association held a banquet to honor innovative tech startups.",
+          "vi": "Hiệp hội ngành đã tổ chức một bữa tiệc để tôn vinh các công ty khởi nghiệp công nghệ đổi mới."
+        }
+      },
+      {
+        "en": "Take care",
+        "pos": "v",
+        "ipa": "/teɪk keər/",
+        "vi": "Chăm sóc",
+        "example": {
+          "en": "The facilities management team will take care of building maintenance repairs.",
+          "vi": "Đội ngũ quản lý cơ sở vật chất sẽ chăm sóc và xử lý các sửa chữa bảo trì tòa nhà."
+        }
+      }
+    ]
+  }
+]

@@ -15,7 +15,7 @@ export default defineConfig({
         tag: 'script',
         head: true,
         append: false,
-        children: `(function(){try{var s=localStorage.getItem('toeic_theme');var d=s?s.indexOf('dark')!==-1:window.matchMedia('(prefers-color-scheme: dark)').matches;if(d){document.documentElement.classList.add('dark');document.documentElement.style.backgroundColor='#020617';}else{document.documentElement.classList.remove('dark');document.documentElement.style.backgroundColor='#f8fafc';}}catch(e){}})();`,
+        children: `(function(){try{var s=localStorage.getItem('toeic_theme');var d=s?s.indexOf('dark')!==-1:window.matchMedia('(prefers-color-scheme: dark)').matches;if(d){document.documentElement.classList.add('dark');}else{document.documentElement.classList.remove('dark');}}catch(e){}})();`,
       },
     ],
   },

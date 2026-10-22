@@ -9,10 +9,8 @@ export function useTheme() {
     const root = document.documentElement;
     if (theme === 'dark') {
       root.classList.add('dark');
-      root.style.backgroundColor = '#020617';
     } else {
       root.classList.remove('dark');
-      root.style.backgroundColor = '#f8fafc';
     }
   }, [theme]);
 

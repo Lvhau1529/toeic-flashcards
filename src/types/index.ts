@@ -5,12 +5,22 @@ export interface Example {
 
 export interface Word {
   id: string;
+  numericId?: number;
   en: string;
   pos: string;
   ipa: string;
   vi: string;
   lessonId: number;
+  lessonTitle?: string;
+  courseId?: number;
+  courseTitle?: string;
   example?: Example;
+}
+
+export interface LessonItem {
+  lessonId: number;
+  lessonTitle: string;
+  words: Word[];
 }
 
 export interface RawLesson {

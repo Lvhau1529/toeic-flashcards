@@ -2330,6 +2330,9 @@ export const allWords: Word[] = rawLessonsData.flatMap((lesson) =>
   lesson.words.map((w, index) => ({
     ...w,
     lessonId: lesson.lessonId,
+    lessonTitle: lesson.lessonTitle,
+    courseId: 1,
+    courseTitle: 'Pre TOEIC',
     id: `l${lesson.lessonId}_w${index + 1}_${w.en.replace(/[^a-zA-Z0-9]/g, '_').toLowerCase()}`,
   })),
 );
