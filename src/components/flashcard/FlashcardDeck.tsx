@@ -59,8 +59,17 @@ export const FlashcardDeck: React.FC<FlashcardDeckProps> = ({
     ? isLearned(currentWord.id, currentWord.lessonId)
     : false;
 
+  const isFlippingRef = useRef(false);
+  const isNavigatingRef = useRef(false);
+  const isTogglingLearnedRef = useRef(false);
+
   const handleFlip = useCallback(() => {
+    if (isFlippingRef.current) return;
+    isFlippingRef.current = true;
     setIsFlipped((prev) => !prev);
+    setTimeout(() => {
+      isFlippingRef.current = false;
+    }, 350);
   }, []);
 
   const handlePlayAudio = useCallback(() => {
@@ -70,17 +79,25 @@ export const FlashcardDeck: React.FC<FlashcardDeckProps> = ({
   }, [currentWord]);
 
   const handleNext = useCallback(() => {
-    if (deck.length <= 1) return;
+    if (deck.length <= 1 || isNavigatingRef.current) return;
+    isNavigatingRef.current = true;
     setDirection('left');
     setIsFlipped(false);
     setCurrentIndex((prev) => (prev + 1) % deck.length);
+    setTimeout(() => {
+      isNavigatingRef.current = false;
+    }, 250);
   }, [deck.length]);
 
   const handlePrev = useCallback(() => {
-    if (deck.length <= 1) return;
+    if (deck.length <= 1 || isNavigatingRef.current) return;
+    isNavigatingRef.current = true;
     setDirection('right');
     setIsFlipped(false);
     setCurrentIndex((prev) => (prev - 1 + deck.length) % deck.length);
+    setTimeout(() => {
+      isNavigatingRef.current = false;
+    }, 250);
   }, [deck.length]);
 
   // Auto-play audio when card changes
@@ -96,11 +113,14 @@ export const FlashcardDeck: React.FC<FlashcardDeckProps> = ({
   }, [currentIndex, autoPlayAudio, currentWord]);
 
   const handleToggleLearnedAndNext = useCallback(() => {
-    if (!currentWord) return;
+    if (!currentWord || isTogglingLearnedRef.current) return;
+    isTogglingLearnedRef.current = true;
+
     const willBeLearned = !isCurrentLearned;
     const result = onToggleLearned(currentWord);
 
     if (result === false) {
+      isTogglingLearnedRef.current = false;
       return;
     }
 
@@ -111,7 +131,10 @@ export const FlashcardDeck: React.FC<FlashcardDeckProps> = ({
     if (deck.length > 1) {
       setTimeout(() => {
         handleNext();
+        isTogglingLearnedRef.current = false;
       }, 250);
+    } else {
+      isTogglingLearnedRef.current = false;
     }
   }, [currentWord, isCurrentLearned, onToggleLearned, deck.length, handleNext]);
 
@@ -206,13 +229,16 @@ export const FlashcardDeck: React.FC<FlashcardDeckProps> = ({
             dragConstraints={{ left: 0, right: 0 }}
             dragElastic={0.6}
             onDragEnd={(_, info) => {
-              if (info.offset.x < -50 || info.velocity.x < -300) {
+              const offsetX = info.offset.x;
+              const velocityX = info.velocity.x;
+
+              // Only trigger card navigation if there is an intentional swipe distance
+              if (offsetX < -50 || (offsetX < -20 && velocityX < -250)) {
                 handleNext();
-              } else if (info.offset.x > 50 || info.velocity.x > 300) {
+              } else if (offsetX > 50 || (offsetX > 20 && velocityX > 250)) {
                 handlePrev();
-              } else if (Math.abs(info.offset.x) < 5) {
-                handleFlip();
               }
+              // Normal taps/clicks are handled by onClick on the card container
             }}
             initial={{
               opacity: 0,
